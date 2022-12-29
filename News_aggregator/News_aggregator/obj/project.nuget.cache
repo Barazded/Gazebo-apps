@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "dCFTKOe2q6cp7jRLVzAwL38wS1a00yRgIGOjZG/i7M7EKsws+no/mRD+Eu6U9cqOB9gTpbQothRix+kiNnSPJQ==",
+  "success": true,
+  "projectFilePath": "F:\\Рабочий стол\\XamarinForm\\News_aggregator\\News_aggregator\\News_aggregator.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Ivan\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Ivan\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\Ivan\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\Ivan\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
+    "C:\\Users\\Ivan\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
+  ],
+  "logs": []
+}

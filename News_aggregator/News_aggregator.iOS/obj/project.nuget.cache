@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "t8Fq2xj+4lIZObvFD2ERfmafrjrLyCxrWufnduHKzeBMaYy3tmOob4X/RybH1fyKr+cnwd4r1pnhAjjgdzH30g==",
+  "success": true,
+  "projectFilePath": "F:\\Рабочий стол\\XamarinForm\\News_aggregator\\News_aggregator.iOS\\News_aggregator.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Ivan\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\Ivan\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
+    "C:\\Users\\Ivan\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
+  ],
+  "logs": []
+}
