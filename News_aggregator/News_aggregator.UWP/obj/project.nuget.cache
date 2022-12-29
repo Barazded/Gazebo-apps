@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "qjFGPPil854oE5ECJY1mJLzYGJ0hMLFr2uDsNuBW5z7om6fqy6MLvra/cDrp8nasL26WUKyPYQpcPJ+HuadDzA==",
+  "dgSpecHash": "QrbR2dOKoLkRKYSfMyUdWALHf+i/jeRH8yfh02OrqUOK2RzANaVhSTlda5DLt0teWGwDjLnS3gBeVX9FrWNFeg==",
   "success": true,
-  "projectFilePath": "F:\\Рабочий стол\\XamarinForm\\News_aggregator\\News_aggregator.UWP\\News_aggregator.UWP.csproj",
+  "projectFilePath": "F:\\Рабочий стол\\XamarinForm\\Gazebo-apps\\News_aggregator\\News_aggregator.UWP\\News_aggregator.UWP.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Ivan\\.nuget\\packages\\microsoft.net.native.compiler\\2.2.10-rel-29722-00\\microsoft.net.native.compiler.2.2.10-rel-29722-00.nupkg.sha512",
     "C:\\Users\\Ivan\\.nuget\\packages\\microsoft.net.uwpcoreruntimesdk\\2.2.12\\microsoft.net.uwpcoreruntimesdk.2.2.12.nupkg.sha512",

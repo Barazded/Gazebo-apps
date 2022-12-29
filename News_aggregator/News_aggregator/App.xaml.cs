@@ -10,7 +10,8 @@ namespace News_aggregator
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            //MainPage = new SettingPage();
+            MainPage = new TabPageControl();
         }
 
         protected override void OnStart()

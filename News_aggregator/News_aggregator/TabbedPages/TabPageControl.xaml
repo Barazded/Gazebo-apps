@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+            x:Class="News_aggregator.TabPageControl" xmlns:pages="clr-namespace:News_aggregator" xmlns:pages1="clr-namespace:News_aggregator.TabbedPages" >
+
+    <NavigationPage Title="News" BackgroundColor="#111111">
+        <x:Arguments>
+            <pages1:NewsPage/>
+        </x:Arguments>         
+    </NavigationPage>
+
+    <NavigationPage Title="Settings" BackgroundColor="#111111" >
+        <x:Arguments>
+            <pages:SettingPage />
+        </x:Arguments>
+    </NavigationPage>
+
+</TabbedPage>

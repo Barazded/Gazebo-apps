@@ -4,6 +4,7 @@ using System.Linq;
 
 using Foundation;
 using UIKit;
+using Xamarin.Forms.PlatformConfiguration;
 
 namespace News_aggregator.iOS
 {

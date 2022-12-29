@@ -3414,11 +3414,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\Рабочий стол\\XamarinForm\\News_aggregator\\News_aggregator.Android\\News_aggregator.Android.csproj",
+      "projectUniqueName": "F:\\Рабочий стол\\XamarinForm\\Gazebo-apps\\News_aggregator\\News_aggregator.Android\\News_aggregator.Android.csproj",
       "projectName": "News_aggregator.Android",
-      "projectPath": "F:\\Рабочий стол\\XamarinForm\\News_aggregator\\News_aggregator.Android\\News_aggregator.Android.csproj",
+      "projectPath": "F:\\Рабочий стол\\XamarinForm\\Gazebo-apps\\News_aggregator\\News_aggregator.Android\\News_aggregator.Android.csproj",
       "packagesPath": "C:\\Users\\Ivan\\.nuget\\packages\\",
-      "outputPath": "F:\\Рабочий стол\\XamarinForm\\News_aggregator\\News_aggregator.Android\\obj\\",
+      "outputPath": "F:\\Рабочий стол\\XamarinForm\\Gazebo-apps\\News_aggregator\\News_aggregator.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -3439,8 +3439,8 @@
       "frameworks": {
         "monoandroid13.0": {
           "projectReferences": {
-            "F:\\Рабочий стол\\XamarinForm\\News_aggregator\\News_aggregator\\News_aggregator.csproj": {
-              "projectPath": "F:\\Рабочий стол\\XamarinForm\\News_aggregator\\News_aggregator\\News_aggregator.csproj"
+            "F:\\Рабочий стол\\XamarinForm\\Gazebo-apps\\News_aggregator\\News_aggregator\\News_aggregator.csproj": {
+              "projectPath": "F:\\Рабочий стол\\XamarinForm\\Gazebo-apps\\News_aggregator\\News_aggregator\\News_aggregator.csproj"
             }
           }
         }

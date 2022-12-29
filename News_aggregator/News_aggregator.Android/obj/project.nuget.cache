@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ilLalnaCHKRZBBey1+OlGGMDVnujHK6Hlfe8DCard8QA1SUBrptzWhyVXiMeERXGrtzqmwsoqXxyJXZv2frtqA==",
+  "dgSpecHash": "IvfQ7QzyASs5Z07w7ejblMjrIdrglO86RM1qpd8cIKjQr2Scx3oTEW5YytCOwkh0Bh5/PAYbtIBqO86hzODqMQ==",
   "success": true,
-  "projectFilePath": "F:\\Рабочий стол\\XamarinForm\\News_aggregator\\News_aggregator.Android\\News_aggregator.Android.csproj",
+  "projectFilePath": "F:\\Рабочий стол\\XamarinForm\\Gazebo-apps\\News_aggregator\\News_aggregator.Android\\News_aggregator.Android.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Ivan\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Users\\Ivan\\.nuget\\packages\\xamarin.androidx.activity\\1.2.4.1\\xamarin.androidx.activity.1.2.4.1.nupkg.sha512",
