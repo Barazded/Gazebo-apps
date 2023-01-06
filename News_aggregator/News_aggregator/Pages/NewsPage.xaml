@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             x:Class="News_aggregator.Pages.NewsPage"
+             Title="News">
+    
+    <ContentPage.Content>
+        <StackLayout x:Name="sl_listproperties" BackgroundColor="#212121" Padding="0,200">
+            <Label Text="" TextColor="White" FontSize="34" HorizontalOptions="Center" VerticalOptions="Center"/>
+        </StackLayout>
+    </ContentPage.Content>
+    
+</ContentPage>

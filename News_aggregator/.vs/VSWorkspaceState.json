@@ -1,9 +1,7 @@
 {
   "ExpandedNodes": [
-    "",
-    "\\News_aggregator",
-    "\\News_aggregator\\TabbedPages"
+    ""
   ],
-  "SelectedNode": "\\News_aggregator\\TabbedPages\\SettingPage.xaml",
+  "SelectedNode": "\\News_aggregator.sln",
   "PreviewInSolutionExplorer": false
 }

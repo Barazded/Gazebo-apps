@@ -27,6 +27,8 @@ F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregat
 F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator\obj\Debug\netstandard2.0\refint\News_aggregator.dll
 F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator\obj\Debug\netstandard2.0\News_aggregator.pdb
 F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator\obj\Debug\netstandard2.0\ref\News_aggregator.dll
-F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator\obj\Debug\netstandard2.0\TabbedPages\NewsPage.xaml.g.cs
-F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator\obj\Debug\netstandard2.0\TabbedPages\SettingPage.xaml.g.cs
-F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator\obj\Debug\netstandard2.0\TabbedPages\TabPageControl.xaml.g.cs
+F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator\obj\Debug\netstandard2.0\CustomTabbedPage.xaml.g.cs
+F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator\obj\Debug\netstandard2.0\Pages\NewsPage.xaml.g.cs
+F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator\obj\Debug\netstandard2.0\Pages\ResoursePage.xaml.g.cs
+F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator\obj\Debug\netstandard2.0\Pages\SettingsPage.xaml.g.cs
+F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator\obj\Debug\netstandard2.0\Pages\GeneralSettingsPage.xaml.g.cs

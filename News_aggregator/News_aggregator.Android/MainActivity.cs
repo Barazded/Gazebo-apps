@@ -14,7 +14,7 @@ namespace News_aggregator.Droid
         {
             base.OnCreate(savedInstanceState);
 
-            Window.SetStatusBarColor(color: Android.Graphics.Color.White);
+            Window.SetStatusBarColor(color: Android.Graphics.Color.Black);
             Xamarin.Essentials.Platform.Init(this, savedInstanceState);
             global::Xamarin.Forms.Forms.Init(this, savedInstanceState);
             LoadApplication(new App());

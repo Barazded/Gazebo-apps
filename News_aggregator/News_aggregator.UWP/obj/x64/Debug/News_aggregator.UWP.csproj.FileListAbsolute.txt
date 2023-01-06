@@ -61,3 +61,9 @@ F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregat
 F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.UWP\obj\x64\Debug\ProjectArchitectures.txt
 F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.UWP\obj\x64\Debug\.winmd_cache\$Microsoft.Graphics.Canvas.winmd_636160715180000000.json
 F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.UWP\obj\x64\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_637934914560000000.json
+F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.UWP\bin\x64\Debug\SQLite-net.dll
+F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.UWP\bin\x64\Debug\SQLitePCLRaw.batteries_v2.dll
+F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.UWP\bin\x64\Debug\SQLitePCLRaw.core.dll
+F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.UWP\bin\x64\Debug\e_sqlite3.dll
+F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.UWP\bin\x64\Debug\SQLitePCLRaw.provider.e_sqlite3.dll
+F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.UWP\bin\x64\Debug\System.Runtime.CompilerServices.Unsafe.dll
