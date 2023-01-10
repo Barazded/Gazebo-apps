@@ -1,9 +1,7 @@
 ﻿using System;
-using News_aggregator;
 using News_aggregator.Models;
-using Xamarin.Essentials;
 using Xamarin.Forms;
-using SQLite;
+using System.Linq;
 
 namespace News_aggregator.Pages
 {
@@ -18,13 +16,17 @@ namespace News_aggregator.Pages
             collectionView.ItemsSource = await App.DataBase.GetItemsAsync();
             base.OnAppearing();
         }
-        private  void OnSelectionChenged(object sender, SelectionChangedEventArgs e)
+        private void OnSelectionChenged(object sender, SelectionChangedEventArgs e)
         {
-            //await DisplayAlert($"{item.isChecked.ToString()}", "sd", "sd");
+            //
+            if (e.CurrentSelection != null)
+            {
+                ResourseItem item = (ResourseItem)e.CurrentSelection.FirstOrDefault();
+                App.DataBase.SaveItemAsync(item);
+            }
         }
-        public  void ApplyButt_Clicked(object sender, EventArgs e)
+        private void CheckedCheckBox(object sender, CheckedChangedEventArgs e)
         {
-            //await DisplayAlert("Dont find", "checked", "ok");
 
         }
     }

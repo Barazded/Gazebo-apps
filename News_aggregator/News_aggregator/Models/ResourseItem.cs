@@ -8,7 +8,6 @@ namespace News_aggregator.Models
     {
         [PrimaryKey]
         public int ID { get; set; }
-        [Unique]
         public string NameItem { get; set; }
         public string UriResourse { get; set; }
         public string Text { get; set; }
