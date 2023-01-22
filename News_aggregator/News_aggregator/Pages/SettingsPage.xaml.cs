@@ -1,9 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Xamarin.Forms;
 
 namespace News_aggregator.Pages
@@ -14,7 +9,7 @@ namespace News_aggregator.Pages
         {
             InitializeComponent();
         }
-        //событие нажатия нажатия 
+        //события нажатий
         private async void AverageButt_Clicked(object sender, EventArgs e)
         {
             await DisplayAlert($"{(sender as Button).Text}", "don`t find propertie", "cancel");

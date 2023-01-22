@@ -1,4 +1,5 @@
-﻿using System;
+﻿using News_aggregator.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,7 +9,6 @@ using Xamarin.Forms.Xaml;
 
 namespace News_aggregator.Pages
 {
-    [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class GeneralSettingPage : ContentPage
     {
         public GeneralSettingPage()
