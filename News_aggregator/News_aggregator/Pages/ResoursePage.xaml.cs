@@ -8,9 +8,9 @@ namespace News_aggregator.Pages
     public partial class ResoursePage : ContentPage
     {
         //для поиска по бд
-        public List<ResourseItem> resourses = new List<ResourseItem>();
+        private List<ResourseItem> resourses = new List<ResourseItem>();
         //для сохранение в бд
-        public List<ResourseItem> resoursesForSave = new List<ResourseItem>();
+        private List<ResourseItem> resoursesForSave = new List<ResourseItem>();
         public ResoursePage()
         {
             InitializeComponent();

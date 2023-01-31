@@ -7,14 +7,14 @@
     <StackLayout>
         <CollectionView x:Name="collectionView" Margin="10">
             <CollectionView.ItemTemplate >
-                <DataTemplate >
-                    <StackLayout Orientation="Horizontal" >
+                <DataTemplate>
+                    <StackLayout Orientation="Horizontal">
                         <CheckBox Color="#673AB7" IsChecked="{Binding isChecked}" CheckedChanged="CheckedCheckBox" />
-                        <Label Text="{Binding Text}" FontSize="15" TextColor="White"/>
+                        <Label Text="{Binding Text}" FontSize="15" TextColor="White" Padding="0,10"/>
                     </StackLayout>
                 </DataTemplate>
             </CollectionView.ItemTemplate>
         </CollectionView>
-        <Button Text="APPLY" FontSize="20" TextColor="White" BackgroundColor="#424242" Clicked="OnApplyButtonClicked"/>
+        <Button VerticalOptions="End" Text="APPLY" FontSize="20" CornerRadius="4" Margin="15" TextColor="White" BackgroundColor="#424242" Clicked="OnApplyButtonClicked"/>
     </StackLayout>
 </ContentPage>

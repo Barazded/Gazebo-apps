@@ -3,6 +3,7 @@ public class MonoPackageManager_Resources {
 	public static String[] Assemblies = new String[]{
 		/* We need to ensure that "News_aggregator.Android.dll" comes first in this list. */
 		"News_aggregator.Android.dll",
+		"AngleSharp.dll",
 		"FormsViewGroup.dll",
 		"News_aggregator.dll",
 		"SQLite-net.dll",
