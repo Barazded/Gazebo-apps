@@ -1,0 +1,34 @@
+﻿<Properties StartupConfiguration="{D714DB84-18F4-4AA1-8E13-CCF6BAE9C20F}|Default">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="Android.pixel_5_-_api_33" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.News__aggregator.Android PreferredExecutionTarget="Android.pixel_5_-_api_33" />
+  <MonoDevelop.MonoDroid LastDeploySdkVersion="13.1.0.1" />
+  <MonoDevelop.Ide.ItemProperties.News__aggregator.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.6B4921A1-3DDE-43AA-87E7-8F924C8668F2" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="News_aggregator/Pages/NewsPage.xaml.cs">
+    <Files>
+      <File FileName="News_aggregator/Pages/NewsPage.xaml" Line="20" Column="15" />
+      <File FileName="News_aggregator/Pages/NewsPage.xaml.cs" Line="28" Column="24" />
+      <File FileName="News_aggregator/Parser/Card.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="News_aggregator" expanded="True">
+            <Node name="News_aggregator" expanded="True">
+              <Node name="Pages" expanded="True">
+                <Node name="NewsPage.xaml" expanded="True" />
+              </Node>
+              <Node name="Parser" expanded="True" />
+            </Node>
+            <Node name="News_aggregator.iOS" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+</Properties>

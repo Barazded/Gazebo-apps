@@ -1,111 +1,184 @@
-F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.iOS\bin\iPhoneSimulator\Debug\News_aggregator.iOS.exe
-F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.iOS\bin\iPhoneSimulator\Debug\News_aggregator.iOS.pdb
-F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.iOS\bin\iPhoneSimulator\Debug\Xamarin.Essentials.dll
-F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.iOS\bin\iPhoneSimulator\Debug\Xamarin.Essentials.pdb
-F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Core.dll
-F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Core.pdb
-F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Platform.dll
-F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Platform.iOS.dll
-F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Platform.iOS.pdb
-F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Xaml.dll
-F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Xaml.pdb
-F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.iOS\bin\iPhoneSimulator\Debug\ar\Xamarin.Forms.Platform.iOS.resources.dll
-F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.iOS\bin\iPhoneSimulator\Debug\ca\Xamarin.Forms.Platform.iOS.resources.dll
-F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.iOS\bin\iPhoneSimulator\Debug\cs\Xamarin.Forms.Platform.iOS.resources.dll
-F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.iOS\bin\iPhoneSimulator\Debug\da\Xamarin.Forms.Platform.iOS.resources.dll
-F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.iOS\bin\iPhoneSimulator\Debug\de\Xamarin.Forms.Platform.iOS.resources.dll
-F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.iOS\bin\iPhoneSimulator\Debug\el\Xamarin.Forms.Platform.iOS.resources.dll
-F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.iOS\bin\iPhoneSimulator\Debug\es\Xamarin.Forms.Platform.iOS.resources.dll
-F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.iOS\bin\iPhoneSimulator\Debug\fi\Xamarin.Forms.Platform.iOS.resources.dll
-F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.iOS\bin\iPhoneSimulator\Debug\fr\Xamarin.Forms.Platform.iOS.resources.dll
-F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.iOS\bin\iPhoneSimulator\Debug\he\Xamarin.Forms.Platform.iOS.resources.dll
-F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.iOS\bin\iPhoneSimulator\Debug\hi\Xamarin.Forms.Platform.iOS.resources.dll
-F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.iOS\bin\iPhoneSimulator\Debug\hr\Xamarin.Forms.Platform.iOS.resources.dll
-F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.iOS\bin\iPhoneSimulator\Debug\hu\Xamarin.Forms.Platform.iOS.resources.dll
-F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.iOS\bin\iPhoneSimulator\Debug\id\Xamarin.Forms.Platform.iOS.resources.dll
-F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.iOS\bin\iPhoneSimulator\Debug\it\Xamarin.Forms.Platform.iOS.resources.dll
-F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.iOS\bin\iPhoneSimulator\Debug\ja\Xamarin.Forms.Platform.iOS.resources.dll
-F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.iOS\bin\iPhoneSimulator\Debug\ko\Xamarin.Forms.Platform.iOS.resources.dll
-F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.iOS\bin\iPhoneSimulator\Debug\ms\Xamarin.Forms.Platform.iOS.resources.dll
-F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.iOS\bin\iPhoneSimulator\Debug\nb\Xamarin.Forms.Platform.iOS.resources.dll
-F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.iOS\bin\iPhoneSimulator\Debug\nl\Xamarin.Forms.Platform.iOS.resources.dll
-F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.iOS\bin\iPhoneSimulator\Debug\pl\Xamarin.Forms.Platform.iOS.resources.dll
-F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.iOS\bin\iPhoneSimulator\Debug\pt-BR\Xamarin.Forms.Platform.iOS.resources.dll
-F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.iOS\bin\iPhoneSimulator\Debug\pt\Xamarin.Forms.Platform.iOS.resources.dll
-F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.iOS\bin\iPhoneSimulator\Debug\ro\Xamarin.Forms.Platform.iOS.resources.dll
-F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.iOS\bin\iPhoneSimulator\Debug\ru\Xamarin.Forms.Platform.iOS.resources.dll
-F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.iOS\bin\iPhoneSimulator\Debug\sk\Xamarin.Forms.Platform.iOS.resources.dll
-F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.iOS\bin\iPhoneSimulator\Debug\sv\Xamarin.Forms.Platform.iOS.resources.dll
-F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.iOS\bin\iPhoneSimulator\Debug\th\Xamarin.Forms.Platform.iOS.resources.dll
-F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.iOS\bin\iPhoneSimulator\Debug\tr\Xamarin.Forms.Platform.iOS.resources.dll
-F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.iOS\bin\iPhoneSimulator\Debug\uk\Xamarin.Forms.Platform.iOS.resources.dll
-F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.iOS\bin\iPhoneSimulator\Debug\vi\Xamarin.Forms.Platform.iOS.resources.dll
-F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.iOS\bin\iPhoneSimulator\Debug\zh-HK\Xamarin.Forms.Platform.iOS.resources.dll
-F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.iOS\bin\iPhoneSimulator\Debug\zh-Hans\Xamarin.Forms.Platform.iOS.resources.dll
-F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.iOS\bin\iPhoneSimulator\Debug\zh-Hant\Xamarin.Forms.Platform.iOS.resources.dll
-F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.iOS\bin\iPhoneSimulator\Debug\News_aggregator.dll
-F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.iOS\bin\iPhoneSimulator\Debug\News_aggregator.pdb
-F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.iOS\obj\iPhoneSimulator\Debug\actool\_PartialAppManifest.items
-F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.iOS\obj\iPhoneSimulator\Debug\actool\_BundleResourceWithLogicalName.items
-F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.iOS\obj\iPhoneSimulator\Debug\actool\_ProcessedImageAssetsPath.items
-F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.iOS\obj\iPhoneSimulator\Debug\ibtool\_BundleResourceWithLogicalName.items
-F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.iOS\obj\iPhoneSimulator\Debug\ibtool\_ProcessedInterfaceDefinitionsPath.items
-F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.iOS\obj\iPhoneSimulator\Debug\coremlc\_PartialAppManifest.items
-F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.iOS\obj\iPhoneSimulator\Debug\coremlc\_BundleResourceWithLogicalName.items
-F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.iOS\obj\iPhoneSimulator\Debug\coremlc\_ProcessedCoreMLModelsPath.items
-F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.iOS\obj\iPhoneSimulator\Debug\_ProcessedBundleResourcesPath.items
-F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.iOS\obj\iPhoneSimulator\Debug\_ProcessedContentPath.items
-F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.iOS\obj\iPhoneSimulator\Debug\optimized\
-F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.iOS\obj\iPhoneSimulator\Debug\News_aggregator.iOS.csproj.AssemblyReference.cache
-F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.iOS\obj\iPhoneSimulator\Debug\News_aggregator.iOS.csproj.CoreCompileInputs.cache
-F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.iOS\obj\iPhoneSimulator\Debug\News_aggregator.iOS.csproj.CopyComplete
-F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.iOS\obj\iPhoneSimulator\Debug\News_aggregator.iOS.exe
-F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.iOS\obj\iPhoneSimulator\Debug\News_aggregator.iOS.pdb
-F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.iOS\bin\iPhoneSimulator\Debug\SQLite-net.dll
-F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.iOS\bin\iPhoneSimulator\Debug\SQLitePCLRaw.batteries_v2.dll
-F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.iOS\bin\iPhoneSimulator\Debug\SQLitePCLRaw.nativelibrary.dll
-F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.iOS\bin\iPhoneSimulator\Debug\SQLitePCLRaw.core.dll
-F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.iOS\bin\iPhoneSimulator\Debug\SQLitePCLRaw.provider.dynamic_cdecl.dll
-F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.iOS\bin\iPhoneSimulator\Debug\System.Buffers.dll
-F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.iOS\bin\iPhoneSimulator\Debug\System.Memory.dll
-F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.iOS\bin\iPhoneSimulator\Debug\System.Runtime.CompilerServices.Unsafe.dll
-F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.iOS\obj\iPhoneSimulator\Debug\Contents.json.ResolveUTIs.stamp
-F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.iOS\obj\iPhoneSimulator\Debug\Icon1024.png.ResolveUTIs.stamp
-F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.iOS\obj\iPhoneSimulator\Debug\Icon180.png.ResolveUTIs.stamp
-F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.iOS\obj\iPhoneSimulator\Debug\Icon167.png.ResolveUTIs.stamp
-F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.iOS\obj\iPhoneSimulator\Debug\Icon152.png.ResolveUTIs.stamp
-F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.iOS\obj\iPhoneSimulator\Debug\Icon120.png.ResolveUTIs.stamp
-F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.iOS\obj\iPhoneSimulator\Debug\Icon87.png.ResolveUTIs.stamp
-F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.iOS\obj\iPhoneSimulator\Debug\Icon80.png.ResolveUTIs.stamp
-F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.iOS\obj\iPhoneSimulator\Debug\Icon76.png.ResolveUTIs.stamp
-F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.iOS\obj\iPhoneSimulator\Debug\Icon60.png.ResolveUTIs.stamp
-F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.iOS\obj\iPhoneSimulator\Debug\Icon58.png.ResolveUTIs.stamp
-F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.iOS\obj\iPhoneSimulator\Debug\Icon40.png.ResolveUTIs.stamp
-F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.iOS\obj\iPhoneSimulator\Debug\Icon29.png.ResolveUTIs.stamp
-F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.iOS\obj\iPhoneSimulator\Debug\Icon20.png.ResolveUTIs.stamp
-F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.iOS\obj\iPhoneSimulator\Debug\optimized\ico_21.png
-F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.iOS\obj\iPhoneSimulator\Debug\optimized\note_icon.png
-F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.iOS\obj\iPhoneSimulator\Debug\optimized\setting_icon.png
-F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.iOS\obj\iPhoneSimulator\Debug\CopyFilesToMac\SQLite-net.dll.ReferenceCopyLocalPaths.stamp
-F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.iOS\obj\iPhoneSimulator\Debug\CopyFilesToMac\SQLitePCLRaw.batteries_v2.dll.ReferenceCopyLocalPaths.stamp
-F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.iOS\obj\iPhoneSimulator\Debug\CopyFilesToMac\SQLitePCLRaw.nativelibrary.dll.ReferenceCopyLocalPaths.stamp
-F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.iOS\obj\iPhoneSimulator\Debug\CopyFilesToMac\SQLitePCLRaw.core.dll.ReferenceCopyLocalPaths.stamp
-F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.iOS\obj\iPhoneSimulator\Debug\CopyFilesToMac\SQLitePCLRaw.provider.dynamic_cdecl.dll.ReferenceCopyLocalPaths.stamp
-F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.iOS\obj\iPhoneSimulator\Debug\CopyFilesToMac\System.Buffers.dll.ReferenceCopyLocalPaths.stamp
-F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.iOS\obj\iPhoneSimulator\Debug\CopyFilesToMac\System.Memory.dll.ReferenceCopyLocalPaths.stamp
-F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.iOS\obj\iPhoneSimulator\Debug\CopyFilesToMac\System.Runtime.CompilerServices.Unsafe.dll.ReferenceCopyLocalPaths.stamp
-F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.iOS\obj\iPhoneSimulator\Debug\CopyFilesToMac\Xamarin.Essentials.dll.ReferenceCopyLocalPaths.stamp
-F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.iOS\obj\iPhoneSimulator\Debug\CopyFilesToMac\Xamarin.Essentials.pdb.ReferenceCopyLocalPaths.stamp
-F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.iOS\obj\iPhoneSimulator\Debug\CopyFilesToMac\Xamarin.Forms.Core.dll.ReferenceCopyLocalPaths.stamp
-F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.iOS\obj\iPhoneSimulator\Debug\CopyFilesToMac\Xamarin.Forms.Core.pdb.ReferenceCopyLocalPaths.stamp
-F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.iOS\obj\iPhoneSimulator\Debug\CopyFilesToMac\Xamarin.Forms.Platform.dll.ReferenceCopyLocalPaths.stamp
-F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.iOS\obj\iPhoneSimulator\Debug\CopyFilesToMac\Xamarin.Forms.Platform.iOS.dll.ReferenceCopyLocalPaths.stamp
-F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.iOS\obj\iPhoneSimulator\Debug\CopyFilesToMac\Xamarin.Forms.Platform.iOS.pdb.ReferenceCopyLocalPaths.stamp
-F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.iOS\obj\iPhoneSimulator\Debug\CopyFilesToMac\Xamarin.Forms.Xaml.dll.ReferenceCopyLocalPaths.stamp
-F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.iOS\obj\iPhoneSimulator\Debug\CopyFilesToMac\Xamarin.Forms.Xaml.pdb.ReferenceCopyLocalPaths.stamp
-F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.iOS\obj\iPhoneSimulator\Debug\CopyFilesToMac\Xamarin.Forms.Platform.iOS.resources.dll.ReferenceCopyLocalPaths.stamp
-F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.iOS\obj\iPhoneSimulator\Debug\CopyFilesToMac\News_aggregator.dll.ReferenceCopyLocalPaths.stamp
-F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.iOS\obj\iPhoneSimulator\Debug\CopyFilesToMac\News_aggregator.pdb.ReferenceCopyLocalPaths.stamp
-F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.iOS\obj\iPhoneSimulator\Debug\CopyFilesToMac\News_aggregator.iOS.pdb.DebugSymbolsProjectOutputGroupOutput.stamp
-F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.iOS\obj\iPhoneSimulator\Debug\CopyFilesToMac\Entitlements.plist.NoneOutput.stamp
-F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.iOS\obj\iPhoneSimulator\Debug\CopyFilesToMac\Info.plist.NoneOutput.stamp
+F:/Рабочий стол/XamarinForm/Gazebo-apps/News_aggregator/News_aggregator.iOS/bin/iPhoneSimulator/Debug/News_aggregator.iOS.exe
+F:/Рабочий стол/XamarinForm/Gazebo-apps/News_aggregator/News_aggregator.iOS/bin/iPhoneSimulator/Debug/News_aggregator.iOS.pdb
+F:/Рабочий стол/XamarinForm/Gazebo-apps/News_aggregator/News_aggregator.iOS/bin/iPhoneSimulator/Debug/Xamarin.Essentials.dll
+F:/Рабочий стол/XamarinForm/Gazebo-apps/News_aggregator/News_aggregator.iOS/bin/iPhoneSimulator/Debug/Xamarin.Essentials.pdb
+F:/Рабочий стол/XamarinForm/Gazebo-apps/News_aggregator/News_aggregator.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Core.dll
+F:/Рабочий стол/XamarinForm/Gazebo-apps/News_aggregator/News_aggregator.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Core.pdb
+F:/Рабочий стол/XamarinForm/Gazebo-apps/News_aggregator/News_aggregator.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Platform.dll
+F:/Рабочий стол/XamarinForm/Gazebo-apps/News_aggregator/News_aggregator.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Platform.iOS.dll
+F:/Рабочий стол/XamarinForm/Gazebo-apps/News_aggregator/News_aggregator.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Platform.iOS.pdb
+F:/Рабочий стол/XamarinForm/Gazebo-apps/News_aggregator/News_aggregator.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Xaml.dll
+F:/Рабочий стол/XamarinForm/Gazebo-apps/News_aggregator/News_aggregator.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Xaml.pdb
+F:/Рабочий стол/XamarinForm/Gazebo-apps/News_aggregator/News_aggregator.iOS/bin/iPhoneSimulator/Debug/ar/Xamarin.Forms.Platform.iOS.resources.dll
+F:/Рабочий стол/XamarinForm/Gazebo-apps/News_aggregator/News_aggregator.iOS/bin/iPhoneSimulator/Debug/ca/Xamarin.Forms.Platform.iOS.resources.dll
+F:/Рабочий стол/XamarinForm/Gazebo-apps/News_aggregator/News_aggregator.iOS/bin/iPhoneSimulator/Debug/cs/Xamarin.Forms.Platform.iOS.resources.dll
+F:/Рабочий стол/XamarinForm/Gazebo-apps/News_aggregator/News_aggregator.iOS/bin/iPhoneSimulator/Debug/da/Xamarin.Forms.Platform.iOS.resources.dll
+F:/Рабочий стол/XamarinForm/Gazebo-apps/News_aggregator/News_aggregator.iOS/bin/iPhoneSimulator/Debug/de/Xamarin.Forms.Platform.iOS.resources.dll
+F:/Рабочий стол/XamarinForm/Gazebo-apps/News_aggregator/News_aggregator.iOS/bin/iPhoneSimulator/Debug/el/Xamarin.Forms.Platform.iOS.resources.dll
+F:/Рабочий стол/XamarinForm/Gazebo-apps/News_aggregator/News_aggregator.iOS/bin/iPhoneSimulator/Debug/es/Xamarin.Forms.Platform.iOS.resources.dll
+F:/Рабочий стол/XamarinForm/Gazebo-apps/News_aggregator/News_aggregator.iOS/bin/iPhoneSimulator/Debug/fi/Xamarin.Forms.Platform.iOS.resources.dll
+F:/Рабочий стол/XamarinForm/Gazebo-apps/News_aggregator/News_aggregator.iOS/bin/iPhoneSimulator/Debug/fr/Xamarin.Forms.Platform.iOS.resources.dll
+F:/Рабочий стол/XamarinForm/Gazebo-apps/News_aggregator/News_aggregator.iOS/bin/iPhoneSimulator/Debug/he/Xamarin.Forms.Platform.iOS.resources.dll
+F:/Рабочий стол/XamarinForm/Gazebo-apps/News_aggregator/News_aggregator.iOS/bin/iPhoneSimulator/Debug/hi/Xamarin.Forms.Platform.iOS.resources.dll
+F:/Рабочий стол/XamarinForm/Gazebo-apps/News_aggregator/News_aggregator.iOS/bin/iPhoneSimulator/Debug/hr/Xamarin.Forms.Platform.iOS.resources.dll
+F:/Рабочий стол/XamarinForm/Gazebo-apps/News_aggregator/News_aggregator.iOS/bin/iPhoneSimulator/Debug/hu/Xamarin.Forms.Platform.iOS.resources.dll
+F:/Рабочий стол/XamarinForm/Gazebo-apps/News_aggregator/News_aggregator.iOS/bin/iPhoneSimulator/Debug/id/Xamarin.Forms.Platform.iOS.resources.dll
+F:/Рабочий стол/XamarinForm/Gazebo-apps/News_aggregator/News_aggregator.iOS/bin/iPhoneSimulator/Debug/it/Xamarin.Forms.Platform.iOS.resources.dll
+F:/Рабочий стол/XamarinForm/Gazebo-apps/News_aggregator/News_aggregator.iOS/bin/iPhoneSimulator/Debug/ja/Xamarin.Forms.Platform.iOS.resources.dll
+F:/Рабочий стол/XamarinForm/Gazebo-apps/News_aggregator/News_aggregator.iOS/bin/iPhoneSimulator/Debug/ko/Xamarin.Forms.Platform.iOS.resources.dll
+F:/Рабочий стол/XamarinForm/Gazebo-apps/News_aggregator/News_aggregator.iOS/bin/iPhoneSimulator/Debug/ms/Xamarin.Forms.Platform.iOS.resources.dll
+F:/Рабочий стол/XamarinForm/Gazebo-apps/News_aggregator/News_aggregator.iOS/bin/iPhoneSimulator/Debug/nb/Xamarin.Forms.Platform.iOS.resources.dll
+F:/Рабочий стол/XamarinForm/Gazebo-apps/News_aggregator/News_aggregator.iOS/bin/iPhoneSimulator/Debug/nl/Xamarin.Forms.Platform.iOS.resources.dll
+F:/Рабочий стол/XamarinForm/Gazebo-apps/News_aggregator/News_aggregator.iOS/bin/iPhoneSimulator/Debug/pl/Xamarin.Forms.Platform.iOS.resources.dll
+F:/Рабочий стол/XamarinForm/Gazebo-apps/News_aggregator/News_aggregator.iOS/bin/iPhoneSimulator/Debug/pt-BR/Xamarin.Forms.Platform.iOS.resources.dll
+F:/Рабочий стол/XamarinForm/Gazebo-apps/News_aggregator/News_aggregator.iOS/bin/iPhoneSimulator/Debug/pt/Xamarin.Forms.Platform.iOS.resources.dll
+F:/Рабочий стол/XamarinForm/Gazebo-apps/News_aggregator/News_aggregator.iOS/bin/iPhoneSimulator/Debug/ro/Xamarin.Forms.Platform.iOS.resources.dll
+F:/Рабочий стол/XamarinForm/Gazebo-apps/News_aggregator/News_aggregator.iOS/bin/iPhoneSimulator/Debug/ru/Xamarin.Forms.Platform.iOS.resources.dll
+F:/Рабочий стол/XamarinForm/Gazebo-apps/News_aggregator/News_aggregator.iOS/bin/iPhoneSimulator/Debug/sk/Xamarin.Forms.Platform.iOS.resources.dll
+F:/Рабочий стол/XamarinForm/Gazebo-apps/News_aggregator/News_aggregator.iOS/bin/iPhoneSimulator/Debug/sv/Xamarin.Forms.Platform.iOS.resources.dll
+F:/Рабочий стол/XamarinForm/Gazebo-apps/News_aggregator/News_aggregator.iOS/bin/iPhoneSimulator/Debug/th/Xamarin.Forms.Platform.iOS.resources.dll
+F:/Рабочий стол/XamarinForm/Gazebo-apps/News_aggregator/News_aggregator.iOS/bin/iPhoneSimulator/Debug/tr/Xamarin.Forms.Platform.iOS.resources.dll
+F:/Рабочий стол/XamarinForm/Gazebo-apps/News_aggregator/News_aggregator.iOS/bin/iPhoneSimulator/Debug/uk/Xamarin.Forms.Platform.iOS.resources.dll
+F:/Рабочий стол/XamarinForm/Gazebo-apps/News_aggregator/News_aggregator.iOS/bin/iPhoneSimulator/Debug/vi/Xamarin.Forms.Platform.iOS.resources.dll
+F:/Рабочий стол/XamarinForm/Gazebo-apps/News_aggregator/News_aggregator.iOS/bin/iPhoneSimulator/Debug/zh-HK/Xamarin.Forms.Platform.iOS.resources.dll
+F:/Рабочий стол/XamarinForm/Gazebo-apps/News_aggregator/News_aggregator.iOS/bin/iPhoneSimulator/Debug/zh-Hans/Xamarin.Forms.Platform.iOS.resources.dll
+F:/Рабочий стол/XamarinForm/Gazebo-apps/News_aggregator/News_aggregator.iOS/bin/iPhoneSimulator/Debug/zh-Hant/Xamarin.Forms.Platform.iOS.resources.dll
+F:/Рабочий стол/XamarinForm/Gazebo-apps/News_aggregator/News_aggregator.iOS/bin/iPhoneSimulator/Debug/News_aggregator.dll
+F:/Рабочий стол/XamarinForm/Gazebo-apps/News_aggregator/News_aggregator.iOS/bin/iPhoneSimulator/Debug/News_aggregator.pdb
+F:/Рабочий стол/XamarinForm/Gazebo-apps/News_aggregator/News_aggregator.iOS/obj/iPhoneSimulator/Debug/actool/_PartialAppManifest.items
+F:/Рабочий стол/XamarinForm/Gazebo-apps/News_aggregator/News_aggregator.iOS/obj/iPhoneSimulator/Debug/actool/_BundleResourceWithLogicalName.items
+F:/Рабочий стол/XamarinForm/Gazebo-apps/News_aggregator/News_aggregator.iOS/obj/iPhoneSimulator/Debug/actool/_ProcessedImageAssetsPath.items
+F:/Рабочий стол/XamarinForm/Gazebo-apps/News_aggregator/News_aggregator.iOS/obj/iPhoneSimulator/Debug/ibtool/_BundleResourceWithLogicalName.items
+F:/Рабочий стол/XamarinForm/Gazebo-apps/News_aggregator/News_aggregator.iOS/obj/iPhoneSimulator/Debug/ibtool/_ProcessedInterfaceDefinitionsPath.items
+F:/Рабочий стол/XamarinForm/Gazebo-apps/News_aggregator/News_aggregator.iOS/obj/iPhoneSimulator/Debug/coremlc/_PartialAppManifest.items
+F:/Рабочий стол/XamarinForm/Gazebo-apps/News_aggregator/News_aggregator.iOS/obj/iPhoneSimulator/Debug/coremlc/_BundleResourceWithLogicalName.items
+F:/Рабочий стол/XamarinForm/Gazebo-apps/News_aggregator/News_aggregator.iOS/obj/iPhoneSimulator/Debug/coremlc/_ProcessedCoreMLModelsPath.items
+F:/Рабочий стол/XamarinForm/Gazebo-apps/News_aggregator/News_aggregator.iOS/obj/iPhoneSimulator/Debug/_ProcessedBundleResourcesPath.items
+F:/Рабочий стол/XamarinForm/Gazebo-apps/News_aggregator/News_aggregator.iOS/obj/iPhoneSimulator/Debug/_ProcessedContentPath.items
+F:/Рабочий стол/XamarinForm/Gazebo-apps/News_aggregator/News_aggregator.iOS/obj/iPhoneSimulator/Debug/optimized/
+F:/Рабочий стол/XamarinForm/Gazebo-apps/News_aggregator/News_aggregator.iOS/obj/iPhoneSimulator/Debug/News_aggregator.iOS.csproj.AssemblyReference.cache
+F:/Рабочий стол/XamarinForm/Gazebo-apps/News_aggregator/News_aggregator.iOS/obj/iPhoneSimulator/Debug/News_aggregator.iOS.csproj.CoreCompileInputs.cache
+F:/Рабочий стол/XamarinForm/Gazebo-apps/News_aggregator/News_aggregator.iOS/obj/iPhoneSimulator/Debug/News_aggregator.iOS.csproj.CopyComplete
+F:/Рабочий стол/XamarinForm/Gazebo-apps/News_aggregator/News_aggregator.iOS/obj/iPhoneSimulator/Debug/News_aggregator.iOS.exe
+F:/Рабочий стол/XamarinForm/Gazebo-apps/News_aggregator/News_aggregator.iOS/obj/iPhoneSimulator/Debug/News_aggregator.iOS.pdb
+F:/Рабочий стол/XamarinForm/Gazebo-apps/News_aggregator/News_aggregator.iOS/bin/iPhoneSimulator/Debug/SQLite-net.dll
+F:/Рабочий стол/XamarinForm/Gazebo-apps/News_aggregator/News_aggregator.iOS/bin/iPhoneSimulator/Debug/SQLitePCLRaw.batteries_v2.dll
+F:/Рабочий стол/XamarinForm/Gazebo-apps/News_aggregator/News_aggregator.iOS/bin/iPhoneSimulator/Debug/SQLitePCLRaw.nativelibrary.dll
+F:/Рабочий стол/XamarinForm/Gazebo-apps/News_aggregator/News_aggregator.iOS/bin/iPhoneSimulator/Debug/SQLitePCLRaw.core.dll
+F:/Рабочий стол/XamarinForm/Gazebo-apps/News_aggregator/News_aggregator.iOS/bin/iPhoneSimulator/Debug/SQLitePCLRaw.provider.dynamic_cdecl.dll
+F:/Рабочий стол/XamarinForm/Gazebo-apps/News_aggregator/News_aggregator.iOS/bin/iPhoneSimulator/Debug/System.Buffers.dll
+F:/Рабочий стол/XamarinForm/Gazebo-apps/News_aggregator/News_aggregator.iOS/bin/iPhoneSimulator/Debug/System.Memory.dll
+F:/Рабочий стол/XamarinForm/Gazebo-apps/News_aggregator/News_aggregator.iOS/bin/iPhoneSimulator/Debug/System.Runtime.CompilerServices.Unsafe.dll
+F:/Рабочий стол/XamarinForm/Gazebo-apps/News_aggregator/News_aggregator.iOS/obj/iPhoneSimulator/Debug/Contents.json.ResolveUTIs.stamp
+F:/Рабочий стол/XamarinForm/Gazebo-apps/News_aggregator/News_aggregator.iOS/obj/iPhoneSimulator/Debug/Icon1024.png.ResolveUTIs.stamp
+F:/Рабочий стол/XamarinForm/Gazebo-apps/News_aggregator/News_aggregator.iOS/obj/iPhoneSimulator/Debug/Icon180.png.ResolveUTIs.stamp
+F:/Рабочий стол/XamarinForm/Gazebo-apps/News_aggregator/News_aggregator.iOS/obj/iPhoneSimulator/Debug/Icon167.png.ResolveUTIs.stamp
+F:/Рабочий стол/XamarinForm/Gazebo-apps/News_aggregator/News_aggregator.iOS/obj/iPhoneSimulator/Debug/Icon152.png.ResolveUTIs.stamp
+F:/Рабочий стол/XamarinForm/Gazebo-apps/News_aggregator/News_aggregator.iOS/obj/iPhoneSimulator/Debug/Icon120.png.ResolveUTIs.stamp
+F:/Рабочий стол/XamarinForm/Gazebo-apps/News_aggregator/News_aggregator.iOS/obj/iPhoneSimulator/Debug/Icon87.png.ResolveUTIs.stamp
+F:/Рабочий стол/XamarinForm/Gazebo-apps/News_aggregator/News_aggregator.iOS/obj/iPhoneSimulator/Debug/Icon80.png.ResolveUTIs.stamp
+F:/Рабочий стол/XamarinForm/Gazebo-apps/News_aggregator/News_aggregator.iOS/obj/iPhoneSimulator/Debug/Icon76.png.ResolveUTIs.stamp
+F:/Рабочий стол/XamarinForm/Gazebo-apps/News_aggregator/News_aggregator.iOS/obj/iPhoneSimulator/Debug/Icon60.png.ResolveUTIs.stamp
+F:/Рабочий стол/XamarinForm/Gazebo-apps/News_aggregator/News_aggregator.iOS/obj/iPhoneSimulator/Debug/Icon58.png.ResolveUTIs.stamp
+F:/Рабочий стол/XamarinForm/Gazebo-apps/News_aggregator/News_aggregator.iOS/obj/iPhoneSimulator/Debug/Icon40.png.ResolveUTIs.stamp
+F:/Рабочий стол/XamarinForm/Gazebo-apps/News_aggregator/News_aggregator.iOS/obj/iPhoneSimulator/Debug/Icon29.png.ResolveUTIs.stamp
+F:/Рабочий стол/XamarinForm/Gazebo-apps/News_aggregator/News_aggregator.iOS/obj/iPhoneSimulator/Debug/Icon20.png.ResolveUTIs.stamp
+F:/Рабочий стол/XamarinForm/Gazebo-apps/News_aggregator/News_aggregator.iOS/obj/iPhoneSimulator/Debug/optimized/ico_21.png
+F:/Рабочий стол/XamarinForm/Gazebo-apps/News_aggregator/News_aggregator.iOS/obj/iPhoneSimulator/Debug/optimized/note_icon.png
+F:/Рабочий стол/XamarinForm/Gazebo-apps/News_aggregator/News_aggregator.iOS/obj/iPhoneSimulator/Debug/optimized/setting_icon.png
+F:/Рабочий стол/XamarinForm/Gazebo-apps/News_aggregator/News_aggregator.iOS/obj/iPhoneSimulator/Debug/CopyFilesToMac/SQLite-net.dll.ReferenceCopyLocalPaths.stamp
+F:/Рабочий стол/XamarinForm/Gazebo-apps/News_aggregator/News_aggregator.iOS/obj/iPhoneSimulator/Debug/CopyFilesToMac/SQLitePCLRaw.batteries_v2.dll.ReferenceCopyLocalPaths.stamp
+F:/Рабочий стол/XamarinForm/Gazebo-apps/News_aggregator/News_aggregator.iOS/obj/iPhoneSimulator/Debug/CopyFilesToMac/SQLitePCLRaw.nativelibrary.dll.ReferenceCopyLocalPaths.stamp
+F:/Рабочий стол/XamarinForm/Gazebo-apps/News_aggregator/News_aggregator.iOS/obj/iPhoneSimulator/Debug/CopyFilesToMac/SQLitePCLRaw.core.dll.ReferenceCopyLocalPaths.stamp
+F:/Рабочий стол/XamarinForm/Gazebo-apps/News_aggregator/News_aggregator.iOS/obj/iPhoneSimulator/Debug/CopyFilesToMac/SQLitePCLRaw.provider.dynamic_cdecl.dll.ReferenceCopyLocalPaths.stamp
+F:/Рабочий стол/XamarinForm/Gazebo-apps/News_aggregator/News_aggregator.iOS/obj/iPhoneSimulator/Debug/CopyFilesToMac/System.Buffers.dll.ReferenceCopyLocalPaths.stamp
+F:/Рабочий стол/XamarinForm/Gazebo-apps/News_aggregator/News_aggregator.iOS/obj/iPhoneSimulator/Debug/CopyFilesToMac/System.Memory.dll.ReferenceCopyLocalPaths.stamp
+F:/Рабочий стол/XamarinForm/Gazebo-apps/News_aggregator/News_aggregator.iOS/obj/iPhoneSimulator/Debug/CopyFilesToMac/System.Runtime.CompilerServices.Unsafe.dll.ReferenceCopyLocalPaths.stamp
+F:/Рабочий стол/XamarinForm/Gazebo-apps/News_aggregator/News_aggregator.iOS/obj/iPhoneSimulator/Debug/CopyFilesToMac/Xamarin.Essentials.dll.ReferenceCopyLocalPaths.stamp
+F:/Рабочий стол/XamarinForm/Gazebo-apps/News_aggregator/News_aggregator.iOS/obj/iPhoneSimulator/Debug/CopyFilesToMac/Xamarin.Essentials.pdb.ReferenceCopyLocalPaths.stamp
+F:/Рабочий стол/XamarinForm/Gazebo-apps/News_aggregator/News_aggregator.iOS/obj/iPhoneSimulator/Debug/CopyFilesToMac/Xamarin.Forms.Core.dll.ReferenceCopyLocalPaths.stamp
+F:/Рабочий стол/XamarinForm/Gazebo-apps/News_aggregator/News_aggregator.iOS/obj/iPhoneSimulator/Debug/CopyFilesToMac/Xamarin.Forms.Core.pdb.ReferenceCopyLocalPaths.stamp
+F:/Рабочий стол/XamarinForm/Gazebo-apps/News_aggregator/News_aggregator.iOS/obj/iPhoneSimulator/Debug/CopyFilesToMac/Xamarin.Forms.Platform.dll.ReferenceCopyLocalPaths.stamp
+F:/Рабочий стол/XamarinForm/Gazebo-apps/News_aggregator/News_aggregator.iOS/obj/iPhoneSimulator/Debug/CopyFilesToMac/Xamarin.Forms.Platform.iOS.dll.ReferenceCopyLocalPaths.stamp
+F:/Рабочий стол/XamarinForm/Gazebo-apps/News_aggregator/News_aggregator.iOS/obj/iPhoneSimulator/Debug/CopyFilesToMac/Xamarin.Forms.Platform.iOS.pdb.ReferenceCopyLocalPaths.stamp
+F:/Рабочий стол/XamarinForm/Gazebo-apps/News_aggregator/News_aggregator.iOS/obj/iPhoneSimulator/Debug/CopyFilesToMac/Xamarin.Forms.Xaml.dll.ReferenceCopyLocalPaths.stamp
+F:/Рабочий стол/XamarinForm/Gazebo-apps/News_aggregator/News_aggregator.iOS/obj/iPhoneSimulator/Debug/CopyFilesToMac/Xamarin.Forms.Xaml.pdb.ReferenceCopyLocalPaths.stamp
+F:/Рабочий стол/XamarinForm/Gazebo-apps/News_aggregator/News_aggregator.iOS/obj/iPhoneSimulator/Debug/CopyFilesToMac/Xamarin.Forms.Platform.iOS.resources.dll.ReferenceCopyLocalPaths.stamp
+F:/Рабочий стол/XamarinForm/Gazebo-apps/News_aggregator/News_aggregator.iOS/obj/iPhoneSimulator/Debug/CopyFilesToMac/News_aggregator.dll.ReferenceCopyLocalPaths.stamp
+F:/Рабочий стол/XamarinForm/Gazebo-apps/News_aggregator/News_aggregator.iOS/obj/iPhoneSimulator/Debug/CopyFilesToMac/News_aggregator.pdb.ReferenceCopyLocalPaths.stamp
+F:/Рабочий стол/XamarinForm/Gazebo-apps/News_aggregator/News_aggregator.iOS/obj/iPhoneSimulator/Debug/CopyFilesToMac/News_aggregator.iOS.pdb.DebugSymbolsProjectOutputGroupOutput.stamp
+F:/Рабочий стол/XamarinForm/Gazebo-apps/News_aggregator/News_aggregator.iOS/obj/iPhoneSimulator/Debug/CopyFilesToMac/Entitlements.plist.NoneOutput.stamp
+F:/Рабочий стол/XamarinForm/Gazebo-apps/News_aggregator/News_aggregator.iOS/obj/iPhoneSimulator/Debug/CopyFilesToMac/Info.plist.NoneOutput.stamp
+/Users/dmitriglusenko/Desktop/Developing/GitHub/Новостной аггрегатор /Gazebo-apps/News_aggregator/News_aggregator.iOS/bin/iPhoneSimulator/Debug/News_aggregator.iOS.exe
+/Users/dmitriglusenko/Desktop/Developing/GitHub/Новостной аггрегатор /Gazebo-apps/News_aggregator/News_aggregator.iOS/bin/iPhoneSimulator/Debug/News_aggregator.iOS.pdb
+/Users/dmitriglusenko/Desktop/Developing/GitHub/Новостной аггрегатор /Gazebo-apps/News_aggregator/News_aggregator.iOS/bin/iPhoneSimulator/Debug/AngleSharp.dll
+/Users/dmitriglusenko/Desktop/Developing/GitHub/Новостной аггрегатор /Gazebo-apps/News_aggregator/News_aggregator.iOS/bin/iPhoneSimulator/Debug/SQLite-net.dll
+/Users/dmitriglusenko/Desktop/Developing/GitHub/Новостной аггрегатор /Gazebo-apps/News_aggregator/News_aggregator.iOS/bin/iPhoneSimulator/Debug/SQLitePCLRaw.batteries_v2.dll
+/Users/dmitriglusenko/Desktop/Developing/GitHub/Новостной аггрегатор /Gazebo-apps/News_aggregator/News_aggregator.iOS/bin/iPhoneSimulator/Debug/SQLitePCLRaw.nativelibrary.dll
+/Users/dmitriglusenko/Desktop/Developing/GitHub/Новостной аггрегатор /Gazebo-apps/News_aggregator/News_aggregator.iOS/bin/iPhoneSimulator/Debug/SQLitePCLRaw.core.dll
+/Users/dmitriglusenko/Desktop/Developing/GitHub/Новостной аггрегатор /Gazebo-apps/News_aggregator/News_aggregator.iOS/bin/iPhoneSimulator/Debug/SQLitePCLRaw.provider.dynamic_cdecl.dll
+/Users/dmitriglusenko/Desktop/Developing/GitHub/Новостной аггрегатор /Gazebo-apps/News_aggregator/News_aggregator.iOS/bin/iPhoneSimulator/Debug/System.Runtime.CompilerServices.Unsafe.dll
+/Users/dmitriglusenko/Desktop/Developing/GitHub/Новостной аггрегатор /Gazebo-apps/News_aggregator/News_aggregator.iOS/bin/iPhoneSimulator/Debug/Xamarin.Essentials.dll
+/Users/dmitriglusenko/Desktop/Developing/GitHub/Новостной аггрегатор /Gazebo-apps/News_aggregator/News_aggregator.iOS/bin/iPhoneSimulator/Debug/Xamarin.Essentials.pdb
+/Users/dmitriglusenko/Desktop/Developing/GitHub/Новостной аггрегатор /Gazebo-apps/News_aggregator/News_aggregator.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Core.dll
+/Users/dmitriglusenko/Desktop/Developing/GitHub/Новостной аггрегатор /Gazebo-apps/News_aggregator/News_aggregator.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Core.pdb
+/Users/dmitriglusenko/Desktop/Developing/GitHub/Новостной аггрегатор /Gazebo-apps/News_aggregator/News_aggregator.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Platform.dll
+/Users/dmitriglusenko/Desktop/Developing/GitHub/Новостной аггрегатор /Gazebo-apps/News_aggregator/News_aggregator.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Platform.iOS.dll
+/Users/dmitriglusenko/Desktop/Developing/GitHub/Новостной аггрегатор /Gazebo-apps/News_aggregator/News_aggregator.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Platform.iOS.pdb
+/Users/dmitriglusenko/Desktop/Developing/GitHub/Новостной аггрегатор /Gazebo-apps/News_aggregator/News_aggregator.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Xaml.dll
+/Users/dmitriglusenko/Desktop/Developing/GitHub/Новостной аггрегатор /Gazebo-apps/News_aggregator/News_aggregator.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Xaml.pdb
+/Users/dmitriglusenko/Desktop/Developing/GitHub/Новостной аггрегатор /Gazebo-apps/News_aggregator/News_aggregator.iOS/bin/iPhoneSimulator/Debug/ar/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/dmitriglusenko/Desktop/Developing/GitHub/Новостной аггрегатор /Gazebo-apps/News_aggregator/News_aggregator.iOS/bin/iPhoneSimulator/Debug/ca/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/dmitriglusenko/Desktop/Developing/GitHub/Новостной аггрегатор /Gazebo-apps/News_aggregator/News_aggregator.iOS/bin/iPhoneSimulator/Debug/cs/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/dmitriglusenko/Desktop/Developing/GitHub/Новостной аггрегатор /Gazebo-apps/News_aggregator/News_aggregator.iOS/bin/iPhoneSimulator/Debug/da/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/dmitriglusenko/Desktop/Developing/GitHub/Новостной аггрегатор /Gazebo-apps/News_aggregator/News_aggregator.iOS/bin/iPhoneSimulator/Debug/de/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/dmitriglusenko/Desktop/Developing/GitHub/Новостной аггрегатор /Gazebo-apps/News_aggregator/News_aggregator.iOS/bin/iPhoneSimulator/Debug/el/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/dmitriglusenko/Desktop/Developing/GitHub/Новостной аггрегатор /Gazebo-apps/News_aggregator/News_aggregator.iOS/bin/iPhoneSimulator/Debug/es/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/dmitriglusenko/Desktop/Developing/GitHub/Новостной аггрегатор /Gazebo-apps/News_aggregator/News_aggregator.iOS/bin/iPhoneSimulator/Debug/fi/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/dmitriglusenko/Desktop/Developing/GitHub/Новостной аггрегатор /Gazebo-apps/News_aggregator/News_aggregator.iOS/bin/iPhoneSimulator/Debug/fr/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/dmitriglusenko/Desktop/Developing/GitHub/Новостной аггрегатор /Gazebo-apps/News_aggregator/News_aggregator.iOS/bin/iPhoneSimulator/Debug/he/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/dmitriglusenko/Desktop/Developing/GitHub/Новостной аггрегатор /Gazebo-apps/News_aggregator/News_aggregator.iOS/bin/iPhoneSimulator/Debug/hi/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/dmitriglusenko/Desktop/Developing/GitHub/Новостной аггрегатор /Gazebo-apps/News_aggregator/News_aggregator.iOS/bin/iPhoneSimulator/Debug/hr/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/dmitriglusenko/Desktop/Developing/GitHub/Новостной аггрегатор /Gazebo-apps/News_aggregator/News_aggregator.iOS/bin/iPhoneSimulator/Debug/hu/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/dmitriglusenko/Desktop/Developing/GitHub/Новостной аггрегатор /Gazebo-apps/News_aggregator/News_aggregator.iOS/bin/iPhoneSimulator/Debug/id/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/dmitriglusenko/Desktop/Developing/GitHub/Новостной аггрегатор /Gazebo-apps/News_aggregator/News_aggregator.iOS/bin/iPhoneSimulator/Debug/it/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/dmitriglusenko/Desktop/Developing/GitHub/Новостной аггрегатор /Gazebo-apps/News_aggregator/News_aggregator.iOS/bin/iPhoneSimulator/Debug/ja/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/dmitriglusenko/Desktop/Developing/GitHub/Новостной аггрегатор /Gazebo-apps/News_aggregator/News_aggregator.iOS/bin/iPhoneSimulator/Debug/ko/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/dmitriglusenko/Desktop/Developing/GitHub/Новостной аггрегатор /Gazebo-apps/News_aggregator/News_aggregator.iOS/bin/iPhoneSimulator/Debug/ms/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/dmitriglusenko/Desktop/Developing/GitHub/Новостной аггрегатор /Gazebo-apps/News_aggregator/News_aggregator.iOS/bin/iPhoneSimulator/Debug/nb/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/dmitriglusenko/Desktop/Developing/GitHub/Новостной аггрегатор /Gazebo-apps/News_aggregator/News_aggregator.iOS/bin/iPhoneSimulator/Debug/nl/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/dmitriglusenko/Desktop/Developing/GitHub/Новостной аггрегатор /Gazebo-apps/News_aggregator/News_aggregator.iOS/bin/iPhoneSimulator/Debug/pl/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/dmitriglusenko/Desktop/Developing/GitHub/Новостной аггрегатор /Gazebo-apps/News_aggregator/News_aggregator.iOS/bin/iPhoneSimulator/Debug/pt-BR/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/dmitriglusenko/Desktop/Developing/GitHub/Новостной аггрегатор /Gazebo-apps/News_aggregator/News_aggregator.iOS/bin/iPhoneSimulator/Debug/pt/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/dmitriglusenko/Desktop/Developing/GitHub/Новостной аггрегатор /Gazebo-apps/News_aggregator/News_aggregator.iOS/bin/iPhoneSimulator/Debug/ro/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/dmitriglusenko/Desktop/Developing/GitHub/Новостной аггрегатор /Gazebo-apps/News_aggregator/News_aggregator.iOS/bin/iPhoneSimulator/Debug/ru/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/dmitriglusenko/Desktop/Developing/GitHub/Новостной аггрегатор /Gazebo-apps/News_aggregator/News_aggregator.iOS/bin/iPhoneSimulator/Debug/sk/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/dmitriglusenko/Desktop/Developing/GitHub/Новостной аггрегатор /Gazebo-apps/News_aggregator/News_aggregator.iOS/bin/iPhoneSimulator/Debug/sv/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/dmitriglusenko/Desktop/Developing/GitHub/Новостной аггрегатор /Gazebo-apps/News_aggregator/News_aggregator.iOS/bin/iPhoneSimulator/Debug/th/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/dmitriglusenko/Desktop/Developing/GitHub/Новостной аггрегатор /Gazebo-apps/News_aggregator/News_aggregator.iOS/bin/iPhoneSimulator/Debug/tr/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/dmitriglusenko/Desktop/Developing/GitHub/Новостной аггрегатор /Gazebo-apps/News_aggregator/News_aggregator.iOS/bin/iPhoneSimulator/Debug/uk/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/dmitriglusenko/Desktop/Developing/GitHub/Новостной аггрегатор /Gazebo-apps/News_aggregator/News_aggregator.iOS/bin/iPhoneSimulator/Debug/vi/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/dmitriglusenko/Desktop/Developing/GitHub/Новостной аггрегатор /Gazebo-apps/News_aggregator/News_aggregator.iOS/bin/iPhoneSimulator/Debug/zh-HK/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/dmitriglusenko/Desktop/Developing/GitHub/Новостной аггрегатор /Gazebo-apps/News_aggregator/News_aggregator.iOS/bin/iPhoneSimulator/Debug/zh-Hans/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/dmitriglusenko/Desktop/Developing/GitHub/Новостной аггрегатор /Gazebo-apps/News_aggregator/News_aggregator.iOS/bin/iPhoneSimulator/Debug/zh-Hant/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/dmitriglusenko/Desktop/Developing/GitHub/Новостной аггрегатор /Gazebo-apps/News_aggregator/News_aggregator.iOS/bin/iPhoneSimulator/Debug/News_aggregator.dll
+/Users/dmitriglusenko/Desktop/Developing/GitHub/Новостной аггрегатор /Gazebo-apps/News_aggregator/News_aggregator.iOS/bin/iPhoneSimulator/Debug/News_aggregator.pdb
+/Users/dmitriglusenko/Desktop/Developing/GitHub/Новостной аггрегатор /Gazebo-apps/News_aggregator/News_aggregator.iOS/obj/iPhoneSimulator/Debug/actool/_PartialAppManifest.items
+/Users/dmitriglusenko/Desktop/Developing/GitHub/Новостной аггрегатор /Gazebo-apps/News_aggregator/News_aggregator.iOS/obj/iPhoneSimulator/Debug/actool/_BundleResourceWithLogicalName.items
+/Users/dmitriglusenko/Desktop/Developing/GitHub/Новостной аггрегатор /Gazebo-apps/News_aggregator/News_aggregator.iOS/obj/iPhoneSimulator/Debug/actool/_ProcessedImageAssetsPath.items
+/Users/dmitriglusenko/Desktop/Developing/GitHub/Новостной аггрегатор /Gazebo-apps/News_aggregator/News_aggregator.iOS/obj/iPhoneSimulator/Debug/ibtool/_BundleResourceWithLogicalName.items
+/Users/dmitriglusenko/Desktop/Developing/GitHub/Новостной аггрегатор /Gazebo-apps/News_aggregator/News_aggregator.iOS/obj/iPhoneSimulator/Debug/ibtool/_ProcessedInterfaceDefinitionsPath.items
+/Users/dmitriglusenko/Desktop/Developing/GitHub/Новостной аггрегатор /Gazebo-apps/News_aggregator/News_aggregator.iOS/obj/iPhoneSimulator/Debug/coremlc/_PartialAppManifest.items
+/Users/dmitriglusenko/Desktop/Developing/GitHub/Новостной аггрегатор /Gazebo-apps/News_aggregator/News_aggregator.iOS/obj/iPhoneSimulator/Debug/coremlc/_BundleResourceWithLogicalName.items
+/Users/dmitriglusenko/Desktop/Developing/GitHub/Новостной аггрегатор /Gazebo-apps/News_aggregator/News_aggregator.iOS/obj/iPhoneSimulator/Debug/coremlc/_ProcessedCoreMLModelsPath.items
+/Users/dmitriglusenko/Desktop/Developing/GitHub/Новостной аггрегатор /Gazebo-apps/News_aggregator/News_aggregator.iOS/obj/iPhoneSimulator/Debug/_ProcessedBundleResourcesPath.items
+/Users/dmitriglusenko/Desktop/Developing/GitHub/Новостной аггрегатор /Gazebo-apps/News_aggregator/News_aggregator.iOS/obj/iPhoneSimulator/Debug/_ProcessedContentPath.items
+/Users/dmitriglusenko/Desktop/Developing/GitHub/Новостной аггрегатор /Gazebo-apps/News_aggregator/News_aggregator.iOS/obj/iPhoneSimulator/Debug/optimized/ico_21.png
+/Users/dmitriglusenko/Desktop/Developing/GitHub/Новостной аггрегатор /Gazebo-apps/News_aggregator/News_aggregator.iOS/obj/iPhoneSimulator/Debug/optimized/note_icon.png
+/Users/dmitriglusenko/Desktop/Developing/GitHub/Новостной аггрегатор /Gazebo-apps/News_aggregator/News_aggregator.iOS/obj/iPhoneSimulator/Debug/optimized/setting_icon.png
+/Users/dmitriglusenko/Desktop/Developing/GitHub/Новостной аггрегатор /Gazebo-apps/News_aggregator/News_aggregator.iOS/obj/iPhoneSimulator/Debug/optimized/
+/Users/dmitriglusenko/Desktop/Developing/GitHub/Новостной аггрегатор /Gazebo-apps/News_aggregator/News_aggregator.iOS/obj/iPhoneSimulator/Debug/News_aggregator.iOS.csproj.AssemblyReference.cache
+/Users/dmitriglusenko/Desktop/Developing/GitHub/Новостной аггрегатор /Gazebo-apps/News_aggregator/News_aggregator.iOS/obj/iPhoneSimulator/Debug/News_aggregator.iOS.csproj.CoreCompileInputs.cache
+/Users/dmitriglusenko/Desktop/Developing/GitHub/Новостной аггрегатор /Gazebo-apps/News_aggregator/News_aggregator.iOS/obj/iPhoneSimulator/Debug/News_aggregator.iOS.csproj.CopyComplete
+/Users/dmitriglusenko/Desktop/Developing/GitHub/Новостной аггрегатор /Gazebo-apps/News_aggregator/News_aggregator.iOS/obj/iPhoneSimulator/Debug/News_aggregator.iOS.exe
+/Users/dmitriglusenko/Desktop/Developing/GitHub/Новостной аггрегатор /Gazebo-apps/News_aggregator/News_aggregator.iOS/obj/iPhoneSimulator/Debug/News_aggregator.iOS.pdb

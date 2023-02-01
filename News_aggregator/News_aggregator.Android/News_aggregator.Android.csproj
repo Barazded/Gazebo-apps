@@ -16,7 +16,6 @@
     <AndroidManifest>Properties\AndroidManifest.xml</AndroidManifest>
     <MonoAndroidResourcePrefix>Resources</MonoAndroidResourcePrefix>
     <MonoAndroidAssetsPrefix>Assets</MonoAndroidAssetsPrefix>
-    <AndroidUseLatestPlatformSdk>false</AndroidUseLatestPlatformSdk>
     <TargetFrameworkVersion>v13.0</TargetFrameworkVersion>
     <AndroidEnableSGenConcurrent>true</AndroidEnableSGenConcurrent>
     <AndroidUseAapt2>true</AndroidUseAapt2>
@@ -98,7 +97,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\News_aggregator\News_aggregator.csproj">
-      <Project>{3F87ED81-1216-4CC8-B642-3D26DFDD9430}</Project>
+      <Project>{79865594-5B26-4C2F-93B2-68D09441CA3F}</Project>
       <Name>News_aggregator</Name>
     </ProjectReference>
   </ItemGroup>
