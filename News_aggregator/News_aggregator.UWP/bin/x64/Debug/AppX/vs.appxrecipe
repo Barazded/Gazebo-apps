@@ -30,13 +30,13 @@
     <AppXManifest Include="F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.UWP\bin\x64\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-01-21T06:13:15.275</Modified>
+      <Modified>2023-01-08T16:46:41.340</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.UWP\bin\x64\Debug\News_aggregator.UWP.exe">
       <PackagePath>entrypoint\News_aggregator.UWP.exe</PackagePath>
-      <Modified>2023-01-21T06:13:14.053</Modified>
+      <Modified>2023-01-08T16:46:39.989</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ivan\.nuget\packages\runtime.win10-x64.microsoft.netcore.universalwindowsplatform\6.2.12\runtimes\win10-x64\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
@@ -92,7 +92,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator\bin\Debug\netstandard2.0\News_aggregator.dll">
       <PackagePath>News_aggregator.dll</PackagePath>
-      <Modified>2023-01-21T06:13:08.952</Modified>
+      <Modified>2023-01-08T16:46:34.422</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ivan\.nuget\packages\win2d.uwp\1.20.0\lib\uap10.0\Microsoft.Graphics.Canvas.winmd">
       <PackagePath>Microsoft.Graphics.Canvas.winmd</PackagePath>
@@ -259,11 +259,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.UWP\bin\x64\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2023-01-21T06:13:13.977</Modified>
+      <Modified>2023-01-08T16:46:39.931</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.UWP\bin\x64\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2023-01-21T06:13:13.977</Modified>
+      <Modified>2023-01-08T16:46:39.932</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.22000.0\\redist\Debug\X64\ucrtbased.dll">
       <PackagePath>ucrtbased.dll</PackagePath>
@@ -283,7 +283,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.UWP\bin\x64\Debug\Core\News_aggregator.UWP.exe">
       <PackagePath>News_aggregator.UWP.exe</PackagePath>
-      <Modified>2023-01-21T06:13:15.272</Modified>
+      <Modified>2023-01-08T16:46:41.337</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
