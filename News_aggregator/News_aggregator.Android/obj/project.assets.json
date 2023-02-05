@@ -4059,32 +4059,39 @@
     ]
   },
   "packageFolders": {
-    "/Users/dmitriglusenko/.nuget/packages/": {}
+    "C:\\Users\\Ivan\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/dmitriglusenko/Desktop/Developing/GitHub/Новостной аггрегатор /Gazebo-apps/News_aggregator/News_aggregator.Android/News_aggregator.Android.csproj",
+      "projectUniqueName": "F:\\Рабочий стол\\XamarinForm\\Gazebo-apps\\News_aggregator\\News_aggregator.Android\\News_aggregator.Android.csproj",
       "projectName": "News_aggregator.Android",
-      "projectPath": "/Users/dmitriglusenko/Desktop/Developing/GitHub/Новостной аггрегатор /Gazebo-apps/News_aggregator/News_aggregator.Android/News_aggregator.Android.csproj",
-      "packagesPath": "/Users/dmitriglusenko/.nuget/packages/",
-      "outputPath": "/Users/dmitriglusenko/Desktop/Developing/GitHub/Новостной аггрегатор /Gazebo-apps/News_aggregator/News_aggregator.Android/obj/",
+      "projectPath": "F:\\Рабочий стол\\XamarinForm\\Gazebo-apps\\News_aggregator\\News_aggregator.Android\\News_aggregator.Android.csproj",
+      "packagesPath": "C:\\Users\\Ivan\\.nuget\\packages\\",
+      "outputPath": "F:\\Рабочий стол\\XamarinForm\\Gazebo-apps\\News_aggregator\\News_aggregator.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "/Users/dmitriglusenko/.config/NuGet/NuGet.Config"
+        "C:\\Users\\Ivan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "monoandroid13.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "monoandroid13.0": {
           "projectReferences": {
-            "/Users/dmitriglusenko/Desktop/Developing/GitHub/Новостной аггрегатор /Gazebo-apps/News_aggregator/News_aggregator/News_aggregator.csproj": {
-              "projectPath": "/Users/dmitriglusenko/Desktop/Developing/GitHub/Новостной аггрегатор /Gazebo-apps/News_aggregator/News_aggregator/News_aggregator.csproj"
+            "F:\\Рабочий стол\\XamarinForm\\Gazebo-apps\\News_aggregator\\News_aggregator\\News_aggregator.csproj": {
+              "projectPath": "F:\\Рабочий стол\\XamarinForm\\Gazebo-apps\\News_aggregator\\News_aggregator\\News_aggregator.csproj"
             }
           }
         }

@@ -9,9 +9,7 @@
             <CollectionView.ItemTemplate>
                 <DataTemplate>
                     <StackLayout Orientation="Vertical">
-                        <Label Text="{Binding Title}" FontSize="20" TextColor="White" Padding="0,10"/>
-                        <Label Text="{Binding Info}" FontSize="20" TextColor="White" Padding="0,10"/>
-                        <Label Text="{Binding Date}" FontSize="20" TextColor="White" Padding="0,10"/>
+                        <Label Text="{Binding Text}" FontSize="20" TextColor="White" Padding="0,10"/>
                     </StackLayout>
                 </DataTemplate>
             </CollectionView.ItemTemplate>

@@ -7,9 +7,9 @@
       <dSYMSourcePathExists>false</dSYMSourcePathExists>
       <NoSymbolStrip>true</NoSymbolStrip>
       <dSYMInfoPlistRelativePath>News_aggregator.iOS.app.dSYM\Contents\Info.plist</dSYMInfoPlistRelativePath>
-      <SymbolFile>/Users/dmitriglusenko/Desktop/Developing/GitHub/Новостной аггрегатор /Gazebo-apps/News_aggregator/News_aggregator.iOS/obj/iPhoneSimulator/Debug/mtouch-symbols.list</SymbolFile>
+      <SymbolFile>\Users\dmitriglusenko\Library\Caches\Xamarin\mtbs\builds\News_aggregator.iOS\75422d43b14dea64e0a969778d3c35f6fa0f9be351d7aac71ba3e9ceda4bcb4a\obj\iPhoneSimulator\Debug\mtouch-symbols.list</SymbolFile>
       <DSymName>News_aggregator.iOS.app.dSYM</DSymName>
-      <SourceProjectPath>/Users/dmitriglusenko/Desktop/Developing/GitHub/Новостной аггрегатор /Gazebo-apps/News_aggregator/News_aggregator.iOS</SourceProjectPath>
+      <SourceProjectPath>F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.iOS</SourceProjectPath>
     </_PostProcessingItem>
   </ItemGroup>
 </Project>
