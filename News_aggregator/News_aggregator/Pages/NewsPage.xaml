@@ -4,15 +4,10 @@
              x:Class="News_aggregator.Pages.NewsPage"
              Title="News">
     
-    <StackLayout>
-        <CollectionView x:Name="collectionResourses" Margin="10">
-            <CollectionView.ItemTemplate>
-                <DataTemplate>
-                    <StackLayout Orientation="Vertical">
-                        <Label Text="{Binding Text}" FontSize="20" TextColor="White" Padding="0,10"/>
-                    </StackLayout>
-                </DataTemplate>
-            </CollectionView.ItemTemplate>
-        </CollectionView>
-    </StackLayout>
+    <ContentPage.Content>
+        <StackLayout x:Name="sl_listproperties" BackgroundColor="#212121" Padding="0,200">
+            <Label Text="" TextColor="White" FontSize="34" HorizontalOptions="Center" VerticalOptions="Center"/>
+        </StackLayout>
+    </ContentPage.Content>
+    
 </ContentPage>
