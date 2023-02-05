@@ -2,20 +2,21 @@
 using System.Net.Http;
 using System.Threading.Tasks;
 
-namespace Parser_html.Core
+namespace News_aggregator.Parser
 {
     internal class HtmlLoader
     {
         readonly HttpClient client;
         readonly string url;
+        //настройки передаются из бекенда страницы
         public HtmlLoader(IParserSettings settings)
         {
             client = new HttpClient();
-            url = $"{settings.BaseUrl}/";
+            url = $"{settings.BaseUrl}";
         }
+        //получчение кода страницы
         public async Task<string> GetSoureByPageId()
         {
-            //var currentUrl = url.Replace("{CurrentId}", id.ToString());
             var currentUrl = url;
             var response = await client.GetAsync(currentUrl);
             //исходный код страницы

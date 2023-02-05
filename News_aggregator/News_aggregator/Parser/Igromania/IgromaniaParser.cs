@@ -1,29 +1,31 @@
 ﻿using AngleSharp.Html.Dom;
-using Parser_html.Core;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Parser.Core.Habra
+namespace News_aggregator.Parser
 {
-    class IgromaniaParser : IParser<string[]>
+    class IgromaniaParser : IParser
     {
         //реализация метода интерфейса (для каждого ресурса своя реализация парсера)
-        public void Parse(IHtmlDocument document, ref List<string> titles_, ref List<string> info_, ref List<string> dates_)
+        public void Parse(IHtmlDocument document, ref List<string> titles_, ref List<string> info_, ref List<string> dates_, ref List<string> links_)
         {
             //дата публикации
-            var dates = document.GetElementsByClassName("aubli_date");
+            var dates = document.GetElementsByClassName("aubli_date").ToList();
+            //ссылка на публикации
+            var htmlElements = document.QuerySelectorAll("a").Where(item => item.ClassName != null && item.ClassName.Contains("aubli_name")).OfType<IHtmlAnchorElement>();
+            var links = htmlElements.Select(item => item.Href).ToList();
             //доп инфа
-            var info = document.GetElementsByClassName("aubli_desc");
+            var info = document.GetElementsByClassName("aubli_desc").ToList();
             //заголовок
-            var titles = document.QuerySelectorAll("a").Where(item => item.ClassName != null && item.ClassName.Contains("aubli_name"));
+            var titles = document.QuerySelectorAll("a").Where(item => item.ClassName != null && item.ClassName.Contains("aubli_name")).ToList();
             //
-            var locTitles = titles.ToList();
             //перебор всех элементов
-            for(int i = 0; i < titles.Count(); i++)
+            for (int i = 0; i < titles.Count(); i++)
             {
-                titles_.Add(locTitles[i].TextContent);
+                titles_.Add(titles[i].TextContent);
                 info_.Add(info[i].TextContent);
                 dates_.Add(dates[i].TextContent);
+                links_.Add(links[i]);
             }
         }
     }

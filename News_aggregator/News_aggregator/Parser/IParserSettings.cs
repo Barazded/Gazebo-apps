@@ -1,4 +1,4 @@
-﻿namespace Parser_html.Core
+﻿namespace News_aggregator.Parser
 {
     internal interface IParserSettings
     {

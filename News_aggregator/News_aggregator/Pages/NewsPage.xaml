@@ -5,11 +5,16 @@
              Title="News">
     
     <StackLayout>
-        <CollectionView x:Name="collectionResourses" Margin="10">
+        <CollectionView x:Name="collectionResourses" Margin="10" SelectionMode="Single" SelectionChanged="OnCardClick">
             <CollectionView.ItemTemplate>
                 <DataTemplate>
-                    <StackLayout Orientation="Vertical">
-                        <Label Text="{Binding Text}" FontSize="20" TextColor="White" Padding="0,10"/>
+                    <StackLayout Margin="5">
+                        <StackLayout Orientation="Vertical" Background="#424242">
+                            <Label Text="{Binding ID}" FontSize="10" TextColor="White" Margin="3" HorizontalOptions="StartAndExpand"/>
+                            <Label Text="{Binding Title}" FontSize="20" TextColor="White" Margin="3" HorizontalOptions="Start"/>
+                            <Label Text="{Binding Info}" FontSize="15" TextColor="White" Margin="3"/>
+                            <Label Text="{Binding Date}" FontSize="10" TextColor="White" Margin="3"/>
+                        </StackLayout>
                     </StackLayout>
                 </DataTemplate>
             </CollectionView.ItemTemplate>

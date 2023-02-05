@@ -1,6 +1,5 @@
-﻿using Parser_html.Core;
-
-namespace Parser.Core.Habra
+﻿
+namespace News_aggregator.Parser
 {
     class IgromaniaSettings : IParserSettings
     {
@@ -9,7 +8,7 @@ namespace Parser.Core.Habra
             StartPoint = start;
             EndPoint = end;
         }
-        public string BaseUrl { get; set; } = "https://www.igromania.ru/news";
+        public string BaseUrl { get; set; } = "https://www.igromania.ru/news/";
         public int StartPoint { get; set; }
         public int EndPoint { get; set; } = 5;
     }
