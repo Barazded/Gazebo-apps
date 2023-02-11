@@ -1,15 +1,27 @@
+<<<<<<< HEAD
 ﻿using News_aggregator.Parser;
 using News_aggregator.Parser.Investing;
 using News_aggregator.Models;
 using News_aggregator.Parser.RBC;
+=======
+﻿using System;
+>>>>>>> fa454874f7a0d5c451f4694a98173c86861cbec2
 using System.Collections.Generic;
-using Xamarin.Forms;
 using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using Xamarin.Forms;
+<<<<<<< HEAD
+using System.Linq;
+=======
+using Xamarin.Forms.Xaml;
+>>>>>>> fa454874f7a0d5c451f4694a98173c86861cbec2
 
 namespace News_aggregator.Pages
 {
     public partial class NewsPage : ContentPage
     {
+<<<<<<< HEAD
         private ParserWorker parser;
         private List<Card> cards = new List<Card>();
         private List<ResourseItem> resourses = new List<ResourseItem>();
@@ -89,6 +101,11 @@ namespace News_aggregator.Pages
         {
             //срабатывает при нажатии на элемент collectonView
             await DisplayAlert($"{(e.CurrentSelection.FirstOrDefault() as Card).Link}","","ok");
+=======
+        public NewsPage()
+        {
+            InitializeComponent();
+>>>>>>> fa454874f7a0d5c451f4694a98173c86861cbec2
         }
     }
 }

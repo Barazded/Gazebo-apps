@@ -4,6 +4,7 @@
              x:Class="News_aggregator.Pages.NewsPage"
              Title="News">
     
+<<<<<<< HEAD
     <StackLayout>
         <CollectionView x:Name="collectionResourses" Margin="10" SelectionMode="Single" SelectionChanged="OnCardClick">
             <CollectionView.ItemTemplate>
@@ -20,4 +21,12 @@
             </CollectionView.ItemTemplate>
         </CollectionView>
     </StackLayout>
+=======
+    <ContentPage.Content>
+        <StackLayout x:Name="sl_listproperties" BackgroundColor="#212121" Padding="0,200">
+            <Label Text="" TextColor="White" FontSize="34" HorizontalOptions="Center" VerticalOptions="Center"/>
+        </StackLayout>
+    </ContentPage.Content>
+    
+>>>>>>> fa454874f7a0d5c451f4694a98173c86861cbec2
 </ContentPage>
