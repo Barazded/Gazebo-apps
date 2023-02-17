@@ -33,17 +33,17 @@ namespace News_aggregator
             ResourseItem RBC = new ResourseItem();
             RBC.ID = 1;
             RBC.Text = "RBC(economic)";
-            RBC.UriResourse = "null";
+            RBC.NameItem = "RBC";
             //
             ResourseItem Igromania = new ResourseItem();
             Igromania.ID = 2;
             Igromania.Text = "Igromania(games)";
-            Igromania.UriResourse = "null";
+            Igromania.NameItem = "Igromania";
             //
             ResourseItem Investing = new ResourseItem();
             Investing.ID = 3;
             Investing.Text = "Investing(economic)";
-            Investing.UriResourse = "null";
+            Investing.NameItem = "Investing";
             //
             DataBase.SaveItemAsync(RBC);
             DataBase.SaveItemAsync(Igromania);

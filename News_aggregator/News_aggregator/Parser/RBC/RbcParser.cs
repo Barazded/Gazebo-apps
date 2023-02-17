@@ -3,7 +3,7 @@ using AngleSharp.Html.Dom;
 using System.Collections.Generic;
 using System.Text.RegularExpressions;
 
-namespace News_aggregator.Parser.RBC
+namespace News_aggregator.Parser
 {
     internal class RbcParser : IParser
     {

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace News_aggregator.Parser.Investing 
+namespace News_aggregator.Parser
 {
     class InvestingParser : IParser
     {

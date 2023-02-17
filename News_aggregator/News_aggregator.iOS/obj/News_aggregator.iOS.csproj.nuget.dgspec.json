@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\Рабочий стол\\News_aggregator+\\News_aggregator.iOS\\News_aggregator.iOS.csproj": {}
+    "F:\\Рабочий стол\\XamarinForm\\Gazebo-apps\\News_aggregator\\News_aggregator.iOS\\News_aggregator.iOS.csproj": {}
   },
   "projects": {
-    "F:\\Рабочий стол\\News_aggregator+\\News_aggregator.iOS\\News_aggregator.iOS.csproj": {
+    "F:\\Рабочий стол\\XamarinForm\\Gazebo-apps\\News_aggregator\\News_aggregator.iOS\\News_aggregator.iOS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Рабочий стол\\News_aggregator+\\News_aggregator.iOS\\News_aggregator.iOS.csproj",
+        "projectUniqueName": "F:\\Рабочий стол\\XamarinForm\\Gazebo-apps\\News_aggregator\\News_aggregator.iOS\\News_aggregator.iOS.csproj",
         "projectName": "News_aggregator.iOS",
-        "projectPath": "F:\\Рабочий стол\\News_aggregator+\\News_aggregator.iOS\\News_aggregator.iOS.csproj",
+        "projectPath": "F:\\Рабочий стол\\XamarinForm\\Gazebo-apps\\News_aggregator\\News_aggregator.iOS\\News_aggregator.iOS.csproj",
         "packagesPath": "C:\\Users\\Ivan\\.nuget\\packages\\",
-        "outputPath": "F:\\Рабочий стол\\News_aggregator+\\News_aggregator.iOS\\obj\\",
+        "outputPath": "F:\\Рабочий стол\\XamarinForm\\Gazebo-apps\\News_aggregator\\News_aggregator.iOS\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -32,8 +32,8 @@
         "frameworks": {
           "xamarinios10": {
             "projectReferences": {
-              "F:\\Рабочий стол\\News_aggregator+\\News_aggregator\\News_aggregator.csproj": {
-                "projectPath": "F:\\Рабочий стол\\News_aggregator+\\News_aggregator\\News_aggregator.csproj"
+              "F:\\Рабочий стол\\XamarinForm\\Gazebo-apps\\News_aggregator\\News_aggregator\\News_aggregator.csproj": {
+                "projectPath": "F:\\Рабочий стол\\XamarinForm\\Gazebo-apps\\News_aggregator\\News_aggregator\\News_aggregator.csproj"
               }
             }
           }
@@ -73,14 +73,14 @@
         }
       }
     },
-    "F:\\Рабочий стол\\News_aggregator+\\News_aggregator\\News_aggregator.csproj": {
+    "F:\\Рабочий стол\\XamarinForm\\Gazebo-apps\\News_aggregator\\News_aggregator\\News_aggregator.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Рабочий стол\\News_aggregator+\\News_aggregator\\News_aggregator.csproj",
+        "projectUniqueName": "F:\\Рабочий стол\\XamarinForm\\Gazebo-apps\\News_aggregator\\News_aggregator\\News_aggregator.csproj",
         "projectName": "News_aggregator",
-        "projectPath": "F:\\Рабочий стол\\News_aggregator+\\News_aggregator\\News_aggregator.csproj",
+        "projectPath": "F:\\Рабочий стол\\XamarinForm\\Gazebo-apps\\News_aggregator\\News_aggregator\\News_aggregator.csproj",
         "packagesPath": "C:\\Users\\Ivan\\.nuget\\packages\\",
-        "outputPath": "F:\\Рабочий стол\\News_aggregator+\\News_aggregator\\obj\\",
+        "outputPath": "F:\\Рабочий стол\\XamarinForm\\Gazebo-apps\\News_aggregator\\News_aggregator\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

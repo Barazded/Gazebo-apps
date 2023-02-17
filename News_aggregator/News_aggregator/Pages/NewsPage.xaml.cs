@@ -1,7 +1,5 @@
 ﻿using News_aggregator.Parser;
-using News_aggregator.Parser.Investing;
 using News_aggregator.Models;
-using News_aggregator.Parser.RBC;
 using System.Collections.Generic;
 using Xamarin.Forms;
 using System.Linq;
@@ -12,59 +10,70 @@ namespace News_aggregator.Pages
     {
         private ParserWorker parser;
         private List<Card> cards = new List<Card>();
-        private List<ResourseItem> resourses = new List<ResourseItem>();
-        //через этот класс должен прогонять список выбранных ресурсов
-        //при этом нет необходимости передавать списки в другие классы
+        private List<ResourseItem> resoursesBd = new List<ResourseItem>();
         //ParserWorker и HtmlLoader должны прогонять по одному ресурсу
-        //для хранения выбраных ресурсов
-        private List<string> selctedItems = new List<string>();
-        private List<IParser> selectedResoures = new List<IParser>();
-        private List<IParserSettings> selectedResouresSett = new List<IParserSettings>();
+        //для хранения имен выбраных ресурсов
+        private List<string> selctedItemsNames = new List<string>();
+        //кортежи всех ресурсов
+        private List<(IParserSettings settings, IParser parser)> resoursesTupleList = new List<(IParserSettings settings, IParser parser)>();
+        //кортежи выбранных ресурсов
+        private List<(IParserSettings settings, IParser parser)> selectedResoursesTupleList = new List<(IParserSettings settings, IParser parser)>();
         public NewsPage()
         {
             InitializeComponent();
+            collectionResourses.ItemsSource = null;
+            //инициализация всех ресурсов
+            resoursesTupleList = new List<(IParserSettings settings, IParser parser)>
+            {
+                (new InvestingSettings(0, 5), new InvestingParser()),
+                (new IgromaniaSettings(0, 5), new IgromaniaParser()),
+                (new RbcSettings(0, 5), new RbcParser())
+            };
         }
         protected async override void OnAppearing()
         {
+            collectionResourses.ItemsSource = null;
+            #region GetSelectedResourses
             //получение ресурсов из бд
-            resourses = await App.DataBase.GetItemsAsync();
-            for (int i = 0; i < resourses.Count; i++)
+            resoursesBd = await App.DataBase.GetItemsAsync();
+            //получение имен выбранных ресурсов
+            for (int i = 0; i < resoursesTupleList.Count; i++)
             {
-                if (resourses[i].isChecked)
-                    selctedItems.Add(resourses[i].NameItem);
-                    
+                if (resoursesBd[i].isChecked)
+                    selctedItemsNames.Add(resoursesBd[i].NameItem);
             }
-            await DisplayAlert("Выбранные ресурсы", $"{selctedItems.Count}", "ok");
-            //нужно передовать список экземпляров(пока это костыль)
-            #region InitSelectRes
-            selectedResoures.Add(new InvestingParser());
-            selectedResoures.Add(new IgromaniaParser());
-            selectedResoures.Add(new RbcParser());
-            selectedResouresSett.Add(new InvestingSettings(0, 5));
-            selectedResouresSett.Add(new IgromaniaSettings(0, 5));
-            selectedResouresSett.Add(new RbcSettings(0,5));
+            //добавление выбранных ресурсов
+            for (int i = 0; i < selctedItemsNames.Count; i++)
+            {
+                for (int z = 0; z < resoursesTupleList.Count; z++)
+                    if (selctedItemsNames[i] == resoursesTupleList[z].settings.Name)
+                        selectedResoursesTupleList.Add(resoursesTupleList[z]);
+            }
             #endregion
             //
-            for (int i = 0; i < selectedResoures.Count; i++)
+            for (int i = 0; i < selectedResoursesTupleList.Count; i++)
             {
                 //Свойство Settings из ParserWorker (данные для html loader)
-                parser = new ParserWorker(selectedResoures[i]);
-                parser.Settings = selectedResouresSett[i];
+                parser = new ParserWorker(selectedResoursesTupleList[i].parser);
+                parser.Settings = selectedResoursesTupleList[i].settings;
                 parser.OnNewData += Parser_OnNewData;
                 parser.Start();
             }
         }
         protected override void OnDisappearing()
         {
-            //нужно для атоматического обновления
+            collectionResourses.ItemsSource = null;
             cards.Clear();
+            selectedResoursesTupleList.Clear();
+            selctedItemsNames.Clear();
         }
         //реализация события
-        private async void Parser_OnNewData(object sender, List<string> titles, List<string> info, List<string> dates, List<string> links)
+        private void Parser_OnNewData(object sender, List<string> titles, List<string> info, List<string> dates, List<string> links)
         {
+            collectionResourses.ItemsSource = null;
             var endPoint = parser.Settings.EndPoint;
             //костыль
-            if (cards.Count < 15)
+            if (cards.Count < selectedResoursesTupleList.Count * 5)
             {
                 for (int i = 0; i < endPoint; i++)
                 {
@@ -80,7 +89,7 @@ namespace News_aggregator.Pages
                     #endregion
                     cards.Add(newCard);
                 }
-                await DisplayAlert("Количество карточек", $"{cards.Count}", "ok");
+                //здесь нужно поставить ожидание
                 collectionResourses.ItemsSource = cards;
             }
         }

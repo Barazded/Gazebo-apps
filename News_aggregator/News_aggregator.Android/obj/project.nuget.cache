@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "QbryejxM6Hek6HW6Db4lxh0TohAe/d6hTTvXdB0JNIBX0YMLTW0ee+WTY/OsoAWC/ce3n7mdKVmUPPG0Kwkj5w==",
+  "dgSpecHash": "cyoEydWAKWe3n53wTXEB8MWplfNvmXclgVtSbxvauPGXhnMIiLUc6Q4LchVOwpXAZUAfn52e3i58JaHmsVYOwQ==",
   "success": true,
-  "projectFilePath": "F:\\Рабочий стол\\News_aggregator+\\News_aggregator.Android\\News_aggregator.Android.csproj",
+  "projectFilePath": "F:\\Рабочий стол\\XamarinForm\\Gazebo-apps\\News_aggregator\\News_aggregator.Android\\News_aggregator.Android.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Ivan\\.nuget\\packages\\anglesharp\\1.0.1\\anglesharp.1.0.1.nupkg.sha512",
     "C:\\Users\\Ivan\\.nuget\\packages\\microsoft.netcore.universalwindowsplatform\\6.2.12\\microsoft.netcore.universalwindowsplatform.6.2.12.nupkg.sha512",

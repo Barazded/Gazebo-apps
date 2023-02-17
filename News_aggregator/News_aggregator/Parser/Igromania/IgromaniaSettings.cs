@@ -8,6 +8,7 @@ namespace News_aggregator.Parser
             StartPoint = start;
             EndPoint = end;
         }
+        public string Name { get; set; } = "Igromania";
         public string BaseUrl { get; set; } = "https://www.igromania.ru/news/";
         public int StartPoint { get; set; }
         public int EndPoint { get; set; } = 5;

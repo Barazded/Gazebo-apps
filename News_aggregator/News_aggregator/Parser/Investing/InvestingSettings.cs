@@ -1,5 +1,5 @@
 ﻿
-namespace News_aggregator.Parser.Investing
+namespace News_aggregator.Parser
 {
     internal class InvestingSettings : IParserSettings
     {
@@ -8,6 +8,7 @@ namespace News_aggregator.Parser.Investing
             StartPoint = start;
             EndPoint = end;
         }
+        public string Name { get; set; } = "Investing";
         public string BaseUrl { get; set; } = "https://ru.investing.com/news/";
         public int StartPoint { get; set; }
         public int EndPoint { get; set; } = 5;

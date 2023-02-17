@@ -1271,11 +1271,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\Рабочий стол\\News_aggregator+\\News_aggregator\\News_aggregator.csproj",
+      "projectUniqueName": "F:\\Рабочий стол\\XamarinForm\\Gazebo-apps\\News_aggregator\\News_aggregator\\News_aggregator.csproj",
       "projectName": "News_aggregator",
-      "projectPath": "F:\\Рабочий стол\\News_aggregator+\\News_aggregator\\News_aggregator.csproj",
+      "projectPath": "F:\\Рабочий стол\\XamarinForm\\Gazebo-apps\\News_aggregator\\News_aggregator\\News_aggregator.csproj",
       "packagesPath": "C:\\Users\\Ivan\\.nuget\\packages\\",
-      "outputPath": "F:\\Рабочий стол\\News_aggregator+\\News_aggregator\\obj\\",
+      "outputPath": "F:\\Рабочий стол\\XamarinForm\\Gazebo-apps\\News_aggregator\\News_aggregator\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
