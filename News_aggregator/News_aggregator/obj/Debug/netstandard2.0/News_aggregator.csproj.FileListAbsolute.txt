@@ -51,3 +51,4 @@ F:\Рабочий стол\News_aggregator+\News_aggregator\bin\Debug\netstandar
 F:\Рабочий стол\News_aggregator+\News_aggregator\bin\Debug\netstandard2.0\News_aggregator.pdb
 F:\Рабочий стол\News_aggregator+\News_aggregator\obj\Debug\netstandard2.0\XamlC.stamp
 F:\Рабочий стол\News_aggregator+\News_aggregator\obj\Debug\netstandard2.0\ref\News_aggregator.dll
+F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator\obj\Debug\netstandard2.0\Pages\ViewPage.xaml.g.cs

@@ -8,7 +8,7 @@ namespace News_aggregator.Parser
     internal class RbcParser : IParser
     {
         //реализация метода интерфейса (для каждого ресурса своя реализация парсера)
-        public void Parse(IHtmlDocument document, ref List<string> titles_, ref List<string> info_, ref List<string> dates_, ref List<string> links_)
+        public void Parse(IHtmlDocument document, int viewStandart, ref List<string> titles_, ref List<string> info_, ref List<string> dates_, ref List<string> links_)
         {
             //заголовок
             var titles = document.QuerySelectorAll("span").Where(item => item.ClassName != null && item.ClassName.Contains("q-item__title js-rm-central-column-item-text")).ToList();
@@ -21,7 +21,7 @@ namespace News_aggregator.Parser
             var dates = document.QuerySelectorAll("span").Where(item => item.ClassName != null && item.ClassName.Contains("q-item__date")).ToList();
             //
             //перебор всех элементов
-            for (int i = 0; i < 5; i++)
+            for (int i = 0; i < viewStandart; i++)
             {
                 var locTitle = titles[i].TextContent.Trim();
                 titles_.Add(locTitle);

@@ -15,6 +15,6 @@
                 </DataTemplate>
             </CollectionView.ItemTemplate>
         </CollectionView>
-        <Button VerticalOptions="End" Text="APPLY" FontSize="20" CornerRadius="4" Margin="15" TextColor="White" BackgroundColor="#424242" Clicked="OnApplyButtonClicked"/>
+        <Button VerticalOptions="EndAndExpand" Text="APPLY" FontSize="20" CornerRadius="4" Margin="15" TextColor="White" BackgroundColor="#424242" Clicked="OnApplyButtonClicked"/>
     </StackLayout>
 </ContentPage>

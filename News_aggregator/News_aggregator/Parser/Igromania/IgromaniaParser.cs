@@ -7,7 +7,7 @@ namespace News_aggregator.Parser
     class IgromaniaParser : IParser
     {
         //реализация метода интерфейса (для каждого ресурса своя реализация парсера)
-        public void Parse(IHtmlDocument document, ref List<string> titles_, ref List<string> info_, ref List<string> dates_, ref List<string> links_)
+        public void Parse(IHtmlDocument document, int viewStandart, ref List<string> titles_, ref List<string> info_, ref List<string> dates_, ref List<string> links_)
         {
             //дата публикации
             var dates = document.GetElementsByClassName("aubli_date").ToList();
@@ -20,12 +20,12 @@ namespace News_aggregator.Parser
             var titles = document.QuerySelectorAll("a").Where(item => item.ClassName != null && item.ClassName.Contains("aubli_name")).ToList();
             //
             //перебор всех элементов
-            for (int i = 0; i < titles.Count(); i++)
+            for (int i = 0; i < viewStandart; i++)
             {
                 titles_.Add(titles[i].TextContent);
                 info_.Add(info[i].TextContent);
                 dates_.Add(dates[i].TextContent);
-                links_.Add(links[i]);
+                links_.Add(links[i].Replace("about:///", "https://www.igromania.ru/"));
             }
         }
     }

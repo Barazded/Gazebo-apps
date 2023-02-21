@@ -1,19 +1,20 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="News_aggregator.Pages.NewsPage"
              Title="News">
-    
-    <StackLayout>
-        <CollectionView x:Name="collectionResourses" Margin="10" SelectionMode="Single" SelectionChanged="OnCardClick">
+
+    <StackLayout Background="#212121">
+        <CollectionView x:Name="collectionResourses"  Margin="5" SelectionMode="Single" SelectionChanged="OnCardClick">
             <CollectionView.ItemTemplate>
                 <DataTemplate>
                     <StackLayout Margin="5">
-                        <StackLayout Orientation="Vertical" Background="#424242">
-                            <Label Text="{Binding ID}" FontSize="10" TextColor="White" Margin="3" HorizontalOptions="StartAndExpand"/>
-                            <Label Text="{Binding Title}" FontSize="20" TextColor="White" Margin="3" HorizontalOptions="Start"/>
-                            <Label Text="{Binding Info}" FontSize="15" TextColor="White" Margin="3"/>
-                            <Label Text="{Binding Date}" FontSize="10" TextColor="White" Margin="3"/>
+                        <StackLayout Margin="5" VerticalOptions="FillAndExpand" Background="#323232" >
+                            <Label Text="{Binding ID}" FontSize="8" TextColor="WhiteSmoke" Margin="1" HorizontalOptions="StartAndExpand"/>
+                            <Label Text="{Binding Title}" FontSize="20" TextColor="WhiteSmoke" Margin="3" />
+                            <Label Text="{Binding Info}" FontSize="15" TextColor="WhiteSmoke" Margin="3"/>
+                            <Label Text="{Binding Date}" FontSize="10" TextColor="WhiteSmoke" Margin="3"/>
+                            <Label Text="{Binding NameResourse}" FontSize="10" TextColor="WhiteSmoke" Margin="3"/>
                         </StackLayout>
                     </StackLayout>
                 </DataTemplate>

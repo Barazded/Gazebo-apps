@@ -10,7 +10,10 @@ namespace News_aggregator.Pages
     {
         private ParserWorker parser;
         private List<Card> cards = new List<Card>();
+        private List<List<Card>> listListCards = new List<List<Card>>();
         private List<ResourseItem> resoursesBd = new List<ResourseItem>();
+        //количество катрочек которое будут показанно пользователю(планируются 6 8 10 12 стандарты; будет выбиратся в настройках)
+        private int viewStandart = 6;
         //ParserWorker и HtmlLoader должны прогонять по одному ресурсу
         //для хранения имен выбраных ресурсов
         private List<string> selctedItemsNames = new List<string>();
@@ -25,13 +28,14 @@ namespace News_aggregator.Pages
             //инициализация всех ресурсов
             resoursesTupleList = new List<(IParserSettings settings, IParser parser)>
             {
-                (new InvestingSettings(0, 5), new InvestingParser()),
-                (new IgromaniaSettings(0, 5), new IgromaniaParser()),
-                (new RbcSettings(0, 5), new RbcParser())
+                (new InvestingSettings(viewStandart), new InvestingParser()),
+                (new IgromaniaSettings(viewStandart), new IgromaniaParser()),
+                (new RbcSettings(viewStandart), new RbcParser())
             };
         }
         protected async override void OnAppearing()
         {
+            base.OnAppearing();
             collectionResourses.ItemsSource = null;
             #region GetSelectedResourses
             //получение ресурсов из бд
@@ -62,19 +66,24 @@ namespace News_aggregator.Pages
         }
         protected override void OnDisappearing()
         {
+            base.OnDisappearing();
             collectionResourses.ItemsSource = null;
+            listListCards.Clear();
             cards.Clear();
             selectedResoursesTupleList.Clear();
             selctedItemsNames.Clear();
         }
         //реализация события
-        private void Parser_OnNewData(object sender, List<string> titles, List<string> info, List<string> dates, List<string> links)
+        private void Parser_OnNewData(object sender, int viewStandert, List<string> titles, List<string> info, List<string> dates, List<string> links)
         {
             collectionResourses.ItemsSource = null;
-            var endPoint = parser.Settings.EndPoint;
+            listListCards.Clear();
+            //ParserWorker нужно получать из объекта который вызвал событие
+            var endPoint = (sender as ParserWorker).Settings.EndPoint;
             //костыль
-            if (cards.Count < selectedResoursesTupleList.Count * 5)
+            if (cards.Count < selectedResoursesTupleList.Count * endPoint)
             {
+                //в РБК есть ограничение
                 for (int i = 0; i < endPoint; i++)
                 {
                     var newCard = new Card();
@@ -82,6 +91,8 @@ namespace News_aggregator.Pages
                     newCard.ID = cards.Count + 1;
                     newCard.Title = titles[i];
                     newCard.Link = links[i];
+                    //получение названия ресурса
+                    newCard.NameResourse = (sender as ParserWorker).Settings.Name;
                     if (info.Count != 0)
                         newCard.Info = info[i];
                     if (dates.Count != 0)
@@ -89,15 +100,49 @@ namespace News_aggregator.Pages
                     #endregion
                     cards.Add(newCard);
                 }
-                //здесь нужно поставить ожидание
-                collectionResourses.ItemsSource = cards;
             }
+            //если последный ресурс был распаршен:
+            if (cards.Count > endPoint && cards.Count/ endPoint == selectedResoursesTupleList.Count)
+            {
+                //выделение памяти
+                for (int i = 0; i < endPoint / 2; i++)
+                    listListCards.Add(new List<Card>());
+                //потоки(в какой поток попадет карточка)
+                int counter = 0;
+                int slice = 2;
+                int part = slice;
+                for (int i = 0; i < cards.Count; i++)
+                {
+                    if (part > 0)
+                    {
+                        listListCards[counter].Add(cards[i]);
+                        part--;
+                        if (part == 0)
+                        {
+                            part = slice;
+                            if (counter == (endPoint / 2) - 1)
+                                counter = 0;
+                            else
+                                counter++;
+                        }
+                    }
+                }
+                var newCards = new List<Card>();
+                //выбор данных из двумерного списка
+                for (int i = 0; i < listListCards.Count; i++)
+                {
+                    for (int x = 0; x < listListCards[i].Count; x++)
+                        newCards.Add(listListCards[i][x]);
+                }
+                cards = newCards;
+            }
+            collectionResourses.ItemsSource = cards;
         }
         //вызывается при нажатии на элементъ collectionResourses
-        async void OnCardClick(object sender, SelectionChangedEventArgs e)
+        private async void OnCardClick(object sender, SelectionChangedEventArgs e)
         {
             //срабатывает при нажатии на элемент collectonView
-            await DisplayAlert($"{(e.CurrentSelection.FirstOrDefault() as Card).Link}","","ok");
+            await Navigation.PushAsync(new ViewPage(e.CurrentSelection.FirstOrDefault() as Card));
         }
     }
 }

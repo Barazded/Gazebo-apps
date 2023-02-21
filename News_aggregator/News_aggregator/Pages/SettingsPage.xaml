@@ -8,13 +8,13 @@
         <StackLayout x:Name="sl_listproperties" BackgroundColor="#212121" Padding="0,20">
 
             <Button x:Name="profileButt" Clicked="AverageButt_Clicked" Text="Profile" TextColor="#E0E0E0"  FontSize="15"
-                FontAttributes="Bold" BackgroundColor="#424242" CornerRadius="4" Margin="5"/>
+                FontAttributes="Bold" BackgroundColor="#323232" CornerRadius="4" Margin="5"/>
 
             <Button x:Name="settingButt" Clicked="GeneralSettingButt_Clicked" Text="General Setting" TextColor="#E0E0E0"  FontSize="15"
-            FontAttributes="Bold" BackgroundColor="#424242" CornerRadius="4" Margin="5"/>
+            FontAttributes="Bold" BackgroundColor="#323232" CornerRadius="4" Margin="5"/>
 
             <Button x:Name="ResoursePage" Clicked="ResourseButt_Clicked" Text="Resourse" TextColor="#E0E0E0"  FontSize="15"
-            FontAttributes="Bold" BackgroundColor="#424242" CornerRadius="4" Margin="5"/>
+            FontAttributes="Bold" BackgroundColor="#323232" CornerRadius="4" Margin="5"/>
 
         </StackLayout>
 

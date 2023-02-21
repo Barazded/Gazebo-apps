@@ -5,15 +5,16 @@
              xmlns:pages="clr-namespace:News_aggregator.Pages"
              BarTextColor="White"
              SelectedTabColor="#673AB7"
-             UnselectedTabColor="#9E9E9E">
-    
-    <NavigationPage Title="Settings"   BarBackgroundColor="#111111" BarTextColor="White" BackgroundColor="#111111" IconImageSource="setting_icon.png" Padding="0,10">
+             UnselectedTabColor="#9E9E9E"
+             BarBackgroundColor="#181818">
+
+    <NavigationPage Title="Settings"   BarBackgroundColor="#111111" BackgroundColor="#111111" BarTextColor="White" IconImageSource="setting_icon.png" Padding="0,10">
         <x:Arguments>
             <pages:SettingsPage/>
         </x:Arguments>
     </NavigationPage>
-    
-    <NavigationPage Title="News" BarBackgroundColor="#111111" BarTextColor="White" BackgroundColor="#111111" IconImageSource="note_icon.png" Padding="0,10">
+
+    <NavigationPage Title="News" BarBackgroundColor="#111111" BackgroundColor="#111111" BarTextColor="White" IconImageSource="note_icon.png" Padding="0,10">
         <x:Arguments>
             <pages:NewsPage/>
         </x:Arguments>

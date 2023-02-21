@@ -30,7 +30,7 @@ namespace News_aggregator.Parser
         }
         #endregion
 
-        public event Action<object, List<string>, List<string>, List<string>, List<string> > OnNewData;
+        public event Action<object, int, List<string>, List<string>, List<string>, List<string> > OnNewData;
         //должен получать список
         public ParserWorker(IParser parser)
         {
@@ -45,6 +45,7 @@ namespace News_aggregator.Parser
         //Settings передаются через страницу
         private async void Worker()
         {
+            int viewStandart = 6;
             var titles = new List<string>();
             var info = new List<string>();
             var dates = new List<string>();
@@ -54,9 +55,9 @@ namespace News_aggregator.Parser
             var domParser = new HtmlParser();
             var document = await domParser.ParseDocumentAsync(source);
             //
-            parser.Parse(document, ref titles, ref info, ref dates, ref links);
+            parser.Parse(document, viewStandart, ref titles, ref info, ref dates, ref links);
             //вызов события
-            OnNewData.Invoke(this, titles, info, dates, links);
+            OnNewData.Invoke(this, viewStandart, titles, info, dates, links);
         }
     }
 }
