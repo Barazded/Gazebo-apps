@@ -5,6 +5,17 @@
              Title="Resourses" 
              BackgroundColor="#212121">
     <StackLayout>
+        <StackLayout Margin="10">
+            <Label Text="Выбирите стандарт:" FontSize="20" TextColor="WhiteSmoke"/>
+            <Picker x:Name="pickerStandarts" TextColor="WhiteSmoke" TitleColor="White"  SelectedIndexChanged="OnChangeSelectItem">
+                <Picker.Items>
+                    <x:String>6</x:String>
+                    <x:String>8</x:String>
+                    <x:String>10</x:String>
+                    <x:String>12</x:String>
+                </Picker.Items>
+            </Picker>
+        </StackLayout>
         <CollectionView x:Name="collectionView" Margin="10">
             <CollectionView.ItemTemplate >
                 <DataTemplate>

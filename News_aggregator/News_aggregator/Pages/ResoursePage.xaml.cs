@@ -1,7 +1,7 @@
-﻿using System;
-using News_aggregator.Models;
-using Xamarin.Forms;
+﻿using News_aggregator.Models;
+using System;
 using System.Collections.Generic;
+using Xamarin.Forms;
 
 namespace News_aggregator.Pages
 {
@@ -11,12 +11,16 @@ namespace News_aggregator.Pages
         private List<ResourseItem> resourses = new List<ResourseItem>();
         //для сохранение в бд
         private List<ResourseItem> resoursesForSave = new List<ResourseItem>();
+        //количество катрочек которое будут показанно пользователю(планируются 6 8 10 12 стандарты; будет выбиратся в настройках)
         public ResoursePage()
         {
             InitializeComponent();
         }
-        protected override async void OnAppearing()
+        protected async override void OnAppearing()
         {
+            base.OnAppearing();
+            //выгрузка стандарта из локальных данных устройства
+            pickerStandarts.SelectedIndex = (int)Application.Current.Properties["pickerInx"];
             //спавн объектов
             if (collectionView.ItemsSource == null)
             {
@@ -24,10 +28,10 @@ namespace News_aggregator.Pages
                 collectionView.ItemsSource = await App.DataBase.GetItemsAsync();
                 resourses = await App.DataBase.GetItemsAsync();
             }
-            base.OnAppearing();
         }
         protected async override void OnDisappearing()
         {
+            base.OnDisappearing();
             resoursesForSave = await App.DataBase.GetItemsAsync();
             await DisplayAlert("Сохранение", "Данные изменены", "ok");
             //сохранение изменений
@@ -35,7 +39,6 @@ namespace News_aggregator.Pages
             {
                 await App.DataBase.SaveItemAsync(resoursesForSave[i]);
             }
-            base.OnDisappearing();
         }
         private async void CheckedCheckBox(object sender, CheckedChangedEventArgs e)
         {
@@ -43,7 +46,6 @@ namespace News_aggregator.Pages
             CheckBox box = (sender as CheckBox);
             StackLayout sl = (StackLayout)box.Parent;
             Label label = (Label)sl.Children[1];
-
             //изсключение ненужных исполнений
             if (label.Text != null)
             {
@@ -63,10 +65,15 @@ namespace News_aggregator.Pages
             for (int i = 0; i < resourses_.Count; i++)
             {
                 if (resourses_[i].Text == name_)
-                {
                     item = resourses_[i];
-                }
             }
+        }
+        private async void OnChangeSelectItem(object sender, EventArgs e)
+        {
+            //запись новых настроек в локальные файлы
+            Application.Current.Properties["pickerInx"] = pickerStandarts.SelectedIndex;
+            Application.Current.Properties["curentStandart"] = pickerStandarts.Items[pickerStandarts.SelectedIndex];
+            await Application.Current.SavePropertiesAsync();
         }
     }
 }

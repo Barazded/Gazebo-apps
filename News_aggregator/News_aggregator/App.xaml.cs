@@ -9,6 +9,7 @@ namespace News_aggregator
     public partial class App : Application
     {
         public static ResoursesDataBase database;
+        
         //доступен из любой страницы(свойство)
         public static ResoursesDataBase DataBase
         {
@@ -26,36 +27,42 @@ namespace News_aggregator
         {
             InitializeComponent();
             MainPage = new CustomTabbedPage();
+            //если приложение открылось в первый раз
+            if (!Current.Properties.ContainsKey("curentStandart"))
+            {
+                Current.Properties["curentStandart"] = 6;
+            }
+            if (!Current.Properties.ContainsKey("pickerInx"))
+            {
+                Current.Properties["pickerInx"] = 0;
+            }
+            Current.SavePropertiesAsync();
         }
 
         protected override void OnStart()
         {
-            ResourseItem RBC = new ResourseItem();
-            RBC.ID = 1;
-            RBC.Text = "RBC(economic)";
-            RBC.NameItem = "RBC";
-            //
-            ResourseItem Igromania = new ResourseItem();
-            Igromania.ID = 2;
-            Igromania.Text = "Igromania(games)";
-            Igromania.NameItem = "Igromania";
-            //
-            ResourseItem Investing = new ResourseItem();
-            Investing.ID = 3;
-            Investing.Text = "Investing(economic)";
-            Investing.NameItem = "Investing";
-            //
+            //инициализация доступных ресурсов
+            ResourseItem RBC = new ResourseItem
+            {
+                ID = 1,
+                Text = "RBC(economic)",
+                NameItem = "RBC"
+            };
+            ResourseItem Igromania = new ResourseItem
+            {
+                ID = 2,
+                Text = "Igromania(games)",
+                NameItem = "Igromania"
+            };
+            ResourseItem Investing = new ResourseItem
+            {
+                ID = 3,
+                Text = "Investing(economic)",
+                NameItem = "Investing"
+            };
             DataBase.SaveItemAsync(RBC);
             DataBase.SaveItemAsync(Igromania);
             DataBase.SaveItemAsync(Investing);
-        }
-
-        protected override void OnSleep()
-        {
-        }
-
-        protected override void OnResume()
-        {
         }
     }
 }

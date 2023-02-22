@@ -1,8 +1,8 @@
-﻿using News_aggregator.Parser;
-using News_aggregator.Models;
+﻿using News_aggregator.Models;
+using News_aggregator.Parser;
 using System.Collections.Generic;
-using Xamarin.Forms;
 using System.Linq;
+using Xamarin.Forms;
 
 namespace News_aggregator.Pages
 {
@@ -12,8 +12,6 @@ namespace News_aggregator.Pages
         private List<Card> cards = new List<Card>();
         private List<List<Card>> listListCards = new List<List<Card>>();
         private List<ResourseItem> resoursesBd = new List<ResourseItem>();
-        //количество катрочек которое будут показанно пользователю(планируются 6 8 10 12 стандарты; будет выбиратся в настройках)
-        private int viewStandart = 6;
         //ParserWorker и HtmlLoader должны прогонять по одному ресурсу
         //для хранения имен выбраных ресурсов
         private List<string> selctedItemsNames = new List<string>();
@@ -28,16 +26,16 @@ namespace News_aggregator.Pages
             //инициализация всех ресурсов
             resoursesTupleList = new List<(IParserSettings settings, IParser parser)>
             {
-                (new InvestingSettings(viewStandart), new InvestingParser()),
-                (new IgromaniaSettings(viewStandart), new IgromaniaParser()),
-                (new RbcSettings(viewStandart), new RbcParser())
+                (new InvestingSettings(), new InvestingParser()),
+                (new IgromaniaSettings(), new IgromaniaParser()),
+                (new RbcSettings(), new RbcParser())
             };
         }
         protected async override void OnAppearing()
         {
             base.OnAppearing();
             collectionResourses.ItemsSource = null;
-            #region GetSelectedResourses
+            #region Get Selected Resourses
             //получение ресурсов из бд
             resoursesBd = await App.DataBase.GetItemsAsync();
             //получение имен выбранных ресурсов
@@ -74,17 +72,16 @@ namespace News_aggregator.Pages
             selctedItemsNames.Clear();
         }
         //реализация события
-        private void Parser_OnNewData(object sender, int viewStandert, List<string> titles, List<string> info, List<string> dates, List<string> links)
+        private void Parser_OnNewData(object sender, List<string> titles, List<string> info, List<string> dates, List<string> links)
         {
             collectionResourses.ItemsSource = null;
             listListCards.Clear();
-            //ParserWorker нужно получать из объекта который вызвал событие
-            var endPoint = (sender as ParserWorker).Settings.EndPoint;
-            //костыль
-            if (cards.Count < selectedResoursesTupleList.Count * endPoint)
+            //получение стандарта вывода из локальных файлов приложения
+            var viewStandart = int.Parse((string)Application.Current.Properties["curentStandart"]);
+            //
+            if (cards.Count < selectedResoursesTupleList.Count * viewStandart)
             {
-                //в РБК есть ограничение
-                for (int i = 0; i < endPoint; i++)
+                for (int i = 0; i < viewStandart; i++)
                 {
                     var newCard = new Card();
                     #region Get Properties
@@ -101,15 +98,17 @@ namespace News_aggregator.Pages
                     cards.Add(newCard);
                 }
             }
-            //если последный ресурс был распаршен:
-            if (cards.Count > endPoint && cards.Count/ endPoint == selectedResoursesTupleList.Count)
+            //если последный ресурс был распаршен запускается сортировка
+            if (cards.Count > viewStandart && cards.Count/viewStandart == selectedResoursesTupleList.Count)
             {
                 //выделение памяти
-                for (int i = 0; i < endPoint / 2; i++)
+                for (int i = 0; i < viewStandart / 2; i++)
                     listListCards.Add(new List<Card>());
                 //потоки(в какой поток попадет карточка)
                 int counter = 0;
+                //отрезки
                 int slice = 2;
+                //для вычета
                 int part = slice;
                 for (int i = 0; i < cards.Count; i++)
                 {
@@ -120,7 +119,7 @@ namespace News_aggregator.Pages
                         if (part == 0)
                         {
                             part = slice;
-                            if (counter == (endPoint / 2) - 1)
+                            if (counter == (viewStandart / 2) - 1)
                                 counter = 0;
                             else
                                 counter++;

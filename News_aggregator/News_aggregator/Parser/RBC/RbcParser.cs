@@ -2,14 +2,16 @@
 using AngleSharp.Html.Dom;
 using System.Collections.Generic;
 using System.Text.RegularExpressions;
+using Xamarin.Forms;
 
 namespace News_aggregator.Parser
 {
     internal class RbcParser : IParser
     {
         //реализация метода интерфейса (для каждого ресурса своя реализация парсера)
-        public void Parse(IHtmlDocument document, int viewStandart, ref List<string> titles_, ref List<string> info_, ref List<string> dates_, ref List<string> links_)
+        public void Parse(IHtmlDocument document, ref List<string> titles_, ref List<string> info_, ref List<string> dates_, ref List<string> links_)
         {
+            int viewStandart = int.Parse((string)Application.Current.Properties["curentStandart"]);
             //заголовок
             var titles = document.QuerySelectorAll("span").Where(item => item.ClassName != null && item.ClassName.Contains("q-item__title js-rm-central-column-item-text")).ToList();
             //ссылка на публикации
