@@ -3,6 +3,7 @@ using News_aggregator.Parser;
 using System.Collections.Generic;
 using System.Linq;
 using Xamarin.Forms;
+using System;
 
 namespace News_aggregator.Pages
 {
@@ -34,6 +35,10 @@ namespace News_aggregator.Pages
         protected async override void OnAppearing()
         {
             base.OnAppearing();
+            if (!Application.Current.Properties.ContainsKey("filterInx"))
+                pickerFilter.SelectedIndex = 0;
+            else
+                pickerFilter.SelectedIndex = (int)Application.Current.Properties["filterInx"];
             collectionResourses.ItemsSource = null;
             #region Get Selected Resourses
             //получение ресурсов из бд
@@ -56,8 +61,10 @@ namespace News_aggregator.Pages
             for (int i = 0; i < selectedResoursesTupleList.Count; i++)
             {
                 //Свойство Settings из ParserWorker (данные для html loader)
-                parser = new ParserWorker(selectedResoursesTupleList[i].parser);
-                parser.Settings = selectedResoursesTupleList[i].settings;
+                parser = new ParserWorker(selectedResoursesTupleList[i].parser)
+                {
+                    Settings = selectedResoursesTupleList[i].settings
+                };
                 parser.OnNewData += Parser_OnNewData;
                 parser.Start();
             }
@@ -77,8 +84,12 @@ namespace News_aggregator.Pages
             collectionResourses.ItemsSource = null;
             listListCards.Clear();
             //получение стандарта вывода из локальных файлов приложения
-            var viewStandart = int.Parse((string)Application.Current.Properties["curentStandart"]);
-            //
+            int viewStandart = int.Parse((string)Application.Current.Properties["curentStandart"]);
+            //получение настроек фильтра
+            string currentFilter = (string)Application.Current.Properties["currentFilter"];
+            List<Card> filterCards = new List<Card>();
+            var settings = (sender as ParserWorker).Settings;
+            //создание карточек
             if (cards.Count < selectedResoursesTupleList.Count * viewStandart)
             {
                 for (int i = 0; i < viewStandart; i++)
@@ -88,6 +99,7 @@ namespace News_aggregator.Pages
                     newCard.ID = cards.Count + 1;
                     newCard.Title = titles[i];
                     newCard.Link = links[i];
+                    newCard.Type = settings.Type;
                     //получение названия ресурса
                     newCard.NameResourse = (sender as ParserWorker).Settings.Name;
                     if (info.Count != 0)
@@ -98,14 +110,14 @@ namespace News_aggregator.Pages
                     cards.Add(newCard);
                 }
             }
-            //если последный ресурс был распаршен запускается сортировка
+            //если последный ресурс был распаршен запускается сортировка и фильтровка
             if (cards.Count > viewStandart && cards.Count/viewStandart == selectedResoursesTupleList.Count)
             {
                 //выделение памяти
                 for (int i = 0; i < viewStandart / 2; i++)
                     listListCards.Add(new List<Card>());
                 //потоки(в какой поток попадет карточка)
-                int counter = 0;
+                int flow = 0;
                 //отрезки
                 int slice = 2;
                 //для вычета
@@ -114,15 +126,15 @@ namespace News_aggregator.Pages
                 {
                     if (part > 0)
                     {
-                        listListCards[counter].Add(cards[i]);
+                        listListCards[flow].Add(cards[i]);
                         part--;
                         if (part == 0)
                         {
                             part = slice;
-                            if (counter == (viewStandart / 2) - 1)
-                                counter = 0;
+                            if (flow == (viewStandart / 2) - 1)
+                                flow = 0;
                             else
-                                counter++;
+                                flow++;
                         }
                     }
                 }
@@ -135,13 +147,43 @@ namespace News_aggregator.Pages
                 }
                 cards = newCards;
             }
-            collectionResourses.ItemsSource = cards;
+            //фильтровка карточек
+            if(cards.Count/viewStandart == selectedResoursesTupleList.Count)
+                FilterCards(currentFilter, ref filterCards);
+            else
+                filterCards = cards;
+            collectionResourses.ItemsSource = filterCards;
         }
         //вызывается при нажатии на элементъ collectionResourses
         private async void OnCardClick(object sender, SelectionChangedEventArgs e)
         {
             //срабатывает при нажатии на элемент collectonView
             await Navigation.PushAsync(new ViewPage(e.CurrentSelection.FirstOrDefault() as Card));
+        }
+
+        private async void FilterChanged(object sender, EventArgs e)
+        {
+            List<Card> filterCards = new List<Card>();
+            Application.Current.Properties["filterInx"] = pickerFilter.SelectedIndex;
+            Application.Current.Properties["currentFilter"] = pickerFilter.Items[pickerFilter.SelectedIndex];
+            //фильтровка
+            FilterCards((string)Application.Current.Properties["currentFilter"], ref filterCards);
+            collectionResourses.ItemsSource = filterCards;
+            await Application.Current.SavePropertiesAsync();
+            
+        }
+        private void FilterCards(string currentFilter, ref List<Card> _filterCards)
+        {
+            if (currentFilter != "всё")
+            {
+                for (int i = 0; i < cards.Count; i++)
+                {
+                    if (currentFilter == cards[i].Type)
+                        _filterCards.Add(cards[i]);
+                }
+            }
+            else
+                _filterCards = cards;
         }
     }
 }

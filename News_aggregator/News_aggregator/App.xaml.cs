@@ -30,11 +30,10 @@ namespace News_aggregator
             //если приложение открылось в первый раз
             if (!Current.Properties.ContainsKey("curentStandart"))
             {
-                Current.Properties["curentStandart"] = 6;
-            }
-            if (!Current.Properties.ContainsKey("pickerInx"))
-            {
                 Current.Properties["pickerInx"] = 0;
+                Current.Properties["curentStandart"] = 6;
+                Current.Properties["filterInx"] = 0;
+                Current.Properties["currentFilter"] = "всё";
             }
             Current.SavePropertiesAsync();
         }
@@ -45,7 +44,7 @@ namespace News_aggregator
             ResourseItem RBC = new ResourseItem
             {
                 ID = 1,
-                Text = "RBC(economic)",
+                Text = "RBC(economy)",
                 NameItem = "RBC"
             };
             ResourseItem Igromania = new ResourseItem

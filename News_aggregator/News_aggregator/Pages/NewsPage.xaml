@@ -2,10 +2,20 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="News_aggregator.Pages.NewsPage"
-             Title="News">
+             Title="Новости">
 
     <StackLayout Background="#212121">
-        <CollectionView x:Name="collectionResourses"  Margin="5" SelectionMode="Single" SelectionChanged="OnCardClick">
+        <StackLayout Margin="5" Padding="10,-5">
+            <Label Text="Фильтр:" FontSize="15" TextColor="WhiteSmoke"/>
+            <Picker x:Name="pickerFilter" FontSize="13" SelectedIndex="0" TextColor="WhiteSmoke" TitleColor="White" SelectedIndexChanged="FilterChanged">
+                <Picker.Items>
+                    <x:String>всё</x:String>
+                    <x:String>игры</x:String>
+                    <x:String>экономика</x:String>
+                </Picker.Items>
+            </Picker>
+        </StackLayout>
+        <CollectionView x:Name="collectionResourses" Margin="5" SelectionMode="Single" SelectionChanged="OnCardClick">
             <CollectionView.ItemTemplate>
                 <DataTemplate>
                     <StackLayout Margin="5">

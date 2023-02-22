@@ -2,12 +2,12 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="News_aggregator.Pages.ResoursePage"
-             Title="Resourses" 
+             Title="Ресурсы" 
              BackgroundColor="#212121">
     <StackLayout>
-        <StackLayout Margin="10">
-            <Label Text="Выбирите стандарт:" FontSize="20" TextColor="WhiteSmoke"/>
-            <Picker x:Name="pickerStandarts" TextColor="WhiteSmoke" TitleColor="White"  SelectedIndexChanged="OnChangeSelectItem">
+        <StackLayout Margin="5">
+            <Label Text="Выбирите стандарт:" FontSize="15" TextColor="WhiteSmoke"/>
+            <Picker x:Name="pickerStandarts" FontSize="15" TextColor="WhiteSmoke" TitleColor="White"  SelectedIndexChanged="OnChangeSelectItem">
                 <Picker.Items>
                     <x:String>6</x:String>
                     <x:String>8</x:String>

@@ -5,5 +5,6 @@ namespace News_aggregator.Parser
     {
         public string Name { get; set; } = "Investing";
         public string BaseUrl { get; set; } = "https://ru.investing.com/news/";
+        public string Type { get; set; } = "экономика";
     }
 }
