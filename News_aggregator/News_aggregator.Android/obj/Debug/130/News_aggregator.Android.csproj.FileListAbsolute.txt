@@ -946,6 +946,7 @@ F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregat
 F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.Android\obj\Debug\130\android\src\crc643f46942d9dd1fff9\ActivityIndicatorRenderer.java
 F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.Android\obj\Debug\130\android\src\crc643f46942d9dd1fff9\AHorizontalScrollView.java
 F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.Android\obj\Debug\130\android\src\crc643f46942d9dd1fff9\AndroidActivity.java
+F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.Android\obj\Debug\130\android\src\crc643f46942d9dd1fff9\BaseCellAppCompatView.java
 F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.Android\obj\Debug\130\android\src\crc643f46942d9dd1fff9\BaseCellView.java
 F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.Android\obj\Debug\130\android\src\crc643f46942d9dd1fff9\BorderDrawable.java
 F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.Android\obj\Debug\130\android\src\crc643f46942d9dd1fff9\BoxRenderer.java
@@ -976,6 +977,8 @@ F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregat
 F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.Android\obj\Debug\130\android\src\crc643f46942d9dd1fff9\DragAndDropGestureHandler.java
 F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.Android\obj\Debug\130\android\src\crc643f46942d9dd1fff9\DragAndDropGestureHandler_CustomLocalStateData.java
 F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.Android\obj\Debug\130\android\src\crc643f46942d9dd1fff9\EdgeSnapHelper.java
+F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.Android\obj\Debug\130\android\src\crc643f46942d9dd1fff9\EditorAppCompatEditText.java
+F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.Android\obj\Debug\130\android\src\crc643f46942d9dd1fff9\EditorAppCompatRenderer.java
 F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.Android\obj\Debug\130\android\src\crc643f46942d9dd1fff9\EditorEditText.java
 F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.Android\obj\Debug\130\android\src\crc643f46942d9dd1fff9\EditorRenderer.java
 F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.Android\obj\Debug\130\android\src\crc643f46942d9dd1fff9\EditorRendererBase_1.java
@@ -985,6 +988,10 @@ F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregat
 F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.Android\obj\Debug\130\android\src\crc643f46942d9dd1fff9\EndSingleSnapHelper.java
 F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.Android\obj\Debug\130\android\src\crc643f46942d9dd1fff9\EndSnapHelper.java
 F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.Android\obj\Debug\130\android\src\crc643f46942d9dd1fff9\EntryAccessibilityDelegate.java
+F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.Android\obj\Debug\130\android\src\crc643f46942d9dd1fff9\EntryAppCompatEditText.java
+F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.Android\obj\Debug\130\android\src\crc643f46942d9dd1fff9\EntryAppCompatRenderer.java
+F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.Android\obj\Debug\130\android\src\crc643f46942d9dd1fff9\EntryCellAppCompatEditText.java
+F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.Android\obj\Debug\130\android\src\crc643f46942d9dd1fff9\EntryCellAppCompatView.java
 F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.Android\obj\Debug\130\android\src\crc643f46942d9dd1fff9\EntryCellEditText.java
 F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.Android\obj\Debug\130\android\src\crc643f46942d9dd1fff9\EntryCellView.java
 F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.Android\obj\Debug\130\android\src\crc643f46942d9dd1fff9\EntryEditText.java
@@ -998,6 +1005,9 @@ F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregat
 F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.Android\obj\Debug\130\android\src\crc643f46942d9dd1fff9\FormattedStringExtensions_TextDecorationSpan.java
 F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.Android\obj\Debug\130\android\src\crc643f46942d9dd1fff9\FormsAnimationDrawable.java
 F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.Android\obj\Debug\130\android\src\crc643f46942d9dd1fff9\FormsAppCompatActivity.java
+F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.Android\obj\Debug\130\android\src\crc643f46942d9dd1fff9\FormsAppCompatEditText.java
+F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.Android\obj\Debug\130\android\src\crc643f46942d9dd1fff9\FormsAppCompatEditTextBase.java
+F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.Android\obj\Debug\130\android\src\crc643f46942d9dd1fff9\FormsAppCompatTextView.java
 F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.Android\obj\Debug\130\android\src\crc643f46942d9dd1fff9\FormsApplicationActivity.java
 F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.Android\obj\Debug\130\android\src\crc643f46942d9dd1fff9\FormsEditText.java
 F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.Android\obj\Debug\130\android\src\crc643f46942d9dd1fff9\FormsEditTextBase.java
@@ -1053,6 +1063,7 @@ F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregat
 F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.Android\obj\Debug\130\android\src\crc643f46942d9dd1fff9\PageRenderer.java
 F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.Android\obj\Debug\130\android\src\crc643f46942d9dd1fff9\PathRenderer.java
 F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.Android\obj\Debug\130\android\src\crc643f46942d9dd1fff9\PathView.java
+F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.Android\obj\Debug\130\android\src\crc643f46942d9dd1fff9\PickerAppCompatEditText.java
 F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.Android\obj\Debug\130\android\src\crc643f46942d9dd1fff9\PickerEditText.java
 F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.Android\obj\Debug\130\android\src\crc643f46942d9dd1fff9\PickerManager_PickerListener.java
 F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.Android\obj\Debug\130\android\src\crc643f46942d9dd1fff9\PickerRenderer.java
@@ -1074,6 +1085,7 @@ F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregat
 F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.Android\obj\Debug\130\android\src\crc643f46942d9dd1fff9\ScrollLayoutManager.java
 F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.Android\obj\Debug\130\android\src\crc643f46942d9dd1fff9\ScrollViewContainer.java
 F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.Android\obj\Debug\130\android\src\crc643f46942d9dd1fff9\ScrollViewRenderer.java
+F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.Android\obj\Debug\130\android\src\crc643f46942d9dd1fff9\SearchBarAppCompatRenderer.java
 F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.Android\obj\Debug\130\android\src\crc643f46942d9dd1fff9\SearchBarRenderer.java
 F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.Android\obj\Debug\130\android\src\crc643f46942d9dd1fff9\SelectableItemsViewAdapter_2.java
 F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.Android\obj\Debug\130\android\src\crc643f46942d9dd1fff9\SelectableItemsViewRenderer_3.java
@@ -1113,12 +1125,14 @@ F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregat
 F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.Android\obj\Debug\130\android\src\crc643f46942d9dd1fff9\StructuredItemsViewAdapter_2.java
 F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.Android\obj\Debug\130\android\src\crc643f46942d9dd1fff9\StructuredItemsViewRenderer_3.java
 F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.Android\obj\Debug\130\android\src\crc643f46942d9dd1fff9\SwipeViewRenderer.java
+F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.Android\obj\Debug\130\android\src\crc643f46942d9dd1fff9\SwitchCellAppCompatView.java
 F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.Android\obj\Debug\130\android\src\crc643f46942d9dd1fff9\SwitchCellView.java
 F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.Android\obj\Debug\130\android\src\crc643f46942d9dd1fff9\SwitchRenderer.java
 F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.Android\obj\Debug\130\android\src\crc643f46942d9dd1fff9\TabbedRenderer.java
 F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.Android\obj\Debug\130\android\src\crc643f46942d9dd1fff9\TableViewModelRenderer.java
 F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.Android\obj\Debug\130\android\src\crc643f46942d9dd1fff9\TableViewRenderer.java
 F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.Android\obj\Debug\130\android\src\crc643f46942d9dd1fff9\TemplatedItemViewHolder.java
+F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.Android\obj\Debug\130\android\src\crc643f46942d9dd1fff9\TextCellAppCompatRenderer_TextCellAppCompatView.java
 F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.Android\obj\Debug\130\android\src\crc643f46942d9dd1fff9\TextCellRenderer_TextCellView.java
 F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.Android\obj\Debug\130\android\src\crc643f46942d9dd1fff9\TextViewHolder.java
 F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.Android\obj\Debug\130\android\src\crc643f46942d9dd1fff9\TimePickerRenderer.java
@@ -1143,6 +1157,8 @@ F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregat
 F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.Android\obj\Debug\130\android\src\crc64720bb2db43a66fe9\NavigationPageRenderer_ClickListener.java
 F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.Android\obj\Debug\130\android\src\crc64720bb2db43a66fe9\NavigationPageRenderer_Container.java
 F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.Android\obj\Debug\130\android\src\crc64720bb2db43a66fe9\NavigationPageRenderer_DrawerMultiplexedListener.java
+F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.Android\obj\Debug\130\android\src\crc64720bb2db43a66fe9\PickerAppCompatRenderer.java
+F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.Android\obj\Debug\130\android\src\crc64720bb2db43a66fe9\PickerAppCompatRendererBase_1.java
 F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.Android\obj\Debug\130\android\src\crc64720bb2db43a66fe9\PickerRenderer.java
 F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.Android\obj\Debug\130\android\src\crc64720bb2db43a66fe9\PickerRendererBase_1.java
 F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.Android\obj\Debug\130\android\src\crc64720bb2db43a66fe9\Platform_ModalContainer.java
@@ -1156,6 +1172,7 @@ F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregat
 F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.Android\obj\Debug\130\android\src\crc64a0e0a82d0db9a07d\BatteryBroadcastReceiver.java
 F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.Android\obj\Debug\130\android\src\crc64a0e0a82d0db9a07d\ClipboardChangeListener.java
 F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.Android\obj\Debug\130\android\src\crc64a0e0a82d0db9a07d\ConnectivityBroadcastReceiver.java
+F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.Android\obj\Debug\130\android\src\crc64a0e0a82d0db9a07d\Connectivity_EssentialsNetworkCallback.java
 F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.Android\obj\Debug\130\android\src\crc64a0e0a82d0db9a07d\EnergySaverBroadcastReceiver.java
 F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.Android\obj\Debug\130\android\src\crc64a0e0a82d0db9a07d\GyroscopeListener.java
 F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.Android\obj\Debug\130\android\src\crc64a0e0a82d0db9a07d\IntermediateActivity.java
@@ -1174,6 +1191,7 @@ F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregat
 F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.Android\obj\Debug\130\android\src\crc64ee486da937c010f4\ButtonRenderer.java
 F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.Android\obj\Debug\130\android\src\crc64ee486da937c010f4\FrameRenderer.java
 F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.Android\obj\Debug\130\android\src\crc64ee486da937c010f4\ImageRenderer.java
+F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.Android\obj\Debug\130\android\src\crc64ee486da937c010f4\LabelAppCompatRenderer.java
 F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.Android\obj\Debug\130\android\src\crc64ee486da937c010f4\LabelRenderer.java
 F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.Android\obj\Debug\130\android\src\mono\androidx\activity\contextaware\OnContextAvailableListenerImplementor.java
 F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.Android\obj\Debug\130\android\src\mono\androidx\appcompat\app\ActionBar_OnMenuVisibilityListenerImplementor.java
@@ -1292,21 +1310,3 @@ F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregat
 F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.Android\obj\Debug\130\stamp\_GenerateJavaStubs.stamp
 F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.Android\obj\Debug\130\stamp\_GeneratePackageManagerJava.stamp
 F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.Android\obj\Debug\130\stamp\_ResolveLibraryProjectImports.stamp
-F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.Android\obj\Debug\130\android\src\crc643f46942d9dd1fff9\BaseCellAppCompatView.java
-F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.Android\obj\Debug\130\android\src\crc643f46942d9dd1fff9\EditorAppCompatEditText.java
-F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.Android\obj\Debug\130\android\src\crc643f46942d9dd1fff9\EditorAppCompatRenderer.java
-F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.Android\obj\Debug\130\android\src\crc643f46942d9dd1fff9\EntryAppCompatEditText.java
-F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.Android\obj\Debug\130\android\src\crc643f46942d9dd1fff9\EntryAppCompatRenderer.java
-F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.Android\obj\Debug\130\android\src\crc643f46942d9dd1fff9\EntryCellAppCompatEditText.java
-F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.Android\obj\Debug\130\android\src\crc643f46942d9dd1fff9\EntryCellAppCompatView.java
-F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.Android\obj\Debug\130\android\src\crc643f46942d9dd1fff9\FormsAppCompatEditText.java
-F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.Android\obj\Debug\130\android\src\crc643f46942d9dd1fff9\FormsAppCompatEditTextBase.java
-F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.Android\obj\Debug\130\android\src\crc643f46942d9dd1fff9\FormsAppCompatTextView.java
-F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.Android\obj\Debug\130\android\src\crc643f46942d9dd1fff9\PickerAppCompatEditText.java
-F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.Android\obj\Debug\130\android\src\crc643f46942d9dd1fff9\SearchBarAppCompatRenderer.java
-F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.Android\obj\Debug\130\android\src\crc643f46942d9dd1fff9\SwitchCellAppCompatView.java
-F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.Android\obj\Debug\130\android\src\crc643f46942d9dd1fff9\TextCellAppCompatRenderer_TextCellAppCompatView.java
-F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.Android\obj\Debug\130\android\src\crc64720bb2db43a66fe9\PickerAppCompatRenderer.java
-F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.Android\obj\Debug\130\android\src\crc64720bb2db43a66fe9\PickerAppCompatRendererBase_1.java
-F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.Android\obj\Debug\130\android\src\crc64a0e0a82d0db9a07d\Connectivity_EssentialsNetworkCallback.java
-F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.Android\obj\Debug\130\android\src\crc64ee486da937c010f4\LabelAppCompatRenderer.java

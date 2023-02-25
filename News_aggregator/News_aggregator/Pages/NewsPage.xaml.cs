@@ -29,7 +29,11 @@ namespace News_aggregator.Pages
             {
                 (new InvestingSettings(), new InvestingParser()),
                 (new IgromaniaSettings(), new IgromaniaParser()),
-                (new RbcSettings(), new RbcParser())
+                (new RbcSettings(), new RbcParser()),
+                (new IXBTSettings(), new IXBTParser()),
+                (new IXBTGamesSettings(), new IXBTGamesParser()),
+                (new StopGameSettings(), new StopGameParser()),
+                (new BankiSettings(), new BankiParser())
             };
         }
         protected async override void OnAppearing()

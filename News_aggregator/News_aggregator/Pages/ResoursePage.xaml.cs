@@ -56,10 +56,6 @@ namespace News_aggregator.Pages
                 await App.DataBase.SaveItemAsync(item);
             }
         }
-        protected async void OnApplyButtonClicked(object sender, EventArgs e)
-        {
-            await DisplayAlert("Сохранение", "Данные изменены(это кнопка заглушка P.S не забудь убрать если добавишь функционал)", "ok");
-        }
         private void FindElement(List<ResourseItem> resourses_, string name_, ref ResourseItem item)
         {
             for (int i = 0; i < resourses_.Count; i++)

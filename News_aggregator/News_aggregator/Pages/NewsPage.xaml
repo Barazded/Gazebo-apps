@@ -12,19 +12,20 @@
                     <x:String>всё</x:String>
                     <x:String>игры</x:String>
                     <x:String>экономика</x:String>
+                    <x:String>наука и технологии</x:String>
                 </Picker.Items>
             </Picker>
         </StackLayout>
         <CollectionView x:Name="collectionResourses" Margin="5" SelectionMode="Single" SelectionChanged="OnCardClick">
             <CollectionView.ItemTemplate>
                 <DataTemplate>
-                    <StackLayout Margin="5">
+                    <StackLayout >
                         <StackLayout Margin="5" VerticalOptions="FillAndExpand" Background="#323232" >
-                            <Label Text="{Binding ID}" FontSize="8" TextColor="WhiteSmoke" Margin="1" HorizontalOptions="StartAndExpand"/>
-                            <Label Text="{Binding Title}" FontSize="20" TextColor="WhiteSmoke" Margin="3" />
-                            <Label Text="{Binding Info}" FontSize="15" TextColor="WhiteSmoke" Margin="3"/>
-                            <Label Text="{Binding Date}" FontSize="10" TextColor="WhiteSmoke" Margin="3"/>
-                            <Label Text="{Binding NameResourse}" FontSize="10" TextColor="WhiteSmoke" Margin="3"/>
+                            <Label Text="{Binding ID}" FontSize="8" TextColor="WhiteSmoke" HorizontalOptions="StartAndExpand"/>
+                            <Label Text="{Binding Title}" FontSize="20" TextColor="WhiteSmoke"/>
+                            <Label Text="{Binding Info}" FontSize="15" TextColor="WhiteSmoke" />
+                            <Label Text="{Binding Date}" FontSize="10" TextColor="WhiteSmoke"/>
+                            <Label Text="{Binding NameResourse}" FontSize="10" TextColor="WhiteSmoke"/>
                         </StackLayout>
                     </StackLayout>
                 </DataTemplate>

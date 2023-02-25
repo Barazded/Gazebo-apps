@@ -59,9 +59,37 @@ namespace News_aggregator
                 Text = "Investing(economic)",
                 NameItem = "Investing"
             };
+            ResourseItem IXBT = new ResourseItem
+            {
+                ID = 4,
+                Text = "IXBT(tech)",
+                NameItem = "IXBT"
+            };
+            ResourseItem IXBTGames = new ResourseItem
+            {
+                ID = 5,
+                Text = "IXBT(games)",
+                NameItem = "IXBTGames"
+            };
+            ResourseItem StopGame = new ResourseItem
+            {
+                ID = 6,
+                Text = "StopGame(games)",
+                NameItem = "StopGame"
+            };
+            ResourseItem Banki = new ResourseItem
+            {
+                ID = 7,
+                Text = "Banki(economic)",
+                NameItem = "Banki"
+            };
             DataBase.SaveItemAsync(RBC);
             DataBase.SaveItemAsync(Igromania);
             DataBase.SaveItemAsync(Investing);
+            DataBase.SaveItemAsync(IXBT);
+            DataBase.SaveItemAsync(IXBTGames);
+            DataBase.SaveItemAsync(StopGame);
+            DataBase.SaveItemAsync(Banki);
         }
     }
 }
