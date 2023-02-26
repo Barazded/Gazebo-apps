@@ -7,7 +7,7 @@
     <StackLayout Background="#212121">
         <StackLayout Margin="5" Padding="10,-5">
             <Label Text="Фильтр:" FontSize="15" TextColor="WhiteSmoke"/>
-            <Picker x:Name="pickerFilter" FontSize="13" SelectedIndex="0" TextColor="WhiteSmoke" TitleColor="White" SelectedIndexChanged="FilterChanged">
+            <Picker x:Name="pickerFilter" FontSize="13" SelectedIndex="0" TextColor="WhiteSmoke"  BackgroundColor="#212121" TitleColor="White" SelectedIndexChanged="FilterChanged">
                 <Picker.Items>
                     <x:String>всё</x:String>
                     <x:String>игры</x:String>

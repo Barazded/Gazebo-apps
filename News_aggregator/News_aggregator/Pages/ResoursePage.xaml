@@ -7,7 +7,7 @@
     <StackLayout>
         <StackLayout Margin="5">
             <Label Text="Выбирите стандарт:" FontSize="15" TextColor="WhiteSmoke"/>
-            <Picker x:Name="pickerStandarts" FontSize="15" TextColor="WhiteSmoke" TitleColor="White"  SelectedIndexChanged="OnChangeSelectItem">
+            <Picker x:Name="pickerStandarts" FontSize="15" TextColor="WhiteSmoke" BackgroundColor="#212121" TitleColor="White"  SelectedIndexChanged="OnChangeSelectItem">
                 <Picker.Items>
                     <x:String>6</x:String>
                     <x:String>8</x:String>

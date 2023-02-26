@@ -16,17 +16,15 @@ namespace News_aggregator.Parser
             //ссылка на публикации
             var htmlElements = document.QuerySelectorAll("a").Where(item => item.ClassName != null && item.ClassName.Contains("title")).OfType<IHtmlAnchorElement>().ToList();
             var links = htmlElements.Select(m => m.Href).ToList().ToList();
-            //доп инфа
-            //var info = document.QuerySelectorAll("div").Where(item => item.LastChild.LastChild.LastChild != null);
-            //дата публикации(костыль)
-            var dates = document.QuerySelectorAll("p");
+            //дата публикации
+            //var dates = document.QuerySelectorAll("p").ToList();
             //перебор всех элементов
             for (int i = 0; i < viewStandart; i++)
             {
                 titles_.Add(titles[i].TextContent);
                 links_.Add(links[i].Replace("about:///", "https://ru.investing.com/"));
-                //info_.Add(locDates[i].TextContent);
-                dates_.Add(dates[i].TextContent);
+                //if(i <= dates.Count)
+                //    dates_.Add(dates[i].TextContent);
             }
         }
     }
