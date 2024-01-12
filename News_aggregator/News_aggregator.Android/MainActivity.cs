@@ -1,9 +1,10 @@
 ﻿using System;
-
 using Android.App;
 using Android.Content.PM;
 using Android.Runtime;
 using Android.OS;
+using Firebase;
+using News_aggregator.Interfaces;
 
 namespace News_aggregator.Droid
 {
@@ -12,6 +13,8 @@ namespace News_aggregator.Droid
     {
         protected override void OnCreate(Bundle savedInstanceState)
         {
+            FirebaseApp.InitializeApp(Application.Context);
+            Xamarin.Forms.DependencyService.Register<IFirebaseAuthentication, FirebaseAuthentication>();
             base.OnCreate(savedInstanceState);
 
             Window.SetStatusBarColor(color: Android.Graphics.Color.Black);
@@ -22,7 +25,6 @@ namespace News_aggregator.Droid
         public override void OnRequestPermissionsResult(int requestCode, string[] permissions, [GeneratedEnum] Android.Content.PM.Permission[] grantResults)
         {
             Xamarin.Essentials.Platform.OnRequestPermissionsResult(requestCode, permissions, grantResults);
-
             base.OnRequestPermissionsResult(requestCode, permissions, grantResults);
         }
     }

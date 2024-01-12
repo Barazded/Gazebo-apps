@@ -18,10 +18,5 @@ namespace News_aggregator.Pages
         {
             await Navigation.PushAsync(new ResoursePage());
         }
-        public async void GeneralSettingButt_Clicked(object sender, EventArgs e)
-        {
-            await Navigation.PushAsync(new GeneralSettingPage());
-        }
-
     }
 }

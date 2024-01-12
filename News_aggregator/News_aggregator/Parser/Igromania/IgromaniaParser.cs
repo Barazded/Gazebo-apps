@@ -1,4 +1,8 @@
-﻿using AngleSharp.Html.Dom;
+﻿using AngleSharp;
+using AngleSharp.Dom;
+using AngleSharp.Html.Dom;
+using News_aggregator.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using Xamarin.Forms;
@@ -8,27 +12,29 @@ namespace News_aggregator.Parser
     class IgromaniaParser : IParser
     {
         //реализация метода интерфейса (для каждого ресурса своя реализация парсера)
-        public void Parse(IHtmlDocument document, ref List<string> titles_, ref List<string> info_, ref List<string> dates_, ref List<string> links_)
+        public List<Card> Parse(IHtmlDocument document)
         {
             int viewStandart = int.Parse((string)Application.Current.Properties["curentStandart"]);
-            //дата публикации
-            var dates = document.GetElementsByClassName("aubli_date").ToList();
+            List<Card> cards = new List<Card>();
             //ссылка на публикации
-            var htmlElements = document.QuerySelectorAll("a").Where(item => item.ClassName != null && item.ClassName.Contains("aubli_name")).OfType<IHtmlAnchorElement>();
+            var htmlElements = document.QuerySelectorAll("#__next > div > div.app-wrapper > div.app-main > main > section > div.InfiniteScrollWrap_content__7x55W > " +
+                "div:nth-child(n) > div.knb-list.HeadingPage_list__aSQ0P.knb-list--gap20.knb-list--row2.knb-list--columns4 > div:nth-child(n) > a").OfType<IHtmlAnchorElement>();
             var links = htmlElements.Select(item => item.Href).ToList();
-            //доп инфа
-            var info = document.GetElementsByClassName("aubli_desc").ToList();
             //заголовок
-            var titles = document.QuerySelectorAll("a").Where(item => item.ClassName != null && item.ClassName.Contains("aubli_name")).ToList();
-            //
+            var titles = document.QuerySelectorAll("#__next > div > div.app-wrapper > div.app-main > main > section > div.InfiniteScrollWrap_content__7x55W > " +
+                "div:nth-child(n) > div.knb-list.HeadingPage_list__aSQ0P.knb-list--gap20.knb-list--row2.knb-list--columns4 > div:nth-child(n) > a").ToList();
+            var st = document.QuerySelectorAll("Body").ToList();
             //перебор всех элементов
             for (int i = 0; i < viewStandart; i++)
             {
-                titles_.Add(titles[i].TextContent);
-                info_.Add(info[i].TextContent);
-                dates_.Add(dates[i].TextContent);
-                links_.Add(links[i].Replace("about:///", "https://www.igromania.ru/"));
+                if (i >= titles.Count) { break; }
+                cards.Add(new Card
+                {
+                    Title = (titles[i].TextContent != "" ? titles[i].TextContent : "Что-то пошло не так"),
+                    Link = links[i].Replace("about:///", "https://www.igromania.ru/"),
+                });
             }
+            return cards;
         }
     }
 }

@@ -39,7 +39,6 @@ F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregat
 F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator\obj\Debug\netstandard2.0\News_aggregator.GeneratedMSBuildEditorConfig.editorconfig
 F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator\obj\Debug\netstandard2.0\App.xaml.g.cs
 F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator\obj\Debug\netstandard2.0\CustomTabbedPage.xaml.g.cs
-F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator\obj\Debug\netstandard2.0\Pages\GeneralSettingsPage.xaml.g.cs
 F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator\obj\Debug\netstandard2.0\Pages\NewsPage.xaml.g.cs
 F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator\obj\Debug\netstandard2.0\Pages\ResoursePage.xaml.g.cs
 F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator\obj\Debug\netstandard2.0\Pages\SettingsPage.xaml.g.cs
@@ -52,3 +51,8 @@ F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregat
 F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator\obj\Debug\netstandard2.0\refint\News_aggregator.dll
 F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator\obj\Debug\netstandard2.0\News_aggregator.pdb
 F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator\obj\Debug\netstandard2.0\ref\News_aggregator.dll
+F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator\obj\Debug\netstandard2.0\Pages\CommunityPage.xaml.g.cs
+F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator\obj\Debug\netstandard2.0\Pages\ConstructorPage.xaml.g.cs
+F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator\obj\Debug\netstandard2.0\Pages\OutputPage.xaml.g.cs
+F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator\obj\Debug\netstandard2.0\Pages\EnterPage.xaml.g.cs
+F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator\obj\Debug\netstandard2.0\Pages\InfoApiPage.xaml.g.cs

@@ -4,6 +4,6 @@
     {
         string BaseUrl { get; set; }
         string Name { get; set; }
-        string Type { get; set; }//еconomy games
+        string Type { get; set; }
     }
 }

@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="News_aggregator.Pages.ConstructorPage"
+             Title="Конструктор">
+    <ScrollView>
+        <StackLayout BackgroundColor="#212121" >
+            <Label Text="Настройка ресурса" TextColor="White" HorizontalOptions="Center" FontSize="20"/>
+            
+            <Label Text="Назваение ресурса" TextColor="White"/>
+            <Entry x:Name="name_resourse" Text="" TextColor="Black" IsSpellCheckEnabled="false"/>
+            <Label Text="Ссылка на веб-страницу" TextColor="White"/>
+            <Entry x:Name="link_resource" Text="" TextColor="Black" IsSpellCheckEnabled="false"/>
+            <Label Text="Тип ресурса" TextColor="White"/>
+            <Entry x:Name="type_resource" Text="" TextColor="Black" IsSpellCheckEnabled="false"/>
+
+            <Label Text="Настройка парсера" TextColor="White" HorizontalOptions="Center"  FontSize="20"/>
+            <Label Text="Заголовки статей (введите selector)*" TextColor="White"/>
+            <Entry x:Name="title_selector" Text="" TextColor="Black" IsSpellCheckEnabled="false"/>
+            
+            <Label Text="Ссылки на статьи (введите selector)*" TextColor="White"/>
+            <Entry x:Name="link_selector" Text="" TextColor="Black" IsSpellCheckEnabled="false"/>
+
+            <Label Text="Информация (введите selector)" TextColor="White"/>
+            <Entry x:Name="info_selector" Text="" TextColor="Black" IsSpellCheckEnabled="false"/>
+            
+            <Label Text="Даты (введите selector)" TextColor="White"/>
+            <Entry x:Name="date_selector" Text="" TextColor="Black" IsSpellCheckEnabled="false"/>
+            
+            <Label Text="* - обязательное поле" TextColor="White"/>
+            <Button x:Name="ParseButt" Clicked="Ev_ParseButtonCliced" Text="Отладка" TextColor="White" BackgroundColor="#323232"/>
+            <Button x:Name="PublicButt" Text="Опубликовать" TextColor="White"  Clicked="Ev_PublishButtonCliced" BackgroundColor="#323232"/>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

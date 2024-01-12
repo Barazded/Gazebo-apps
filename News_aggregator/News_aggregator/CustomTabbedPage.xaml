@@ -16,6 +16,12 @@
         </x:Arguments>
     </NavigationPage>
 
+    <NavigationPage Title="Сообщество"  BarBackgroundColor="#111111" BackgroundColor="#111111"  BarTextColor="White" Padding="0,10">
+        <x:Arguments>
+            <pages:CommunityPage/>
+        </x:Arguments>
+    </NavigationPage>
+
     <NavigationPage Title="Мои новости" BarBackgroundColor="#111111" BackgroundColor="#111111" BarTextColor="White" IconImageSource="note_icon.png" Padding="0,10">
         <x:Arguments>
             <pages:NewsPage/>

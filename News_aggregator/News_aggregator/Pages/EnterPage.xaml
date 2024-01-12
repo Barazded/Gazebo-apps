@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="News_aggregator.Pages.EnterPage"
+             Title="EnterPage">
+    <StackLayout BackgroundColor="#212121">
+        <StackLayout BackgroundColor="#212121">
+            <Label Text="Страница авторизации:" HorizontalOptions="CenterAndExpand" TextColor="White" FontSize="25" Margin="35"/>
+            <Label Text="Введите email:" TextColor="White" HorizontalOptions="CenterAndExpand" FontSize="16"/>
+            <Entry x:Name="login_enter" Text="" TextColor="Black" IsSpellCheckEnabled="false" Margin="5" BackgroundColor="White"/>
+            <Label Text="Введите пароль:" TextColor="White" HorizontalOptions="CenterAndExpand" FontSize="16"/>
+            <Entry x:Name="password_enter" Text="" TextColor="Black" IsSpellCheckEnabled="false" IsPassword="True" Margin="5" BackgroundColor="White"/>
+            <Button x:Name="enter_button" Text="Вход" HorizontalOptions="CenterAndExpand" TextColor="White"
+                    FontAttributes="Bold" BackgroundColor="#323232" CornerRadius="4" Margin="15" Clicked="Ev_EnterButtonClicked"/>
+        </StackLayout>
+        <StackLayout BackgroundColor="#212121">
+            <Button x:Name="registration_button" Text="Регистрация" HorizontalOptions="CenterAndExpand" TextColor="White" VerticalOptions="EndAndExpand"
+                    FontAttributes="Bold" BackgroundColor="#323232" CornerRadius="4" Margin="15" Clicked="Ev_RegistButtonClicked"/>
+        </StackLayout>
+    </StackLayout>
+</ContentPage>

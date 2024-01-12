@@ -1,4 +1,6 @@
-﻿using AngleSharp.Html.Dom;
+﻿using AngleSharp.Dom;
+using AngleSharp.Html.Dom;
+using News_aggregator.Models;
 using System.Collections.Generic;
 using System.Linq;
 using Xamarin.Forms;
@@ -8,24 +10,29 @@ namespace News_aggregator.Parser
     class InvestingParser : IParser
     {
         //реализация метода интерфейса (для каждого ресурса своя реализация парсера)
-        public void Parse(IHtmlDocument document, ref List<string> titles_, ref List<string> info_, ref List<string> dates_, ref List<string> links_)
+        public List<Card> Parse(IHtmlDocument document)
         {
+            List<Card> cards = new List<Card>();
             int viewStandart = int.Parse((string)Application.Current.Properties["curentStandart"]);
             //заголовок
-            var titles = document.QuerySelectorAll("a").Where(item => item.ClassName != null && item.ClassName.Contains("title")).ToList();
+            var titles = document.QuerySelectorAll("#latestNews > div > article:nth-child(n) > div.textDiv > a").ToList();
             //ссылка на публикации
-            var htmlElements = document.QuerySelectorAll("a").Where(item => item.ClassName != null && item.ClassName.Contains("title")).OfType<IHtmlAnchorElement>().ToList();
+            var htmlElements = document.QuerySelectorAll("#latestNews > div > article:nth-child(n) > div.textDiv > a").OfType<IHtmlAnchorElement>().ToList();
+            var info = document.QuerySelectorAll("#latestNews > div > article:nth-child(n) > div.textDiv > p").ToList();
             var links = htmlElements.Select(m => m.Href).ToList().ToList();
-            //дата публикации
-            //var dates = document.QuerySelectorAll("p").ToList();
             //перебор всех элементов
             for (int i = 0; i < viewStandart; i++)
             {
-                titles_.Add(titles[i].TextContent);
-                links_.Add(links[i].Replace("about:///", "https://ru.investing.com/"));
-                //if(i <= dates.Count)
-                //    dates_.Add(dates[i].TextContent);
+                if (i >= titles.Count) { break; }
+                Card card = new Card()
+                {
+                    Title = titles[i].TextContent,
+                    Link = links[i].Replace("about:///", "https://ru.investing.com/"),
+                    Info = info[i].TextContent
+                };
+                cards.Add(card);
             }
+            return cards;
         }
     }
 }

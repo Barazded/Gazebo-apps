@@ -18,3 +18,6 @@ F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregat
 F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator\obj\Debug\netstandard2.1\refint\News_aggregator.dll
 F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator\obj\Debug\netstandard2.1\News_aggregator.pdb
 F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator\obj\Debug\netstandard2.1\ref\News_aggregator.dll
+F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator\obj\Debug\netstandard2.1\Pages\CommunityPage.xaml.g.cs
+F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator\obj\Debug\netstandard2.1\Pages\ConstructorPage.xaml.g.cs
+F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator\obj\Debug\netstandard2.1\Pages\OutputPage.xaml.g.cs

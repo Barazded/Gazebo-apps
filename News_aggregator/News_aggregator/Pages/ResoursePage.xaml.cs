@@ -8,61 +8,51 @@ namespace News_aggregator.Pages
     public partial class ResoursePage : ContentPage
     {
         //для поиска по бд
-        private List<ResourseItem> resourses = new List<ResourseItem>();
+        private List<ResourseSettings> resourses = new List<ResourseSettings>();
         //для сохранение в бд
-        private List<ResourseItem> resoursesForSave = new List<ResourseItem>();
+        private List<ResourseSettings> resoursesForSave = new List<ResourseSettings>();
         //количество катрочек которое будут показанно пользователю(планируются 6 8 10 12 стандарты; будет выбиратся в настройках)
         public ResoursePage()
         {
             InitializeComponent();
         }
-        protected async override void OnAppearing()
+        protected override void OnAppearing()
         {
+            UpdateWindow();
             base.OnAppearing();
-            //выгрузка стандарта из локальных данных устройства
-            pickerStandarts.SelectedIndex = (int)Application.Current.Properties["pickerInx"];
-            //спавн объектов
-            if (collectionView.ItemsSource == null)
-            {
-                //выгрузка данных из бд
-                collectionView.ItemsSource = await App.DataBase.GetItemsAsync();
-                resourses = await App.DataBase.GetItemsAsync();
-            }
         }
         protected async override void OnDisappearing()
         {
             base.OnDisappearing();
-            resoursesForSave = await App.DataBase.GetItemsAsync();
-            await DisplayAlert("Сохранение", "Данные изменены", "ok");
+            resoursesForSave = await App.DataBaseNew.GetItemsAsync();
+            await DisplayAlert("Сохранение", "Данные изменены", "продолжить");
             //сохранение изменений
             for (int i = 0; i < resoursesForSave.Count; i++)
             {
-                await App.DataBase.SaveItemAsync(resoursesForSave[i]);
+                await App.DataBaseNew.SaveItemAsync(resoursesForSave[i]);
             }
         }
-        private async void CheckedCheckBox(object sender, CheckedChangedEventArgs e)
+        private async void Ev_CheckedCheckBox(object sender, CheckedChangedEventArgs e)
         {
-            ResourseItem item = new ResourseItem();
+            ResourseSettings item = new ResourseSettings();
             CheckBox box = (sender as CheckBox);
             StackLayout sl = (StackLayout)box.Parent;
-            Label label = (Label)sl.Children[1];
-            //изсключение ненужных исполнений
-            if (label.Text != null)
-            {
-                //поиск элемента
-                FindElement(resourses, label.Text, ref item);
-                item.isChecked = box.IsChecked;
-                //сохранение состояния
-                await App.DataBase.SaveItemAsync(item);
-            }
+            string id = ((Label)sl.Children[1]).Text;
+            if (id == null) { return; }
+            //поиск элемента
+            item = FindElement(int.Parse(id));
+            if (item == null) { return; }
+            item.isChecked = box.IsChecked;
+            //сохранение состояния
+            await App.DataBaseNew.SaveItemAsync(item);
         }
-        private void FindElement(List<ResourseItem> resourses_, string name_, ref ResourseItem item)
+        private ResourseSettings FindElement(int id)
         {
-            for (int i = 0; i < resourses_.Count; i++)
+            for (int i = 0; i < resourses.Count; i++)
             {
-                if (resourses_[i].Text == name_)
-                    item = resourses_[i];
+                if (resourses[i].ID == id) { return resourses[i]; }
             }
+            return null;
         }
         private async void OnChangeSelectItem(object sender, EventArgs e)
         {
@@ -70,6 +60,28 @@ namespace News_aggregator.Pages
             Application.Current.Properties["pickerInx"] = pickerStandarts.SelectedIndex;
             Application.Current.Properties["curentStandart"] = pickerStandarts.Items[pickerStandarts.SelectedIndex];
             await Application.Current.SavePropertiesAsync();
+        }
+        private async void Ev_DelitButtonClicked(object sender, EventArgs e)
+        {
+            Button delitButton = (Button)sender;
+            StackLayout sl = (StackLayout)delitButton.Parent;
+            string id = ((Label)sl.Children[1]).Text;
+            if (id == null) { return; }
+            var item = FindElement(int.Parse(id));
+            if (item == null) { return; }
+            //удаление из ЛБД
+            await App.DataBaseNew.DeleteItemAsync(item);
+            UpdateWindow();
+            await DisplayAlert("API удалён", "", "продолжить");
+        }
+        private async void UpdateWindow()
+        {
+            collectionView.ItemsSource = null;
+            //выгрузка стандарта из локальных данных устройства
+            pickerStandarts.SelectedIndex = (int)Application.Current.Properties["pickerInx"];
+            //выгрузка данных из бд
+            collectionView.ItemsSource = await App.DataBaseNew.GetItemsAsync();
+            resourses = await App.DataBaseNew.GetItemsAsync();
         }
     }
 }

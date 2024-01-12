@@ -6,17 +6,11 @@
 
     <ContentPage.Content>
         <StackLayout x:Name="sl_listproperties" BackgroundColor="#212121" Padding="0,20">
-
             <Button x:Name="profileButt" Clicked="AverageButt_Clicked" Text="Профиль" TextColor="#E0E0E0"  FontSize="15"
-                FontAttributes="Bold" BackgroundColor="#323232" CornerRadius="4" Margin="5"/>
-
-            <Button x:Name="settingButt" Clicked="GeneralSettingButt_Clicked" Text="Основные настройки" TextColor="#E0E0E0"  FontSize="15"
             FontAttributes="Bold" BackgroundColor="#323232" CornerRadius="4" Margin="5"/>
 
             <Button x:Name="ResoursePage" Clicked="ResourseButt_Clicked" Text="Ресурсы" TextColor="#E0E0E0"  FontSize="15"
             FontAttributes="Bold" BackgroundColor="#323232" CornerRadius="4" Margin="5"/>
-
         </StackLayout>
-
     </ContentPage.Content>
 </ContentPage>

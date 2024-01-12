@@ -1,4 +1,5 @@
-﻿using System.Net;
+﻿using AngleSharp;
+using System.Net;
 using System.Net.Http;
 using System.Threading.Tasks;
 
@@ -8,20 +9,13 @@ namespace News_aggregator.Parser
     {
         readonly HttpClient client;
         readonly string url;
-        //настройки передаются из бекенда страницы
-        public HtmlLoader(IParserSettings settings)
-        {
-            client = new HttpClient();
-            url = $"{settings.BaseUrl}";
-        }
         //получчение кода страницы
-        public async Task<string> GetSoureByPageId()
+        public async Task<string> GetHtmlSourse()
         {
             var currentUrl = url;
-            var response = await client.GetAsync(currentUrl);
+            var response = await client.GetAsync(currentUrl, HttpCompletionOption.ResponseHeadersRead);
             //исходный код страницы
-            string sourse = "";
-
+            var sourse = "";
             if (response != null && response.StatusCode == HttpStatusCode.OK)
             {
                 sourse = await response.Content.ReadAsStringAsync();

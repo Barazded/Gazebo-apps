@@ -1,10 +1,12 @@
-﻿using AngleSharp.Html.Dom;
+﻿using AngleSharp.Dom;
+using AngleSharp.Html.Dom;
+using News_aggregator.Models;
 using System.Collections.Generic;
 
 namespace News_aggregator.Parser
 {
     internal interface IParser
     {
-        void Parse(IHtmlDocument document, ref List<string> titles_, ref List<string> info_, ref List<string> dates_, ref List<string> links_);
+        List<Card> Parse(IHtmlDocument document);
     }
 }

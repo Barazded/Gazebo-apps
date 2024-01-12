@@ -1342,6 +1342,12 @@ xamarin.essentials.WebAuthenticatorCallbackActivity;crc64a0e0a82d0db9a07d.WebAut
 Xamarin.Essentials.WebAuthenticatorIntermediateActivity, Xamarin.Essentials;crc64a0e0a82d0db9a07d.WebAuthenticatorIntermediateActivity
 Xamarin.Essentials.WebAuthenticatorIntermediateActivity;crc64a0e0a82d0db9a07d.WebAuthenticatorIntermediateActivity
 xamarin.essentials.WebAuthenticatorIntermediateActivity;crc64a0e0a82d0db9a07d.WebAuthenticatorIntermediateActivity
+Firebase.Auth.FirebaseAuth+IAuthStateListenerImplementor, Xamarin.Firebase.Auth;mono.com.google.firebase.auth.FirebaseAuth_AuthStateListenerImplementor
+Firebase.Auth.FirebaseAuth.IAuthStateListenerImplementor;mono.com.google.firebase.auth.FirebaseAuth_AuthStateListenerImplementor
+mono.com.google.firebase.auth.FirebaseAuth_AuthStateListenerImplementor;mono.com.google.firebase.auth.FirebaseAuth_AuthStateListenerImplementor
+Firebase.Auth.FirebaseAuth+IIdTokenListenerImplementor, Xamarin.Firebase.Auth;mono.com.google.firebase.auth.FirebaseAuth_IdTokenListenerImplementor
+Firebase.Auth.FirebaseAuth.IIdTokenListenerImplementor;mono.com.google.firebase.auth.FirebaseAuth_IdTokenListenerImplementor
+mono.com.google.firebase.auth.FirebaseAuth_IdTokenListenerImplementor;mono.com.google.firebase.auth.FirebaseAuth_IdTokenListenerImplementor
 Xamarin.Forms.Platform.Android.AccessibilityDelegateAutomationId, Xamarin.Forms.Platform.Android;crc643f46942d9dd1fff9.AccessibilityDelegateAutomationId
 Xamarin.Forms.Platform.Android.AccessibilityDelegateAutomationId;crc643f46942d9dd1fff9.AccessibilityDelegateAutomationId
 xamarin.forms.platform.android.AccessibilityDelegateAutomationId;crc643f46942d9dd1fff9.AccessibilityDelegateAutomationId
@@ -2362,3 +2368,195 @@ com.google.android.material.animation.TransformationCallback;com.google.android.
 Google.Common.Util.Concurrent.IListenableFuture, Xamarin.Google.Guava.ListenableFuture;com.google.common.util.concurrent.ListenableFuture
 Google.Common.Util.Concurrent.IListenableFuture;com.google.common.util.concurrent.ListenableFuture
 com.google.common.util.concurrent.ListenableFuture;com.google.common.util.concurrent.ListenableFuture
+Android.Gms.Common.Images.ImageManager+IOnImageLoadedListenerImplementor, Xamarin.GooglePlayServices.Base;mono.com.google.android.gms.common.images.ImageManager_OnImageLoadedListenerImplementor
+Android.Gms.Common.Images.ImageManager.IOnImageLoadedListenerImplementor;mono.com.google.android.gms.common.images.ImageManager_OnImageLoadedListenerImplementor
+mono.com.google.android.gms.common.images.ImageManager_OnImageLoadedListenerImplementor;mono.com.google.android.gms.common.images.ImageManager_OnImageLoadedListenerImplementor
+Android.Gms.Common.Apis.GoogleApiClient+IOnConnectionFailedListenerImplementor, Xamarin.GooglePlayServices.Base;mono.com.google.android.gms.common.api.GoogleApiClient_OnConnectionFailedListenerImplementor
+Android.Gms.Common.Apis.GoogleApiClient.IOnConnectionFailedListenerImplementor;mono.com.google.android.gms.common.api.GoogleApiClient_OnConnectionFailedListenerImplementor
+mono.com.google.android.gms.common.api.GoogleApiClient_OnConnectionFailedListenerImplementor;mono.com.google.android.gms.common.api.GoogleApiClient_OnConnectionFailedListenerImplementor
+Android.Gms.Common.Apis.GoogleApiClientConnectionCallbacksImpl, Xamarin.GooglePlayServices.Base;crc6434af9c19aa01b597.GoogleApiClientConnectionCallbacksImpl
+Android.Gms.Common.Apis.GoogleApiClientConnectionCallbacksImpl;crc6434af9c19aa01b597.GoogleApiClientConnectionCallbacksImpl
+android.gms.common.apis.GoogleApiClientConnectionCallbacksImpl;crc6434af9c19aa01b597.GoogleApiClientConnectionCallbacksImpl
+Android.Gms.Common.Apis.GoogleApiClientOnConnectionFailedListenerImpl, Xamarin.GooglePlayServices.Base;crc6434af9c19aa01b597.GoogleApiClientOnConnectionFailedListenerImpl
+Android.Gms.Common.Apis.GoogleApiClientOnConnectionFailedListenerImpl;crc6434af9c19aa01b597.GoogleApiClientOnConnectionFailedListenerImpl
+android.gms.common.apis.GoogleApiClientOnConnectionFailedListenerImpl;crc6434af9c19aa01b597.GoogleApiClientOnConnectionFailedListenerImpl
+Android.Gms.Security.ProviderInstaller+IProviderInstallListenerImplementor, Xamarin.GooglePlayServices.Basement;mono.com.google.android.gms.security.ProviderInstaller_ProviderInstallListenerImplementor
+Android.Gms.Security.ProviderInstaller.IProviderInstallListenerImplementor;mono.com.google.android.gms.security.ProviderInstaller_ProviderInstallListenerImplementor
+mono.com.google.android.gms.security.ProviderInstaller_ProviderInstallListenerImplementor;mono.com.google.android.gms.security.ProviderInstaller_ProviderInstallListenerImplementor
+Android.Gms.Common.Apis.ResultCallback`1, Xamarin.GooglePlayServices.Basement;crc6450e07d0e82e86181.ResultCallback_1
+Android.Gms.Common.Apis.ResultCallback`1;crc6450e07d0e82e86181.ResultCallback_1
+android.gms.common.apis.ResultCallback_1;crc6450e07d0e82e86181.ResultCallback_1
+Android.Gms.Common.Apis.AwaitableResultCallback`1, Xamarin.GooglePlayServices.Basement;crc6450e07d0e82e86181.AwaitableResultCallback_1
+Android.Gms.Common.Apis.AwaitableResultCallback`1;crc6450e07d0e82e86181.AwaitableResultCallback_1
+android.gms.common.apis.AwaitableResultCallback_1;crc6450e07d0e82e86181.AwaitableResultCallback_1
+Android.Gms.Tasks.IOnCompleteListenerImplementor, Xamarin.GooglePlayServices.Tasks;mono.com.google.android.gms.tasks.OnCompleteListenerImplementor
+Android.Gms.Tasks.IOnCompleteListenerImplementor;mono.com.google.android.gms.tasks.OnCompleteListenerImplementor
+mono.com.google.android.gms.tasks.OnCompleteListenerImplementor;mono.com.google.android.gms.tasks.OnCompleteListenerImplementor
+Android.Gms.Tasks.IOnFailureListenerImplementor, Xamarin.GooglePlayServices.Tasks;mono.com.google.android.gms.tasks.OnFailureListenerImplementor
+Android.Gms.Tasks.IOnFailureListenerImplementor;mono.com.google.android.gms.tasks.OnFailureListenerImplementor
+mono.com.google.android.gms.tasks.OnFailureListenerImplementor;mono.com.google.android.gms.tasks.OnFailureListenerImplementor
+Android.Gms.Tasks.IOnSuccessListenerImplementor, Xamarin.GooglePlayServices.Tasks;mono.com.google.android.gms.tasks.OnSuccessListenerImplementor
+Android.Gms.Tasks.IOnSuccessListenerImplementor;mono.com.google.android.gms.tasks.OnSuccessListenerImplementor
+mono.com.google.android.gms.tasks.OnSuccessListenerImplementor;mono.com.google.android.gms.tasks.OnSuccessListenerImplementor
+Android.Gms.Extensions.AwaitableTaskCompleteListener`1, Xamarin.GooglePlayServices.Tasks;crc6495d4f5d63cc5c882.AwaitableTaskCompleteListener_1
+Android.Gms.Extensions.AwaitableTaskCompleteListener`1;crc6495d4f5d63cc5c882.AwaitableTaskCompleteListener_1
+android.gms.extensions.AwaitableTaskCompleteListener_1;crc6495d4f5d63cc5c882.AwaitableTaskCompleteListener_1
+JetBrains.Annotations.ApiStatus+IAvailableSince, Xamarin.Jetbrains.Annotations;org.jetbrains.annotations.ApiStatus$AvailableSince
+JetBrains.Annotations.ApiStatus.IAvailableSince;org.jetbrains.annotations.ApiStatus$AvailableSince
+org.jetbrains.annotations.ApiStatus$AvailableSince;org.jetbrains.annotations.ApiStatus$AvailableSince
+JetBrains.Annotations.ApiStatus+IExperimental, Xamarin.Jetbrains.Annotations;org.jetbrains.annotations.ApiStatus$Experimental
+JetBrains.Annotations.ApiStatus.IExperimental;org.jetbrains.annotations.ApiStatus$Experimental
+org.jetbrains.annotations.ApiStatus$Experimental;org.jetbrains.annotations.ApiStatus$Experimental
+JetBrains.Annotations.ApiStatus+IInternal, Xamarin.Jetbrains.Annotations;org.jetbrains.annotations.ApiStatus$Internal
+JetBrains.Annotations.ApiStatus.IInternal;org.jetbrains.annotations.ApiStatus$Internal
+org.jetbrains.annotations.ApiStatus$Internal;org.jetbrains.annotations.ApiStatus$Internal
+JetBrains.Annotations.ApiStatus+INonExtendable, Xamarin.Jetbrains.Annotations;org.jetbrains.annotations.ApiStatus$NonExtendable
+JetBrains.Annotations.ApiStatus.INonExtendable;org.jetbrains.annotations.ApiStatus$NonExtendable
+org.jetbrains.annotations.ApiStatus$NonExtendable;org.jetbrains.annotations.ApiStatus$NonExtendable
+JetBrains.Annotations.ApiStatus+IObsolete, Xamarin.Jetbrains.Annotations;org.jetbrains.annotations.ApiStatus$Obsolete
+JetBrains.Annotations.ApiStatus.IObsolete;org.jetbrains.annotations.ApiStatus$Obsolete
+org.jetbrains.annotations.ApiStatus$Obsolete;org.jetbrains.annotations.ApiStatus$Obsolete
+JetBrains.Annotations.ApiStatus+IOverrideOnly, Xamarin.Jetbrains.Annotations;org.jetbrains.annotations.ApiStatus$OverrideOnly
+JetBrains.Annotations.ApiStatus.IOverrideOnly;org.jetbrains.annotations.ApiStatus$OverrideOnly
+org.jetbrains.annotations.ApiStatus$OverrideOnly;org.jetbrains.annotations.ApiStatus$OverrideOnly
+JetBrains.Annotations.ApiStatus+IScheduledForRemoval, Xamarin.Jetbrains.Annotations;org.jetbrains.annotations.ApiStatus$ScheduledForRemoval
+JetBrains.Annotations.ApiStatus.IScheduledForRemoval;org.jetbrains.annotations.ApiStatus$ScheduledForRemoval
+org.jetbrains.annotations.ApiStatus$ScheduledForRemoval;org.jetbrains.annotations.ApiStatus$ScheduledForRemoval
+JetBrains.Annotations.Async+IExecute, Xamarin.Jetbrains.Annotations;org.jetbrains.annotations.Async$Execute
+JetBrains.Annotations.Async.IExecute;org.jetbrains.annotations.Async$Execute
+org.jetbrains.annotations.Async$Execute;org.jetbrains.annotations.Async$Execute
+JetBrains.Annotations.Async+ISchedule, Xamarin.Jetbrains.Annotations;org.jetbrains.annotations.Async$Schedule
+JetBrains.Annotations.Async.ISchedule;org.jetbrains.annotations.Async$Schedule
+org.jetbrains.annotations.Async$Schedule;org.jetbrains.annotations.Async$Schedule
+JetBrains.Annotations.Debug+IRenderer, Xamarin.Jetbrains.Annotations;org.jetbrains.annotations.Debug$Renderer
+JetBrains.Annotations.Debug.IRenderer;org.jetbrains.annotations.Debug$Renderer
+org.jetbrains.annotations.Debug$Renderer;org.jetbrains.annotations.Debug$Renderer
+JetBrains.Annotations.IBlocking, Xamarin.Jetbrains.Annotations;org.jetbrains.annotations.Blocking
+JetBrains.Annotations.IBlocking;org.jetbrains.annotations.Blocking
+org.jetbrains.annotations.Blocking;org.jetbrains.annotations.Blocking
+JetBrains.Annotations.IBlockingExecutor, Xamarin.Jetbrains.Annotations;org.jetbrains.annotations.BlockingExecutor
+JetBrains.Annotations.IBlockingExecutor;org.jetbrains.annotations.BlockingExecutor
+org.jetbrains.annotations.BlockingExecutor;org.jetbrains.annotations.BlockingExecutor
+JetBrains.Annotations.ICheckReturnValue, Xamarin.Jetbrains.Annotations;org.jetbrains.annotations.CheckReturnValue
+JetBrains.Annotations.ICheckReturnValue;org.jetbrains.annotations.CheckReturnValue
+org.jetbrains.annotations.CheckReturnValue;org.jetbrains.annotations.CheckReturnValue
+JetBrains.Annotations.IContract, Xamarin.Jetbrains.Annotations;org.jetbrains.annotations.Contract
+JetBrains.Annotations.IContract;org.jetbrains.annotations.Contract
+org.jetbrains.annotations.Contract;org.jetbrains.annotations.Contract
+JetBrains.Annotations.IMustBeInvokedByOverriders, Xamarin.Jetbrains.Annotations;org.jetbrains.annotations.MustBeInvokedByOverriders
+JetBrains.Annotations.IMustBeInvokedByOverriders;org.jetbrains.annotations.MustBeInvokedByOverriders
+org.jetbrains.annotations.MustBeInvokedByOverriders;org.jetbrains.annotations.MustBeInvokedByOverriders
+JetBrains.Annotations.INls, Xamarin.Jetbrains.Annotations;org.jetbrains.annotations.Nls
+JetBrains.Annotations.INls;org.jetbrains.annotations.Nls
+org.jetbrains.annotations.Nls;org.jetbrains.annotations.Nls
+JetBrains.Annotations.INonBlocking, Xamarin.Jetbrains.Annotations;org.jetbrains.annotations.NonBlocking
+JetBrains.Annotations.INonBlocking;org.jetbrains.annotations.NonBlocking
+org.jetbrains.annotations.NonBlocking;org.jetbrains.annotations.NonBlocking
+JetBrains.Annotations.INonBlockingExecutor, Xamarin.Jetbrains.Annotations;org.jetbrains.annotations.NonBlockingExecutor
+JetBrains.Annotations.INonBlockingExecutor;org.jetbrains.annotations.NonBlockingExecutor
+org.jetbrains.annotations.NonBlockingExecutor;org.jetbrains.annotations.NonBlockingExecutor
+JetBrains.Annotations.INonNls, Xamarin.Jetbrains.Annotations;org.jetbrains.annotations.NonNls
+JetBrains.Annotations.INonNls;org.jetbrains.annotations.NonNls
+org.jetbrains.annotations.NonNls;org.jetbrains.annotations.NonNls
+JetBrains.Annotations.INotNull, Xamarin.Jetbrains.Annotations;org.jetbrains.annotations.NotNull
+JetBrains.Annotations.INotNull;org.jetbrains.annotations.NotNull
+org.jetbrains.annotations.NotNull;org.jetbrains.annotations.NotNull
+JetBrains.Annotations.INullable, Xamarin.Jetbrains.Annotations;org.jetbrains.annotations.Nullable
+JetBrains.Annotations.INullable;org.jetbrains.annotations.Nullable
+org.jetbrains.annotations.Nullable;org.jetbrains.annotations.Nullable
+JetBrains.Annotations.IPropertyKey, Xamarin.Jetbrains.Annotations;org.jetbrains.annotations.PropertyKey
+JetBrains.Annotations.IPropertyKey;org.jetbrains.annotations.PropertyKey
+org.jetbrains.annotations.PropertyKey;org.jetbrains.annotations.PropertyKey
+JetBrains.Annotations.IRange, Xamarin.Jetbrains.Annotations;org.jetbrains.annotations.Range
+JetBrains.Annotations.IRange;org.jetbrains.annotations.Range
+org.jetbrains.annotations.Range;org.jetbrains.annotations.Range
+JetBrains.Annotations.ITestOnly, Xamarin.Jetbrains.Annotations;org.jetbrains.annotations.TestOnly
+JetBrains.Annotations.ITestOnly;org.jetbrains.annotations.TestOnly
+org.jetbrains.annotations.TestOnly;org.jetbrains.annotations.TestOnly
+JetBrains.Annotations.IUnknownNullability, Xamarin.Jetbrains.Annotations;org.jetbrains.annotations.UnknownNullability
+JetBrains.Annotations.IUnknownNullability;org.jetbrains.annotations.UnknownNullability
+org.jetbrains.annotations.UnknownNullability;org.jetbrains.annotations.UnknownNullability
+JetBrains.Annotations.IUnmodifiable, Xamarin.Jetbrains.Annotations;org.jetbrains.annotations.Unmodifiable
+JetBrains.Annotations.IUnmodifiable;org.jetbrains.annotations.Unmodifiable
+org.jetbrains.annotations.Unmodifiable;org.jetbrains.annotations.Unmodifiable
+JetBrains.Annotations.IUnmodifiableView, Xamarin.Jetbrains.Annotations;org.jetbrains.annotations.UnmodifiableView
+JetBrains.Annotations.IUnmodifiableView;org.jetbrains.annotations.UnmodifiableView
+org.jetbrains.annotations.UnmodifiableView;org.jetbrains.annotations.UnmodifiableView
+JetBrains.Annotations.IVisibleForTesting, Xamarin.Jetbrains.Annotations;org.jetbrains.annotations.VisibleForTesting
+JetBrains.Annotations.IVisibleForTesting;org.jetbrains.annotations.VisibleForTesting
+org.jetbrains.annotations.VisibleForTesting;org.jetbrains.annotations.VisibleForTesting
+IntelliJ.Lang.Annotations.IFlow, Xamarin.Jetbrains.Annotations;org.intellij.lang.annotations.Flow
+IntelliJ.Lang.Annotations.IFlow;org.intellij.lang.annotations.Flow
+org.intellij.lang.annotations.Flow;org.intellij.lang.annotations.Flow
+IntelliJ.Lang.Annotations.IIdentifier, Xamarin.Jetbrains.Annotations;org.intellij.lang.annotations.Identifier
+IntelliJ.Lang.Annotations.IIdentifier;org.intellij.lang.annotations.Identifier
+org.intellij.lang.annotations.Identifier;org.intellij.lang.annotations.Identifier
+IntelliJ.Lang.Annotations.ILanguage, Xamarin.Jetbrains.Annotations;org.intellij.lang.annotations.Language
+IntelliJ.Lang.Annotations.ILanguage;org.intellij.lang.annotations.Language
+org.intellij.lang.annotations.Language;org.intellij.lang.annotations.Language
+IntelliJ.Lang.Annotations.IMagicConstant, Xamarin.Jetbrains.Annotations;org.intellij.lang.annotations.MagicConstant
+IntelliJ.Lang.Annotations.IMagicConstant;org.intellij.lang.annotations.MagicConstant
+org.intellij.lang.annotations.MagicConstant;org.intellij.lang.annotations.MagicConstant
+IntelliJ.Lang.Annotations.IPattern, Xamarin.Jetbrains.Annotations;org.intellij.lang.annotations.Pattern
+IntelliJ.Lang.Annotations.IPattern;org.intellij.lang.annotations.Pattern
+org.intellij.lang.annotations.Pattern;org.intellij.lang.annotations.Pattern
+IntelliJ.Lang.Annotations.IPrintFormat, Xamarin.Jetbrains.Annotations;org.intellij.lang.annotations.PrintFormat
+IntelliJ.Lang.Annotations.IPrintFormat;org.intellij.lang.annotations.PrintFormat
+org.intellij.lang.annotations.PrintFormat;org.intellij.lang.annotations.PrintFormat
+IntelliJ.Lang.Annotations.IRegExp, Xamarin.Jetbrains.Annotations;org.intellij.lang.annotations.RegExp
+IntelliJ.Lang.Annotations.IRegExp;org.intellij.lang.annotations.RegExp
+org.intellij.lang.annotations.RegExp;org.intellij.lang.annotations.RegExp
+IntelliJ.Lang.Annotations.ISubst, Xamarin.Jetbrains.Annotations;org.intellij.lang.annotations.Subst
+IntelliJ.Lang.Annotations.ISubst;org.intellij.lang.annotations.Subst
+org.intellij.lang.annotations.Subst;org.intellij.lang.annotations.Subst
+IntelliJ.Lang.Annotations.JdkConstants+IAdjustableOrientation, Xamarin.Jetbrains.Annotations;org.intellij.lang.annotations.JdkConstants$AdjustableOrientation
+IntelliJ.Lang.Annotations.JdkConstants.IAdjustableOrientation;org.intellij.lang.annotations.JdkConstants$AdjustableOrientation
+org.intellij.lang.annotations.JdkConstants$AdjustableOrientation;org.intellij.lang.annotations.JdkConstants$AdjustableOrientation
+IntelliJ.Lang.Annotations.JdkConstants+IBoxLayoutAxis, Xamarin.Jetbrains.Annotations;org.intellij.lang.annotations.JdkConstants$BoxLayoutAxis
+IntelliJ.Lang.Annotations.JdkConstants.IBoxLayoutAxis;org.intellij.lang.annotations.JdkConstants$BoxLayoutAxis
+org.intellij.lang.annotations.JdkConstants$BoxLayoutAxis;org.intellij.lang.annotations.JdkConstants$BoxLayoutAxis
+IntelliJ.Lang.Annotations.JdkConstants+ICalendarMonth, Xamarin.Jetbrains.Annotations;org.intellij.lang.annotations.JdkConstants$CalendarMonth
+IntelliJ.Lang.Annotations.JdkConstants.ICalendarMonth;org.intellij.lang.annotations.JdkConstants$CalendarMonth
+org.intellij.lang.annotations.JdkConstants$CalendarMonth;org.intellij.lang.annotations.JdkConstants$CalendarMonth
+IntelliJ.Lang.Annotations.JdkConstants+ICursorType, Xamarin.Jetbrains.Annotations;org.intellij.lang.annotations.JdkConstants$CursorType
+IntelliJ.Lang.Annotations.JdkConstants.ICursorType;org.intellij.lang.annotations.JdkConstants$CursorType
+org.intellij.lang.annotations.JdkConstants$CursorType;org.intellij.lang.annotations.JdkConstants$CursorType
+IntelliJ.Lang.Annotations.JdkConstants+IFlowLayoutAlignment, Xamarin.Jetbrains.Annotations;org.intellij.lang.annotations.JdkConstants$FlowLayoutAlignment
+IntelliJ.Lang.Annotations.JdkConstants.IFlowLayoutAlignment;org.intellij.lang.annotations.JdkConstants$FlowLayoutAlignment
+org.intellij.lang.annotations.JdkConstants$FlowLayoutAlignment;org.intellij.lang.annotations.JdkConstants$FlowLayoutAlignment
+IntelliJ.Lang.Annotations.JdkConstants+IFontStyle, Xamarin.Jetbrains.Annotations;org.intellij.lang.annotations.JdkConstants$FontStyle
+IntelliJ.Lang.Annotations.JdkConstants.IFontStyle;org.intellij.lang.annotations.JdkConstants$FontStyle
+org.intellij.lang.annotations.JdkConstants$FontStyle;org.intellij.lang.annotations.JdkConstants$FontStyle
+IntelliJ.Lang.Annotations.JdkConstants+IHorizontalAlignment, Xamarin.Jetbrains.Annotations;org.intellij.lang.annotations.JdkConstants$HorizontalAlignment
+IntelliJ.Lang.Annotations.JdkConstants.IHorizontalAlignment;org.intellij.lang.annotations.JdkConstants$HorizontalAlignment
+org.intellij.lang.annotations.JdkConstants$HorizontalAlignment;org.intellij.lang.annotations.JdkConstants$HorizontalAlignment
+IntelliJ.Lang.Annotations.JdkConstants+IHorizontalScrollBarPolicy, Xamarin.Jetbrains.Annotations;org.intellij.lang.annotations.JdkConstants$HorizontalScrollBarPolicy
+IntelliJ.Lang.Annotations.JdkConstants.IHorizontalScrollBarPolicy;org.intellij.lang.annotations.JdkConstants$HorizontalScrollBarPolicy
+org.intellij.lang.annotations.JdkConstants$HorizontalScrollBarPolicy;org.intellij.lang.annotations.JdkConstants$HorizontalScrollBarPolicy
+IntelliJ.Lang.Annotations.JdkConstants+IInputEventMask, Xamarin.Jetbrains.Annotations;org.intellij.lang.annotations.JdkConstants$InputEventMask
+IntelliJ.Lang.Annotations.JdkConstants.IInputEventMask;org.intellij.lang.annotations.JdkConstants$InputEventMask
+org.intellij.lang.annotations.JdkConstants$InputEventMask;org.intellij.lang.annotations.JdkConstants$InputEventMask
+IntelliJ.Lang.Annotations.JdkConstants+IListSelectionMode, Xamarin.Jetbrains.Annotations;org.intellij.lang.annotations.JdkConstants$ListSelectionMode
+IntelliJ.Lang.Annotations.JdkConstants.IListSelectionMode;org.intellij.lang.annotations.JdkConstants$ListSelectionMode
+org.intellij.lang.annotations.JdkConstants$ListSelectionMode;org.intellij.lang.annotations.JdkConstants$ListSelectionMode
+IntelliJ.Lang.Annotations.JdkConstants+IPatternFlags, Xamarin.Jetbrains.Annotations;org.intellij.lang.annotations.JdkConstants$PatternFlags
+IntelliJ.Lang.Annotations.JdkConstants.IPatternFlags;org.intellij.lang.annotations.JdkConstants$PatternFlags
+org.intellij.lang.annotations.JdkConstants$PatternFlags;org.intellij.lang.annotations.JdkConstants$PatternFlags
+IntelliJ.Lang.Annotations.JdkConstants+ITabLayoutPolicy, Xamarin.Jetbrains.Annotations;org.intellij.lang.annotations.JdkConstants$TabLayoutPolicy
+IntelliJ.Lang.Annotations.JdkConstants.ITabLayoutPolicy;org.intellij.lang.annotations.JdkConstants$TabLayoutPolicy
+org.intellij.lang.annotations.JdkConstants$TabLayoutPolicy;org.intellij.lang.annotations.JdkConstants$TabLayoutPolicy
+IntelliJ.Lang.Annotations.JdkConstants+ITabPlacement, Xamarin.Jetbrains.Annotations;org.intellij.lang.annotations.JdkConstants$TabPlacement
+IntelliJ.Lang.Annotations.JdkConstants.ITabPlacement;org.intellij.lang.annotations.JdkConstants$TabPlacement
+org.intellij.lang.annotations.JdkConstants$TabPlacement;org.intellij.lang.annotations.JdkConstants$TabPlacement
+IntelliJ.Lang.Annotations.JdkConstants+ITitledBorderJustification, Xamarin.Jetbrains.Annotations;org.intellij.lang.annotations.JdkConstants$TitledBorderJustification
+IntelliJ.Lang.Annotations.JdkConstants.ITitledBorderJustification;org.intellij.lang.annotations.JdkConstants$TitledBorderJustification
+org.intellij.lang.annotations.JdkConstants$TitledBorderJustification;org.intellij.lang.annotations.JdkConstants$TitledBorderJustification
+IntelliJ.Lang.Annotations.JdkConstants+ITitledBorderTitlePosition, Xamarin.Jetbrains.Annotations;org.intellij.lang.annotations.JdkConstants$TitledBorderTitlePosition
+IntelliJ.Lang.Annotations.JdkConstants.ITitledBorderTitlePosition;org.intellij.lang.annotations.JdkConstants$TitledBorderTitlePosition
+org.intellij.lang.annotations.JdkConstants$TitledBorderTitlePosition;org.intellij.lang.annotations.JdkConstants$TitledBorderTitlePosition
+IntelliJ.Lang.Annotations.JdkConstants+ITreeSelectionMode, Xamarin.Jetbrains.Annotations;org.intellij.lang.annotations.JdkConstants$TreeSelectionMode
+IntelliJ.Lang.Annotations.JdkConstants.ITreeSelectionMode;org.intellij.lang.annotations.JdkConstants$TreeSelectionMode
+org.intellij.lang.annotations.JdkConstants$TreeSelectionMode;org.intellij.lang.annotations.JdkConstants$TreeSelectionMode
+IntelliJ.Lang.Annotations.JdkConstants+IVerticalScrollBarPolicy, Xamarin.Jetbrains.Annotations;org.intellij.lang.annotations.JdkConstants$VerticalScrollBarPolicy
+IntelliJ.Lang.Annotations.JdkConstants.IVerticalScrollBarPolicy;org.intellij.lang.annotations.JdkConstants$VerticalScrollBarPolicy
+org.intellij.lang.annotations.JdkConstants$VerticalScrollBarPolicy;org.intellij.lang.annotations.JdkConstants$VerticalScrollBarPolicy

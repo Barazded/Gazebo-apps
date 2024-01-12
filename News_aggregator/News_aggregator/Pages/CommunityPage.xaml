@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="News_aggregator.Pages.CommunityPage"
+             Title="Сообщество">
+    <StackLayout BackgroundColor="#212121">
+        <StackLayout>
+            <Button x:Name="Constructor" Text = "Конструктор" TextColor="#E0E0E0"  FontSize="15" Clicked = "ConstructorButt_Clicked" FontAttributes="Bold" BackgroundColor="#323232" CornerRadius="4" Margin="5"/>
+        </StackLayout>
+        <CollectionView x:Name="collection_api" Margin="5" SelectionMode="Single" SelectionChanged="Ev_ApiInfoClicked">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <StackLayout>
+                        <StackLayout Margin="5" VerticalOptions="FillAndExpand" Background="#323232" >
+                            <Label Text="{Binding apiSettings.NameResourse}" FontSize="20" TextColor="WhiteSmoke"/>
+                            <Label Text="{Binding id}" FontSize="1" TextColor="#323232"/>
+                        </StackLayout>
+                    </StackLayout>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+    </StackLayout>
+</ContentPage>

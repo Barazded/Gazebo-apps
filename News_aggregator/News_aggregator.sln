@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "News_aggregator.Android", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "News_aggregator.iOS", "News_aggregator.iOS\News_aggregator.iOS.csproj", "{4728FD71-221B-4BDC-86E0-78DE5337A32C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "News_aggregator", "News_aggregator\News_aggregator.csproj", "{79865594-5B26-4C2F-93B2-68D09441CA3F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "News_aggregator", "News_aggregator\News_aggregator.csproj", "{79865594-5B26-4C2F-93B2-68D09441CA3F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

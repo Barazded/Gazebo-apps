@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="News_aggregator.Pages.InfoApiPage">
+    <StackLayout BackgroundColor="#212121">
+        <StackLayout>
+            <Label Text="Описание API:" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" FontSize="15" TextColor="White" Margin="5"/>
+        </StackLayout>
+        <CollectionView x:Name="collection_api" Margin="5" SelectionMode="None">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <StackLayout>
+                        <StackLayout Margin="5" VerticalOptions="FillAndExpand" Background="#323232">
+                            <Label Text="Название:" FontSize="13" TextColor="WhiteSmoke"/>
+                            <Entry Text="{Binding apiSettings.NameResourse}" FontSize="13" TextColor="WhiteSmoke" BackgroundColor="#212121" IsReadOnly="true"/>
+                            <Label Text="Id в базе данных: " FontSize="13" TextColor="WhiteSmoke"/>
+                            <Entry Text="{Binding id}" FontSize="13" TextColor="WhiteSmoke" BackgroundColor="#212121" IsReadOnly="true"/>
+                            <Label Text="Селектор заголовков: " FontSize="13" TextColor="WhiteSmoke"/>
+                            <Entry Text="{Binding apiSettings.TitleSelector}" FontSize="13" TextColor="WhiteSmoke" BackgroundColor="#212121" IsReadOnly="true"/>
+                            <Label Text="Селектор описания: " FontSize="13" TextColor="WhiteSmoke"/>
+                            <Entry Text="{Binding apiSettings.InfoSelector}" FontSize="13" TextColor="WhiteSmoke" BackgroundColor="#212121" IsReadOnly="true"/>
+                            <Label Text="Селектор даты: " FontSize="13" TextColor="WhiteSmoke"/>
+                            <Entry Text="{Binding apiSettings.DateSelector}" FontSize="13" TextColor="WhiteSmoke" BackgroundColor="#212121" IsReadOnly="true"/>
+                            <Label Text="Селектор ссылок: " FontSize="13" TextColor="WhiteSmoke"/>
+                            <Entry Text="{Binding apiSettings.LinkSelector}" FontSize="13" TextColor="WhiteSmoke" BackgroundColor="#212121" IsReadOnly="true"/>
+                        </StackLayout>
+                        <Button Clicked="Ev_ParseButtonCliced" CornerRadius="5"  Text="Отладка" TextColor="White" BackgroundColor="#323232"/>
+                        <Button Clicked="Ev_PublishButtonCliced" CornerRadius="5"  Text="Добавить в свой список" TextColor="White" BackgroundColor="#323232"/>
+                    </StackLayout>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+    </StackLayout>
+</ContentPage>

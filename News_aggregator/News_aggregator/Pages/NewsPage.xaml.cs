@@ -9,67 +9,44 @@ namespace News_aggregator.Pages
 {
     public partial class NewsPage : ContentPage
     {
-        private ParserWorker parser;
-        private List<Card> cards = new List<Card>();
+        private StartParser parser;
+        private List<Card> parsedCards = new List<Card>();
         private List<List<Card>> listListCards = new List<List<Card>>();
-        private List<ResourseItem> resoursesBd = new List<ResourseItem>();
-        //ParserWorker и HtmlLoader должны прогонять по одному ресурсу
-        //для хранения имен выбраных ресурсов
-        private List<string> selctedItemsNames = new List<string>();
-        //кортежи всех ресурсов
-        private List<(IParserSettings settings, IParser parser)> resoursesTupleList = new List<(IParserSettings settings, IParser parser)>();
-        //кортежи выбранных ресурсов
-        private List<(IParserSettings settings, IParser parser)> selectedResoursesTupleList = new List<(IParserSettings settings, IParser parser)>();
+        private List<ResourseSettings> allResourses = new List<ResourseSettings>();
+        private List<ResourseSettings> selectedResourses = new List<ResourseSettings>();
+        private Dictionary<string, ResourseType> filterDict = new Dictionary<string, ResourseType>();
         public NewsPage()
         {
             InitializeComponent();
             collectionResourses.ItemsSource = null;
-            //инициализация всех ресурсов
-            resoursesTupleList = new List<(IParserSettings settings, IParser parser)>
-            {
-                (new InvestingSettings(), new InvestingParser()),
-                (new IgromaniaSettings(), new IgromaniaParser()),
-                (new RbcSettings(), new RbcParser()),
-                (new IXBTSettings(), new IXBTParser()),
-                (new IXBTGamesSettings(), new IXBTGamesParser()),
-                (new StopGameSettings(), new StopGameParser()),
-                (new BankiSettings(), new BankiParser())
-            };
         }
         protected async override void OnAppearing()
         {
             base.OnAppearing();
+            filterDict = new Dictionary<string, ResourseType>()
+            {
+                {"игры", ResourseType.games },
+                {"экономика", ResourseType.economyc },
+                {"наука и технологии", ResourseType.tech },
+                {"всё", ResourseType.all }
+            };
             if (!Application.Current.Properties.ContainsKey("filterInx"))
                 pickerFilter.SelectedIndex = 0;
             else
                 pickerFilter.SelectedIndex = (int)Application.Current.Properties["filterInx"];
             collectionResourses.ItemsSource = null;
-            #region Get Selected Resourses
-            //получение ресурсов из бд
-            resoursesBd = await App.DataBase.GetItemsAsync();
-            //получение имен выбранных ресурсов
-            for (int i = 0; i < resoursesTupleList.Count; i++)
+            //инициализация всех элементов из лбд
+            allResourses = await App.DataBaseNew.GetItemsAsync();
+            //получение выбранных ресурсов
+            for (int i = 0; i < allResourses.Count; i++)
             {
-                if (resoursesBd[i].isChecked)
-                    selctedItemsNames.Add(resoursesBd[i].NameItem);
+                if (allResourses[i].isChecked)
+                    selectedResourses.Add(allResourses[i]);
             }
-            //добавление выбранных ресурсов
-            for (int i = 0; i < selctedItemsNames.Count; i++)
+            for (int i = 0; i < selectedResourses.Count; i++)
             {
-                for (int z = 0; z < resoursesTupleList.Count; z++)
-                    if (selctedItemsNames[i] == resoursesTupleList[z].settings.Name)
-                        selectedResoursesTupleList.Add(resoursesTupleList[z]);
-            }
-            #endregion
-            //
-            for (int i = 0; i < selectedResoursesTupleList.Count; i++)
-            {
-                //Свойство Settings из ParserWorker (данные для html loader)
-                parser = new ParserWorker(selectedResoursesTupleList[i].parser)
-                {
-                    Settings = selectedResoursesTupleList[i].settings
-                };
-                parser.OnNewData += Parser_OnNewData;
+                parser = new StartParser((ParserSettings)App.ByteArrayToObject(selectedResourses[i].ParserSettingsByte));
+                parser.OnUpdateData += OnUpdateData;
                 parser.Start();
             }
         }
@@ -78,13 +55,14 @@ namespace News_aggregator.Pages
             base.OnDisappearing();
             collectionResourses.ItemsSource = null;
             listListCards.Clear();
-            cards.Clear();
-            selectedResoursesTupleList.Clear();
-            selctedItemsNames.Clear();
+            parsedCards.Clear();
+            allResourses.Clear();
+            selectedResourses.Clear();
         }
         //реализация события
-        private void Parser_OnNewData(object sender, List<string> titles, List<string> info, List<string> dates, List<string> links)
+        private void OnUpdateData(object sender, List<Card> cardsToParse)
         {
+            if (cardsToParse == null) { return; }
             collectionResourses.ItemsSource = null;
             listListCards.Clear();
             //получение стандарта вывода из локальных файлов приложения
@@ -92,30 +70,29 @@ namespace News_aggregator.Pages
             //получение настроек фильтра
             string currentFilter = (string)Application.Current.Properties["currentFilter"];
             List<Card> filterCards = new List<Card>();
-            var settings = (sender as ParserWorker).Settings;
+            var settings = (sender as StartParser).Settings;
             //создание карточек
-            if (cards.Count < selectedResoursesTupleList.Count * viewStandart)
+            if (parsedCards.Count < selectedResourses.Count * viewStandart)
             {
-                for (int i = 0; i < viewStandart; i++)
+                for (int i = 0; i < cardsToParse.Count; i++)
                 {
-                    var newCard = new Card();
-                    #region Get Properties
-                    newCard.ID = cards.Count + 1;
-                    newCard.Title = titles[i];
-                    newCard.Link = links[i];
-                    newCard.Type = settings.Type;
-                    //получение названия ресурса
-                    newCard.NameResourse = (sender as ParserWorker).Settings.Name;
-                    if (info.Count != 0)
-                        newCard.Info = info[i];
-                    if (dates.Count != 0)
-                        newCard.Date = dates[i];
-                    #endregion
-                    cards.Add(newCard);
+                    var newCard = new Card()
+                    {
+                        //Обязательные поля
+                        ID = parsedCards.Count + 1,
+                        Title = cardsToParse[i].Title,
+                        Link = cardsToParse[i].Link,
+                        Type = settings.TypeResourse,
+                        NameResourse = settings.NameResourse,
+                        //
+                        Info = (cardsToParse[i].Info == null ? "" : cardsToParse[i].Info),
+                        Date = (cardsToParse[i].Date == null ? "" : cardsToParse[i].Date)
+                    };
+                    parsedCards.Add(newCard);
                 }
             }
-            //если последный ресурс был распаршен запускается сортировка и фильтровка
-            if (cards.Count > viewStandart && cards.Count/viewStandart == selectedResoursesTupleList.Count)
+            //если последный ресурс был распаршен запускается сортировка
+            if (parsedCards.Count > viewStandart && parsedCards.Count/viewStandart == selectedResourses.Count)
             {
                 //выделение памяти
                 for (int i = 0; i < viewStandart / 2; i++)
@@ -126,11 +103,11 @@ namespace News_aggregator.Pages
                 int slice = 2;
                 //для вычета
                 int part = slice;
-                for (int i = 0; i < cards.Count; i++)
+                for (int i = 0; i < parsedCards.Count; i++)
                 {
                     if (part > 0)
                     {
-                        listListCards[flow].Add(cards[i]);
+                        listListCards[flow].Add(parsedCards[i]);
                         part--;
                         if (part == 0)
                         {
@@ -149,13 +126,12 @@ namespace News_aggregator.Pages
                     for (int x = 0; x < listListCards[i].Count; x++)
                         newCards.Add(listListCards[i][x]);
                 }
-                cards = newCards;
+                parsedCards = newCards;
             }
+            collectionResourses.ItemsSource = parsedCards;
             //фильтровка карточек
-            if(cards.Count/viewStandart == selectedResoursesTupleList.Count)
-                FilterCards(currentFilter, ref filterCards);
-            else
-                filterCards = cards;
+            if (parsedCards.Count / viewStandart == selectedResourses.Count) { FilterCards(currentFilter, ref filterCards); }
+            else { filterCards = parsedCards; }
             collectionResourses.ItemsSource = filterCards;
         }
         //вызывается при нажатии на элементъ collectionResourses
@@ -164,7 +140,6 @@ namespace News_aggregator.Pages
             //срабатывает при нажатии на элемент collectonView
             await Navigation.PushAsync(new ViewPage(e.CurrentSelection.FirstOrDefault() as Card));
         }
-
         private async void FilterChanged(object sender, EventArgs e)
         {
             List<Card> filterCards = new List<Card>();
@@ -178,16 +153,17 @@ namespace News_aggregator.Pages
         }
         private void FilterCards(string currentFilter, ref List<Card> _filterCards)
         {
+            var currentFilterEnum = filterDict[currentFilter];
             if (currentFilter != "всё")
             {
-                for (int i = 0; i < cards.Count; i++)
+                for (int i = 0; i < parsedCards.Count; i++)
                 {
-                    if (currentFilter == cards[i].Type)
-                        _filterCards.Add(cards[i]);
+                    if (currentFilterEnum == parsedCards[i].Type)
+                        _filterCards.Add(parsedCards[i]);
                 }
             }
             else
-                _filterCards = cards;
+                _filterCards = parsedCards;
         }
     }
 }
