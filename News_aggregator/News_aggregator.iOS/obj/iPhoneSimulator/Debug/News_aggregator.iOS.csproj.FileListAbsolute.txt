@@ -17,6 +17,8 @@ F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregat
 F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.iOS\bin\iPhoneSimulator\Debug\System.Runtime.CompilerServices.Unsafe.dll
 F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.iOS\bin\iPhoneSimulator\Debug\Xamarin.Essentials.dll
 F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.iOS\bin\iPhoneSimulator\Debug\Xamarin.Essentials.pdb
+F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.iOS\bin\iPhoneSimulator\Debug\Firebase.Auth.dll
+F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.iOS\bin\iPhoneSimulator\Debug\Firebase.Core.dll
 F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Core.dll
 F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Core.pdb
 F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Platform.dll
@@ -90,6 +92,8 @@ F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregat
 F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.iOS\obj\iPhoneSimulator\Debug\optimized\
 F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.iOS\obj\iPhoneSimulator\Debug\News_aggregator.iOS.csproj.AssemblyReference.cache
 F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.iOS\obj\iPhoneSimulator\Debug\resourcestamps\AngleSharp.stamp
+F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.iOS\obj\iPhoneSimulator\Debug\resourcestamps\Firebase.Auth.stamp
+F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.iOS\obj\iPhoneSimulator\Debug\resourcestamps\Firebase.Core.stamp
 F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.iOS\obj\iPhoneSimulator\Debug\resourcestamps\Firebase.stamp
 F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.iOS\obj\iPhoneSimulator\Debug\resourcestamps\LiteDB.stamp
 F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.iOS\obj\iPhoneSimulator\Debug\resourcestamps\mscorlib.stamp
@@ -282,6 +286,8 @@ F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregat
 F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.iOS\obj\iPhoneSimulator\Debug\CopyFilesToMac\System.Runtime.CompilerServices.Unsafe.dll.ReferenceCopyLocalPaths.stamp
 F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.iOS\obj\iPhoneSimulator\Debug\CopyFilesToMac\Xamarin.Essentials.dll.ReferenceCopyLocalPaths.stamp
 F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.iOS\obj\iPhoneSimulator\Debug\CopyFilesToMac\Xamarin.Essentials.pdb.ReferenceCopyLocalPaths.stamp
+F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.iOS\obj\iPhoneSimulator\Debug\CopyFilesToMac\Firebase.Auth.dll.ReferenceCopyLocalPaths.stamp
+F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.iOS\obj\iPhoneSimulator\Debug\CopyFilesToMac\Firebase.Core.dll.ReferenceCopyLocalPaths.stamp
 F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.iOS\obj\iPhoneSimulator\Debug\CopyFilesToMac\Xamarin.Forms.Core.dll.ReferenceCopyLocalPaths.stamp
 F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.iOS\obj\iPhoneSimulator\Debug\CopyFilesToMac\Xamarin.Forms.Core.pdb.ReferenceCopyLocalPaths.stamp
 F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.iOS\obj\iPhoneSimulator\Debug\CopyFilesToMac\Xamarin.Forms.Platform.dll.ReferenceCopyLocalPaths.stamp
@@ -294,4 +300,5 @@ F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregat
 F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.iOS\obj\iPhoneSimulator\Debug\CopyFilesToMac\News_aggregator.pdb.ReferenceCopyLocalPaths.stamp
 F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.iOS\obj\iPhoneSimulator\Debug\CopyFilesToMac\News_aggregator.iOS.pdb.DebugSymbolsProjectOutputGroupOutput.stamp
 F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.iOS\obj\iPhoneSimulator\Debug\CopyFilesToMac\Entitlements.plist.NoneOutput.stamp
+F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.iOS\obj\iPhoneSimulator\Debug\CopyFilesToMac\GoogleService-Info.plist.NoneOutput.stamp
 F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.iOS\obj\iPhoneSimulator\Debug\CopyFilesToMac\Info.plist.NoneOutput.stamp

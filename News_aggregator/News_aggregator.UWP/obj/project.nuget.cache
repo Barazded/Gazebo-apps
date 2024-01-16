@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "xya6lxN0cpIzHcwPRXTZz6Eqrt9LrALGc674wxId5UwqtIs8TnrTIQL4Dc4OLXI0b/2y8x2SuHCb+3Nrcshc6A==",
+  "dgSpecHash": "979xLwtP4XLUL9LsydDWi+IL5/YG0VzKmJxrUdzhFaLattaWRF++4R0fK9gTpzQRH3PKAxXAAMRUe9h2JmxoCQ==",
   "success": true,
   "projectFilePath": "F:\\Рабочий стол\\XamarinForm\\Gazebo-apps\\News_aggregator\\News_aggregator.UWP\\News_aggregator.UWP.csproj",
   "expectedPackageFiles": [
@@ -84,6 +84,7 @@
     "C:\\Users\\Ivan\\.nuget\\packages\\system.threading\\4.3.0\\system.threading.4.3.0.nupkg.sha512",
     "C:\\Users\\Ivan\\.nuget\\packages\\system.threading.tasks\\4.3.0\\system.threading.tasks.4.3.0.nupkg.sha512",
     "C:\\Users\\Ivan\\.nuget\\packages\\win2d.uwp\\1.20.0\\win2d.uwp.1.20.0.nupkg.sha512",
+    "C:\\Users\\Ivan\\.nuget\\packages\\xamarin.build.download\\0.11.4\\xamarin.build.download.0.11.4.nupkg.sha512",
     "C:\\Users\\Ivan\\.nuget\\packages\\xamarin.essentials\\1.7.5\\xamarin.essentials.1.7.5.nupkg.sha512",
     "C:\\Users\\Ivan\\.nuget\\packages\\xamarin.forms\\5.0.0.2545\\xamarin.forms.5.0.0.2545.nupkg.sha512"
   ],

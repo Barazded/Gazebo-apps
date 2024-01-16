@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <SelectedDevice>Симулятор</SelectedDevice>
+    <SelectedDevice>iPhone SE %283rd generation%29 iOS 17.2</SelectedDevice>
     <SelectedPlatformGroup>Simulator</SelectedPlatformGroup>
-    <ActiveDebugProfile>Симулятор</ActiveDebugProfile>
-    <DefaultDevice>iPhone 15 iOS 17.2</DefaultDevice>
-    <ProjectView>ProjectFiles</ProjectView>
+    <ActiveDebugProfile>iPhone SE %283rd generation%29 iOS 17.2</ActiveDebugProfile>
+    <DefaultDevice>iPhone SE %283rd generation%29 iOS 17.2</DefaultDevice>
+    <ProjectView>ShowAllFiles</ProjectView>
   </PropertyGroup>
 </Project>

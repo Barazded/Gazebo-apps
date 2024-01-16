@@ -1,11 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-
-using Foundation;
+﻿using Foundation;
+using News_aggregator.Interfaces;
 using UIKit;
 using Xamarin.Forms;
-using Xamarin.Forms.PlatformConfiguration;
 
 namespace News_aggregator.iOS
 {
@@ -26,6 +22,8 @@ namespace News_aggregator.iOS
         public override bool FinishedLaunching(UIApplication app, NSDictionary options)
         {
             global::Xamarin.Forms.Forms.Init();
+            Firebase.Core.App.Configure();
+            DependencyService.Register<IFirebaseAuthentication, FirebaseAuthenticationIos>();
             LoadApplication(new App());
 
             return base.FinishedLaunching(app, options);

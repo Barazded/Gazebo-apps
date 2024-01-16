@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "6J1LOB2qTqZtMwKwY2zQ0mS7yCk/Ya/YdQWQYz+/VOJ2NKI8m/TKM6CfinYGUXNFpwoNrHZpnbPeOwgZF+YzQg==",
+  "dgSpecHash": "Cj3GcUYhC3d1cWtMOE+whNfR8mt8MGjRaNBPv/6Ul6oIyHnXCAe4SvGBDw7hHrBZNV1waNiUPgfTjkPDGm2e+g==",
   "success": true,
   "projectFilePath": "F:\\Рабочий стол\\XamarinForm\\Gazebo-apps\\News_aggregator\\News_aggregator.Android\\News_aggregator.Android.csproj",
   "expectedPackageFiles": [
@@ -84,7 +84,7 @@
     "C:\\Users\\Ivan\\.nuget\\packages\\xamarin.androidx.versionedparcelable\\1.1.1.8\\xamarin.androidx.versionedparcelable.1.1.1.8.nupkg.sha512",
     "C:\\Users\\Ivan\\.nuget\\packages\\xamarin.androidx.viewpager\\1.0.0.8\\xamarin.androidx.viewpager.1.0.0.8.nupkg.sha512",
     "C:\\Users\\Ivan\\.nuget\\packages\\xamarin.androidx.viewpager2\\1.0.0.10\\xamarin.androidx.viewpager2.1.0.0.10.nupkg.sha512",
-    "C:\\Users\\Ivan\\.nuget\\packages\\xamarin.build.download\\0.4.9\\xamarin.build.download.0.4.9.nupkg.sha512",
+    "C:\\Users\\Ivan\\.nuget\\packages\\xamarin.build.download\\0.11.4\\xamarin.build.download.0.11.4.nupkg.sha512",
     "C:\\Users\\Ivan\\.nuget\\packages\\xamarin.essentials\\1.7.5\\xamarin.essentials.1.7.5.nupkg.sha512",
     "C:\\Users\\Ivan\\.nuget\\packages\\xamarin.firebase.auth\\60.1142.1\\xamarin.firebase.auth.60.1142.1.nupkg.sha512",
     "C:\\Users\\Ivan\\.nuget\\packages\\xamarin.firebase.common\\60.1142.1\\xamarin.firebase.common.60.1142.1.nupkg.sha512",

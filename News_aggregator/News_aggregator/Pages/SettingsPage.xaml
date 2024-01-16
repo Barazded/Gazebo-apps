@@ -11,6 +11,9 @@
 
             <Button x:Name="ResoursePage" Clicked="ResourseButt_Clicked" Text="Ресурсы" TextColor="#E0E0E0"  FontSize="15"
             FontAttributes="Bold" BackgroundColor="#323232" CornerRadius="4" Margin="5"/>
+
+            <Button x:Name="ExitButt" Clicked="Ev_ExitButtonClicked" Text="Выйти из аккаунта" TextColor="#E0E0E0"  FontSize="15"
+            FontAttributes="Bold" BackgroundColor="#323232" CornerRadius="4" Margin="5"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

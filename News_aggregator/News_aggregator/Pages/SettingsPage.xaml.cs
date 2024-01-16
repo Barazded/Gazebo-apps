@@ -18,5 +18,11 @@ namespace News_aggregator.Pages
         {
             await Navigation.PushAsync(new ResoursePage());
         }
+        private async void Ev_ExitButtonClicked(object sender, EventArgs e)
+        {
+            await DisplayAlert($"Выход из аккаунта", "", "продолжить");
+            App.SetMainPage(new EnterPage());
+            App.Current.Properties.Remove("IsRegist");
+        }
     }
 }

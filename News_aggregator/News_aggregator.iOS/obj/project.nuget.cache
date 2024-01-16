@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "2KHwNE0d2XR76qtMG3KTdVxHpI+2aVi5fPM3hgsNnKAqaAmXneAUOe2wpBQsDnOPjWbaHxFVaB7K1Kpyrw4Fkg==",
+  "dgSpecHash": "s8GVIvMWBYp0o37aRXAZQmtR99eB4sHNnKGwPQMg4rxgCLitLPCnCDWDaX2Ikoqm8RfJvCkRdNhPeOVmzDB0TQ==",
   "success": true,
   "projectFilePath": "F:\\Рабочий стол\\XamarinForm\\Gazebo-apps\\News_aggregator\\News_aggregator.iOS\\News_aggregator.iOS.csproj",
   "expectedPackageFiles": [
@@ -24,7 +24,10 @@
     "C:\\Users\\Ivan\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
     "C:\\Users\\Ivan\\.nuget\\packages\\system.runtime.interopservices.windowsruntime\\4.3.0\\system.runtime.interopservices.windowsruntime.4.3.0.nupkg.sha512",
     "C:\\Users\\Ivan\\.nuget\\packages\\system.text.encoding.codepages\\7.0.0\\system.text.encoding.codepages.7.0.0.nupkg.sha512",
+    "C:\\Users\\Ivan\\.nuget\\packages\\xamarin.build.download\\0.11.4\\xamarin.build.download.0.11.4.nupkg.sha512",
     "C:\\Users\\Ivan\\.nuget\\packages\\xamarin.essentials\\1.7.5\\xamarin.essentials.1.7.5.nupkg.sha512",
+    "C:\\Users\\Ivan\\.nuget\\packages\\xamarin.firebase.ios.auth\\8.10.0.3\\xamarin.firebase.ios.auth.8.10.0.3.nupkg.sha512",
+    "C:\\Users\\Ivan\\.nuget\\packages\\xamarin.firebase.ios.core\\8.10.0.3\\xamarin.firebase.ios.core.8.10.0.3.nupkg.sha512",
     "C:\\Users\\Ivan\\.nuget\\packages\\xamarin.forms\\5.0.0.2545\\xamarin.forms.5.0.0.2545.nupkg.sha512"
   ],
   "logs": []

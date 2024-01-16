@@ -5,6 +5,7 @@ using Android.Runtime;
 using Android.OS;
 using Firebase;
 using News_aggregator.Interfaces;
+using Xamarin.Forms;
 
 namespace News_aggregator.Droid
 {
@@ -13,8 +14,8 @@ namespace News_aggregator.Droid
     {
         protected override void OnCreate(Bundle savedInstanceState)
         {
-            FirebaseApp.InitializeApp(Application.Context);
-            Xamarin.Forms.DependencyService.Register<IFirebaseAuthentication, FirebaseAuthentication>();
+            FirebaseApp.InitializeApp(Android.App.Application.Context);
+            DependencyService.Register<IFirebaseAuthentication, FirebaseAuthentication>();
             base.OnCreate(savedInstanceState);
 
             Window.SetStatusBarColor(color: Android.Graphics.Color.Black);

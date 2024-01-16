@@ -54,6 +54,14 @@
               "target": "Package",
               "version": "[1.7.5, )"
             },
+            "Xamarin.Firebase.iOS.Auth": {
+              "target": "Package",
+              "version": "[8.10.0.3, )"
+            },
+            "Xamarin.Firebase.iOS.Core": {
+              "target": "Package",
+              "version": "[8.10.0.3, )"
+            },
             "Xamarin.Forms": {
               "target": "Package",
               "version": "[5.0.0.2545, )"
@@ -142,6 +150,10 @@
             "System.Reflection.Metadata": {
               "target": "Package",
               "version": "[7.0.2, )"
+            },
+            "Xamarin.Build.Download": {
+              "target": "Package",
+              "version": "[0.11.4, )"
             },
             "Xamarin.Essentials": {
               "target": "Package",
