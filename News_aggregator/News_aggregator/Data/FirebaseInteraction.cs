@@ -1,6 +1,7 @@
 ﻿using Firebase.Database;
 using Firebase.Database.Query;
 using News_aggregator.Models;
+using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
@@ -21,7 +22,15 @@ namespace News_aggregator.Data
         internal static async Task<List<FirebaseDataModel>> GetAllDataFromFirebase()
         {
             var firebase = GetDataBase();
-            var elements = await firebase.Child("APIs").OrderByKey().OnceAsync<ParserSettings>();
+            IReadOnlyCollection<FirebaseObject<ParserSettings>> elements = new List<FirebaseObject<ParserSettings>>();
+            try
+            {
+                elements = await firebase.Child("APIs").OrderByKey().OnceAsync<ParserSettings>();
+            }
+            catch
+            {
+                return null;
+            }
             List<FirebaseDataModel> data = new List<FirebaseDataModel>();
             foreach(var el in elements)
             {
@@ -33,6 +42,26 @@ namespace News_aggregator.Data
                 data.Add(firebaseDataModel);
             }
             return data;
+        }
+        internal static async Task<string> GetNickname(string login)
+        {
+            var firebase = GetDataBase();
+            var allData = await firebase.Child("Nicknames").OrderByKey().OnceSingleAsync<Dictionary<string,string>>();
+            var data = new Dictionary<string,string>();
+            foreach(var el in allData)
+            {
+                data.Add(el.Key, el.Value);
+            }
+            foreach (var element in data)
+            {
+                if (element.Key == login) { return element.Value; }
+            }
+            return null;
+        }
+        internal static void DelitApiFromFirebase(string id)
+        {
+            var firebase = GetDataBase();
+            firebase.Child("APIs").Child(id).DeleteAsync();
         }
     }
 }

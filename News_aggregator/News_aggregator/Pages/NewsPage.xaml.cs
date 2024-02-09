@@ -82,7 +82,7 @@ namespace News_aggregator.Pages
                         ID = parsedCards.Count + 1,
                         Title = cardsToParse[i].Title,
                         Link = cardsToParse[i].Link,
-                        Type = settings.TypeResourse,
+                        //Type = settings.TypeResourse,
                         NameResourse = settings.NameResourse,
                         //
                         Info = (cardsToParse[i].Info == null ? "" : cardsToParse[i].Info),

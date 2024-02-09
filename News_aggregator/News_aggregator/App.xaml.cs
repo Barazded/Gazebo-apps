@@ -29,9 +29,13 @@ namespace News_aggregator
         public App()
         {
             InitializeComponent();
-            //MainPage = new CustomTabbedPage();
-            //new_TEST
-            if (!Current.Properties.ContainsKey("IsRegist")) { SetMainPage(new EnterPage()); }
+            int pos = 0;
+            try
+            {
+                pos = (int)Current.Properties["IsRegist"];
+            }
+            catch { pos = 0; }
+            if (pos == 0) { SetMainPage(new EnterPage()); }
             else { SetMainPage(new CustomTabbedPage()); }
             //если приложение открылось в первый раз
             if (!Current.Properties.ContainsKey("curentStandart"))
@@ -55,7 +59,7 @@ namespace News_aggregator
                 {
                     NameResourse = "Banki",
                     UrlResourse = "https://www.banki.ru/news/lenta/",
-                    TypeResourse = ResourseType.economyc,
+                    //TypeResourse = ResourseType.economyc,
                     TitleSelector = "body > div.page-container > main > div > div:nth-child(n) > div.bg-minor-black-lighten2 > div > div > div.lbb023d8c.l0a493b73 > " +
                     "div.lf4cbd87d.ld6d46e58.lfd76152f > div:nth-child(n) > div > div:nth-child(n) > div > div.lf4cbd87d.ld6d46e58.lb47af913 > a",
                     LinkSelector = "body > div.page-container > main > div > div:nth-child(n) > div.bg-minor-black-lighten2 > div > div > " +
@@ -74,7 +78,7 @@ namespace News_aggregator
                 {
                     NameResourse = "Investing",
                     UrlResourse = "https://ru.investing.com/news/",
-                    TypeResourse = ResourseType.economyc,
+                    //TypeResourse = ResourseType.economyc,
                     TitleSelector = "#latestNews > div > article:nth-child(n) > div.textDiv > a",
                     LinkSelector = "#latestNews > div > article:nth-child(n) > div.textDiv > a",
                     InfoSelector = "#latestNews > div > article:nth-child(n) > div.textDiv > p"
@@ -89,7 +93,7 @@ namespace News_aggregator
                 {
                     NameResourse = "StopGame",
                     UrlResourse = "https://stopgame.ru/news",
-                    TypeResourse = ResourseType.games,
+                    //TypeResourse = ResourseType.games,
                     TitleSelector = "#w0 > div:nth-child(n) > div:nth-child(n) > div > div > a",
                     LinkSelector = "#w0 > div:nth-child(n) > div:nth-child(n) > div > div > a",
                     DateSelector = "#w0 > div:nth-child(n) > div:nth-child(n) > div > div > div > div._info-row_11mk8_121 > span"

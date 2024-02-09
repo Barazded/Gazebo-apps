@@ -12,8 +12,16 @@
                 <DataTemplate>
                     <StackLayout>
                         <StackLayout Margin="5" VerticalOptions="FillAndExpand" Background="#323232" >
-                            <Label Text="{Binding apiSettings.NameResourse}" FontSize="20" TextColor="WhiteSmoke"/>
                             <Label Text="{Binding id}" FontSize="1" TextColor="#323232"/>
+                            <StackLayout Orientation="Horizontal">
+                                <Label Text="{Binding apiSettings.NameResourse}" FontSize="20" TextColor="WhiteSmoke"/>
+                                <Button Text="Delit" FontSize="10" TextColor="Black"  HorizontalOptions="EndAndExpand" IsVisible="True"
+                                WidthRequest="70" HeightRequest="40" Clicked="Ev_delitApi"/>
+                            </StackLayout>
+                            <Label Text="{Binding apiSettings.TypeResourse}" FontSize="10" TextColor="WhiteSmoke"/>
+                            <Label Text="{Binding apiSettings.UsernameCreator[0]}" FontSize="10" TextColor="WhiteSmoke"/>
+                            <Label Text="{Binding apiSettings.DateCreate}" FontSize="10" TextColor="WhiteSmoke"/>
+                            <Label x:Name="login" Text="{Binding apiSettings.UsernameCreator[1]}" FontSize="1" TextColor="#323232" IsVisible="False"/>
                         </StackLayout>
                     </StackLayout>
                 </DataTemplate>

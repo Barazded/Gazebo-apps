@@ -33,7 +33,7 @@ namespace News_aggregator.Pages
             nameWebResourсe = "Test_API";
             //linkOnWebResourсe = link_resource.Text;
             linkOnWebResourсe = "https://ru.investing.com/news/";
-            typeOfResource = type_resource.Text;
+            //typeOfResource = 
             //настройки парсера
             //titleSelector = title_selector.Text;
             //linkSelector = link_selector.Text;
@@ -44,6 +44,8 @@ namespace News_aggregator.Pages
             dateSelector = "#latestNews > div > article:nth-child(n) > div.textDiv > p";
             //infoSelector = "#latestNews > div > article:nth-child(n) > div.textDiv > p";
             infoSelector = "";
+            string format = "dd.MM.yyyy";
+            var currientDate = DateTime.Now.ToString(format);
             var document = await parser.RequestHtmlAsync(linkOnWebResourсe);
             var cards = parserConstructor.Parse((IHtmlDocument)document, titleSelector, linkSelector, infoSelector, dateSelector);
 
@@ -55,10 +57,17 @@ namespace News_aggregator.Pages
                 TitleSelector = titleSelector,
                 LinkSelector = linkSelector,
                 DateSelector = dateSelector,
-                InfoSelector = infoSelector
+                InfoSelector = infoSelector,
+                UsernameCreator = (App.Current.Properties["Username"].ToString(), App.Current.Properties["Login"].ToString()),
+                TypeResourse = typeOfResource,
+                DateCreate = currientDate
             };
             var firebase = FirebaseInteraction.GetDataBase();
             await firebase.Child("APIs").PostAsync(api);
+        }
+        private void Ev_pickerChange(object sender, EventArgs e)
+        {
+            typeOfResource = type_picker.Items[type_picker.SelectedIndex].ToString();
         }
         private async void Ev_PublishButtonCliced(object sender, EventArgs e)
         {

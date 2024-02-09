@@ -9,6 +9,11 @@ namespace News_aggregator.Pages
         {
             InitializeComponent();
         }
+        protected override void OnAppearing()
+        {
+            username.Text = App.Current.Properties["Username"].ToString();
+            base.OnAppearing();
+        }
         //события нажатий
         private async void AverageButt_Clicked(object sender, EventArgs e)
         {
@@ -22,7 +27,9 @@ namespace News_aggregator.Pages
         {
             await DisplayAlert($"Выход из аккаунта", "", "продолжить");
             App.SetMainPage(new EnterPage());
-            App.Current.Properties.Remove("IsRegist");
+            App.Current.Properties["IsRegist"] = 0;
+            App.Current.Properties["Username"] = "DefaulstUser";
+            App.Current.Properties["Login"] = null;
         }
     }
 }

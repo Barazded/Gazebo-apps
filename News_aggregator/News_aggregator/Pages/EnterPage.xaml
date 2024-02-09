@@ -10,6 +10,8 @@
             <Entry x:Name="login_enter" Text="" TextColor="Black" IsSpellCheckEnabled="false" Margin="5" BackgroundColor="White"/>
             <Label Text="Введите пароль:" TextColor="White" HorizontalOptions="CenterAndExpand" FontSize="16"/>
             <Entry x:Name="password_enter" Text="" TextColor="Black" IsSpellCheckEnabled="false" IsPassword="True" Margin="5" BackgroundColor="White"/>
+            <Label Text="Введите имя пользователя:" TextColor="White" HorizontalOptions="CenterAndExpand" FontSize="16"/>
+            <Entry x:Name="nickname_enter" Text="" TextColor="Black" IsSpellCheckEnabled="false" Margin="5" BackgroundColor="White"/>
             <Button x:Name="enter_button" Text="Вход" HorizontalOptions="CenterAndExpand" TextColor="White"
                     FontAttributes="Bold" BackgroundColor="#323232" CornerRadius="4" Margin="15" Clicked="Ev_EnterButtonClicked"/>
         </StackLayout>

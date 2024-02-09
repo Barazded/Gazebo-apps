@@ -4919,6 +4919,7 @@
       "FirebaseDatabase.net >= 4.2.0",
       "Microsoft.NETCore.UniversalWindowsPlatform >= 6.2.14",
       "News_aggregator >= 1.0.0",
+      "Xamarin.Build.Download >= 0.11.4",
       "Xamarin.Essentials >= 1.7.5",
       "Xamarin.Firebase.iOS.Auth >= 8.10.0.3",
       "Xamarin.Firebase.iOS.Core >= 8.10.0.3",
@@ -4975,6 +4976,10 @@
           "Microsoft.NETCore.UniversalWindowsPlatform": {
             "target": "Package",
             "version": "[6.2.14, )"
+          },
+          "Xamarin.Build.Download": {
+            "target": "Package",
+            "version": "[0.11.4, )"
           },
           "Xamarin.Essentials": {
             "target": "Package",

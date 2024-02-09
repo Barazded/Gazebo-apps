@@ -58,13 +58,17 @@
               "target": "Package",
               "version": "[1.3.0.6, )"
             },
+            "Xamarin.Build.Download": {
+              "target": "Package",
+              "version": "[0.11.4, )"
+            },
             "Xamarin.Essentials": {
               "target": "Package",
               "version": "[1.7.5, )"
             },
             "Xamarin.Firebase.Auth": {
               "target": "Package",
-              "version": "[60.1142.1, )"
+              "version": "[120.0.2, )"
             },
             "Xamarin.Forms": {
               "target": "Package",

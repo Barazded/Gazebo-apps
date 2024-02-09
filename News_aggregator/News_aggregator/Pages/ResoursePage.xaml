@@ -23,7 +23,8 @@
                         <CheckBox Color="#673AB7" IsChecked="{Binding isChecked}" CheckedChanged="Ev_CheckedCheckBox" />
                         <Label Text="{Binding ID}" FontSize="15" TextColor="White" Padding="0,10"/>
                         <Label Text="{Binding TextName}" FontSize="15" TextColor="White" Padding="0,10"/>
-                        <Button Text="Delit" FontSize="15" TextColor="White" Clicked="Ev_DelitButtonClicked" HorizontalOptions="EndAndExpand" IsVisible="{Binding canDelit}"/>
+                        <Button Text="Delit" FontSize="15" TextColor="White" Clicked="Ev_DelitButtonClicked" 
+                                HorizontalOptions="EndAndExpand" IsVisible="{Binding canDelit}"/>
                     </StackLayout>
                 </DataTemplate>
             </CollectionView.ItemTemplate>

@@ -23,7 +23,7 @@ namespace News_aggregator.Pages {
         private global::Xamarin.Forms.Entry link_resource;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
-        private global::Xamarin.Forms.Entry type_resource;
+        private global::Xamarin.Forms.Picker type_picker;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private global::Xamarin.Forms.Entry title_selector;
@@ -48,7 +48,7 @@ namespace News_aggregator.Pages {
             global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(ConstructorPage));
             name_resourse = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Entry>(this, "name_resourse");
             link_resource = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Entry>(this, "link_resource");
-            type_resource = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Entry>(this, "type_resource");
+            type_picker = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Picker>(this, "type_picker");
             title_selector = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Entry>(this, "title_selector");
             link_selector = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Entry>(this, "link_selector");
             info_selector = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Entry>(this, "info_selector");

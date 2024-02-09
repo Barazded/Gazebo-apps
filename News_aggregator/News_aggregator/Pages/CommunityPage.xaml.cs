@@ -2,6 +2,7 @@
 using System;
 using News_aggregator.Data;
 using News_aggregator.Models;
+using System.Linq;
 
 namespace News_aggregator.Pages
 {
@@ -16,11 +17,9 @@ namespace News_aggregator.Pages
         {
             await Navigation.PushAsync(new ConstructorPage());
         }
-        protected override async void OnAppearing()
+        protected override void OnAppearing()
         {
-            //выгрузка БД
-            var elements = await FirebaseInteraction.GetAllDataFromFirebase();
-            collection_api.ItemsSource = elements;
+            UpdateWindow();
             base.OnAppearing();
         }
         protected override void OnDisappearing()
@@ -36,6 +35,30 @@ namespace News_aggregator.Pages
                 return;
             }
             await Navigation.PushAsync(new InfoApiPage(api));
+        }
+        internal async void Ev_delitApi(object sender, EventArgs e)
+        {
+            Button butt = (Button)sender;
+            StackLayout stackLayout = (StackLayout)butt.Parent.Parent;
+            Label loginLable = (Label)stackLayout.Children.Last();
+            var userLogin = App.Current.Properties["Login"].ToString();
+            var id = ((Label)stackLayout.Children[0]).Text;
+            if (userLogin != loginLable.Text)
+            {
+                await DisplayAlert("Вы не являетесь владелцом API", "Ошибка доступа", "продолжить");
+                return;
+            }
+            //удаление
+            await DisplayAlert("API успешно удалён", "", "продолжить");
+            FirebaseInteraction.DelitApiFromFirebase(id);
+            UpdateWindow();
+        }
+        internal async void UpdateWindow()
+        {
+            collection_api.ItemsSource = null;
+            //выгрузка БД
+            var elements = await FirebaseInteraction.GetAllDataFromFirebase();
+            collection_api.ItemsSource = elements;
         }
     }
 }

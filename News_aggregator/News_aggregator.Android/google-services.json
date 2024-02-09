@@ -8,9 +8,9 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:1010023917963:android:df8af493914d07d418a78e",
+        "mobilesdk_app_id": "1:1010023917963:android:c67a8fc160087fe218a78e",
         "android_client_info": {
-          "package_name": "com.companyname.news_aggregator"
+          "package_name": "com.companyname.newsaggregator"
         }
       },
       "oauth_client": [],

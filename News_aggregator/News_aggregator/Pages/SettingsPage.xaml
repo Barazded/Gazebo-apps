@@ -6,6 +6,7 @@
 
     <ContentPage.Content>
         <StackLayout x:Name="sl_listproperties" BackgroundColor="#212121" Padding="0,20">
+            <Label x:Name="username" Text="" FontSize="15" HorizontalOptions="CenterAndExpand" TextColor="White"/>
             <Button x:Name="profileButt" Clicked="AverageButt_Clicked" Text="Профиль" TextColor="#E0E0E0"  FontSize="15"
             FontAttributes="Bold" BackgroundColor="#323232" CornerRadius="4" Margin="5"/>
 

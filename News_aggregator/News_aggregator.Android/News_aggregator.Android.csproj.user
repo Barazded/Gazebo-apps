@@ -6,6 +6,6 @@
     <ActiveDebugProfile>Pixel 5 - API 33 %28Android 13.0 — API 33%29</ActiveDebugProfile>
     <DefaultDevice>pixel_5_-_api_33</DefaultDevice>
     <AndroidDesignerPreferredTheme>MainTheme</AndroidDesignerPreferredTheme>
-    <ProjectView>ProjectFiles</ProjectView>
+    <ProjectView>ShowAllFiles</ProjectView>
   </PropertyGroup>
 </Project>

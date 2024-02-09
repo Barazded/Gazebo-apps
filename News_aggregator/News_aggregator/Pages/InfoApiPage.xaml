@@ -13,6 +13,12 @@
                         <StackLayout Margin="5" VerticalOptions="FillAndExpand" Background="#323232">
                             <Label Text="Название:" FontSize="13" TextColor="WhiteSmoke"/>
                             <Entry Text="{Binding apiSettings.NameResourse}" FontSize="13" TextColor="WhiteSmoke" BackgroundColor="#212121" IsReadOnly="true"/>
+                            <Label Text="Тип ресурса: " FontSize="13" TextColor="WhiteSmoke"/>
+                            <Entry Text="{Binding apiSettings.TypeResourse}" FontSize="13" TextColor="WhiteSmoke" BackgroundColor="#212121" IsReadOnly="true"/>
+                            <Label Text="Создатель: " FontSize="13" TextColor="WhiteSmoke"/>
+                            <Entry Text="{Binding apiSettings.UsernameCreator[0]}" FontSize="13" TextColor="WhiteSmoke" BackgroundColor="#212121" IsReadOnly="true"/>
+                            <Label Text="Дата создания: " FontSize="13" TextColor="WhiteSmoke"/>
+                            <Entry Text="{Binding apiSettings.DateCreate}" FontSize="13" TextColor="WhiteSmoke" BackgroundColor="#212121" IsReadOnly="true"/>
                             <Label Text="Id в базе данных: " FontSize="13" TextColor="WhiteSmoke"/>
                             <Entry Text="{Binding id}" FontSize="13" TextColor="WhiteSmoke" BackgroundColor="#212121" IsReadOnly="true"/>
                             <Label Text="Селектор заголовков: " FontSize="13" TextColor="WhiteSmoke"/>

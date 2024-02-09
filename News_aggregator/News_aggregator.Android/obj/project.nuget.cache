@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Cj3GcUYhC3d1cWtMOE+whNfR8mt8MGjRaNBPv/6Ul6oIyHnXCAe4SvGBDw7hHrBZNV1waNiUPgfTjkPDGm2e+g==",
+  "dgSpecHash": "CKGc5HG5nkYpjR86j3aXE/iJhPVPk+7a4UAXY+nHvEwgHBsiM8ACFSJ3KvfXwryqUIaNy1irtngcMZ3APVPjMQ==",
   "success": true,
   "projectFilePath": "F:\\Рабочий стол\\XamarinForm\\Gazebo-apps\\News_aggregator\\News_aggregator.Android\\News_aggregator.Android.csproj",
   "expectedPackageFiles": [
@@ -16,6 +16,7 @@
     "C:\\Users\\Ivan\\.nuget\\packages\\sqlitepclraw.provider.e_sqlite3\\2.0.4\\sqlitepclraw.provider.e_sqlite3.2.0.4.nupkg.sha512",
     "C:\\Users\\Ivan\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
     "C:\\Users\\Ivan\\.nuget\\packages\\system.collections.immutable\\7.0.0\\system.collections.immutable.7.0.0.nupkg.sha512",
+    "C:\\Users\\Ivan\\.nuget\\packages\\system.json\\4.5.0\\system.json.4.5.0.nupkg.sha512",
     "C:\\Users\\Ivan\\.nuget\\packages\\system.memory\\4.5.5\\system.memory.4.5.5.nupkg.sha512",
     "C:\\Users\\Ivan\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Users\\Ivan\\.nuget\\packages\\system.reactive\\4.0.0\\system.reactive.4.0.0.nupkg.sha512",
@@ -26,11 +27,6 @@
     "C:\\Users\\Ivan\\.nuget\\packages\\system.runtime.interopservices.windowsruntime\\4.3.0\\system.runtime.interopservices.windowsruntime.4.3.0.nupkg.sha512",
     "C:\\Users\\Ivan\\.nuget\\packages\\system.text.encoding.codepages\\7.0.0\\system.text.encoding.codepages.7.0.0.nupkg.sha512",
     "C:\\Users\\Ivan\\.nuget\\packages\\xamarin.android.support.annotations\\28.0.0.3\\xamarin.android.support.annotations.28.0.0.3.nupkg.sha512",
-    "C:\\Users\\Ivan\\.nuget\\packages\\xamarin.android.support.compat\\26.0.2\\xamarin.android.support.compat.26.0.2.nupkg.sha512",
-    "C:\\Users\\Ivan\\.nuget\\packages\\xamarin.android.support.core.ui\\26.0.2\\xamarin.android.support.core.ui.26.0.2.nupkg.sha512",
-    "C:\\Users\\Ivan\\.nuget\\packages\\xamarin.android.support.core.utils\\26.0.2\\xamarin.android.support.core.utils.26.0.2.nupkg.sha512",
-    "C:\\Users\\Ivan\\.nuget\\packages\\xamarin.android.support.fragment\\26.0.2\\xamarin.android.support.fragment.26.0.2.nupkg.sha512",
-    "C:\\Users\\Ivan\\.nuget\\packages\\xamarin.android.support.media.compat\\26.0.2\\xamarin.android.support.media.compat.26.0.2.nupkg.sha512",
     "C:\\Users\\Ivan\\.nuget\\packages\\xamarin.androidx.activity\\1.2.4.1\\xamarin.androidx.activity.1.2.4.1.nupkg.sha512",
     "C:\\Users\\Ivan\\.nuget\\packages\\xamarin.androidx.annotation\\1.2.0.1\\xamarin.androidx.annotation.1.2.0.1.nupkg.sha512",
     "C:\\Users\\Ivan\\.nuget\\packages\\xamarin.androidx.annotation.experimental\\1.1.0.1\\xamarin.androidx.annotation.experimental.1.1.0.1.nupkg.sha512",
@@ -86,26 +82,20 @@
     "C:\\Users\\Ivan\\.nuget\\packages\\xamarin.androidx.viewpager2\\1.0.0.10\\xamarin.androidx.viewpager2.1.0.0.10.nupkg.sha512",
     "C:\\Users\\Ivan\\.nuget\\packages\\xamarin.build.download\\0.11.4\\xamarin.build.download.0.11.4.nupkg.sha512",
     "C:\\Users\\Ivan\\.nuget\\packages\\xamarin.essentials\\1.7.5\\xamarin.essentials.1.7.5.nupkg.sha512",
-    "C:\\Users\\Ivan\\.nuget\\packages\\xamarin.firebase.auth\\60.1142.1\\xamarin.firebase.auth.60.1142.1.nupkg.sha512",
-    "C:\\Users\\Ivan\\.nuget\\packages\\xamarin.firebase.common\\60.1142.1\\xamarin.firebase.common.60.1142.1.nupkg.sha512",
+    "C:\\Users\\Ivan\\.nuget\\packages\\xamarin.firebase.annotations\\116.0.0\\xamarin.firebase.annotations.116.0.0.nupkg.sha512",
+    "C:\\Users\\Ivan\\.nuget\\packages\\xamarin.firebase.auth\\120.0.2\\xamarin.firebase.auth.120.0.2.nupkg.sha512",
+    "C:\\Users\\Ivan\\.nuget\\packages\\xamarin.firebase.auth.interop\\119.0.2\\xamarin.firebase.auth.interop.119.0.2.nupkg.sha512",
+    "C:\\Users\\Ivan\\.nuget\\packages\\xamarin.firebase.common\\119.5.0\\xamarin.firebase.common.119.5.0.nupkg.sha512",
+    "C:\\Users\\Ivan\\.nuget\\packages\\xamarin.firebase.components\\116.1.0\\xamarin.firebase.components.116.1.0.nupkg.sha512",
     "C:\\Users\\Ivan\\.nuget\\packages\\xamarin.forms\\5.0.0.2545\\xamarin.forms.5.0.0.2545.nupkg.sha512",
     "C:\\Users\\Ivan\\.nuget\\packages\\xamarin.google.android.material\\1.4.0.2\\xamarin.google.android.material.1.4.0.2.nupkg.sha512",
     "C:\\Users\\Ivan\\.nuget\\packages\\xamarin.google.guava.listenablefuture\\1.0.0.2\\xamarin.google.guava.listenablefuture.1.0.0.2.nupkg.sha512",
-    "C:\\Users\\Ivan\\.nuget\\packages\\xamarin.googleplayservices.base\\60.1142.1\\xamarin.googleplayservices.base.60.1142.1.nupkg.sha512",
-    "C:\\Users\\Ivan\\.nuget\\packages\\xamarin.googleplayservices.basement\\60.1142.1\\xamarin.googleplayservices.basement.60.1142.1.nupkg.sha512",
-    "C:\\Users\\Ivan\\.nuget\\packages\\xamarin.googleplayservices.tasks\\60.1142.1\\xamarin.googleplayservices.tasks.60.1142.1.nupkg.sha512",
+    "C:\\Users\\Ivan\\.nuget\\packages\\xamarin.googleplayservices.auth.api.phone\\117.5.0\\xamarin.googleplayservices.auth.api.phone.117.5.0.nupkg.sha512",
+    "C:\\Users\\Ivan\\.nuget\\packages\\xamarin.googleplayservices.base\\117.5.0\\xamarin.googleplayservices.base.117.5.0.nupkg.sha512",
+    "C:\\Users\\Ivan\\.nuget\\packages\\xamarin.googleplayservices.basement\\117.5.0\\xamarin.googleplayservices.basement.117.5.0.nupkg.sha512",
+    "C:\\Users\\Ivan\\.nuget\\packages\\xamarin.googleplayservices.safetynet\\117.0.0\\xamarin.googleplayservices.safetynet.117.0.0.nupkg.sha512",
+    "C:\\Users\\Ivan\\.nuget\\packages\\xamarin.googleplayservices.tasks\\117.2.0\\xamarin.googleplayservices.tasks.117.2.0.nupkg.sha512",
     "C:\\Users\\Ivan\\.nuget\\packages\\xamarin.jetbrains.annotations\\24.1.0.1\\xamarin.jetbrains.annotations.24.1.0.1.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1608",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Версия обнаруженного пакета нарушает ограничение зависимости: Xamarin.Android.Support.Compat 26.0.2 требуется Xamarin.Android.Support.Annotations (= 26.0.2), но в результате разрешения получена версия Xamarin.Android.Support.Annotations 28.0.0.3.",
-      "libraryId": "Xamarin.Android.Support.Annotations",
-      "targetGraphs": [
-        "MonoAndroid,Version=v13.0"
-      ]
-    }
-  ]
+  "logs": []
 }

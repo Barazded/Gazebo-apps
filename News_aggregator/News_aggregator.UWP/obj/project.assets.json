@@ -18477,6 +18477,7 @@
       "FirebaseDatabase.net >= 4.2.0",
       "Microsoft.NETCore.UniversalWindowsPlatform >= 6.2.14",
       "News_aggregator >= 1.0.0",
+      "Xamarin.Build.Download >= 0.11.4",
       "Xamarin.Essentials >= 1.7.5",
       "Xamarin.Forms >= 5.0.0.2545",
       "sqlite-net-pcl >= 1.8.116"
@@ -18533,6 +18534,10 @@
           "Microsoft.NETCore.UniversalWindowsPlatform": {
             "target": "Package",
             "version": "[6.2.14, )"
+          },
+          "Xamarin.Build.Download": {
+            "target": "Package",
+            "version": "[0.11.4, )"
           },
           "Xamarin.Essentials": {
             "target": "Package",
