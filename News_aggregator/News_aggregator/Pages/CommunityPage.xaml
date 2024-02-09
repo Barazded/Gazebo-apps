@@ -5,7 +5,10 @@
              Title="Сообщество">
     <StackLayout BackgroundColor="#212121">
         <StackLayout>
-            <Button x:Name="Constructor" Text = "Конструктор" TextColor="#E0E0E0"  FontSize="15" Clicked = "ConstructorButt_Clicked" FontAttributes="Bold" BackgroundColor="#323232" CornerRadius="4" Margin="5"/>
+            <Button x:Name="Constructor" Text = "Конструктор" TextColor="#E0E0E0"  FontSize="15" Clicked = "ConstructorButt_Clicked" FontAttributes="Bold" 
+                    BackgroundColor="#323232" CornerRadius="4" Margin="5"/>
+            <Entry x:Name="finder" Text="" TextColor="White" FontSize="15" HorizontalOptions="StartAndExpand" HeightRequest="50" WidthRequest="400"
+                   TextChanged="Ev_FindApi" Margin="10,10"/>
         </StackLayout>
         <CollectionView x:Name="collection_api" Margin="5" SelectionMode="Single" SelectionChanged="Ev_ApiInfoClicked">
             <CollectionView.ItemTemplate>
@@ -15,8 +18,8 @@
                             <Label Text="{Binding id}" FontSize="1" TextColor="#323232"/>
                             <StackLayout Orientation="Horizontal">
                                 <Label Text="{Binding apiSettings.NameResourse}" FontSize="20" TextColor="WhiteSmoke"/>
-                                <Button Text="Delit" FontSize="10" TextColor="Black"  HorizontalOptions="EndAndExpand" IsVisible="True"
-                                WidthRequest="70" HeightRequest="40" Clicked="Ev_delitApi"/>
+                                <Button Text="Delit" FontSize="10" TextColor="White"  HorizontalOptions="EndAndExpand"
+                                WidthRequest="70" HeightRequest="40" Clicked="Ev_delitApi" BackgroundColor="#212121"/>
                             </StackLayout>
                             <Label Text="{Binding apiSettings.TypeResourse}" FontSize="10" TextColor="WhiteSmoke"/>
                             <Label Text="{Binding apiSettings.UsernameCreator[0]}" FontSize="10" TextColor="WhiteSmoke"/>

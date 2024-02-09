@@ -3,6 +3,9 @@ using System;
 using News_aggregator.Data;
 using News_aggregator.Models;
 using System.Linq;
+using System.Collections.Generic;
+using System.Data.SqlTypes;
+using System.Threading.Tasks;
 
 namespace News_aggregator.Pages
 {
@@ -17,9 +20,9 @@ namespace News_aggregator.Pages
         {
             await Navigation.PushAsync(new ConstructorPage());
         }
-        protected override void OnAppearing()
+        protected async override void OnAppearing()
         {
-            UpdateWindow();
+            await UpdateWindow(null);
             base.OnAppearing();
         }
         protected override void OnDisappearing()
@@ -51,14 +54,32 @@ namespace News_aggregator.Pages
             //удаление
             await DisplayAlert("API успешно удалён", "", "продолжить");
             FirebaseInteraction.DelitApiFromFirebase(id);
-            UpdateWindow();
-        }
-        internal async void UpdateWindow()
-        {
-            collection_api.ItemsSource = null;
             //выгрузка БД
-            var elements = await FirebaseInteraction.GetAllDataFromFirebase();
-            collection_api.ItemsSource = elements;
+            await UpdateWindow(null);
+        }
+        internal async Task UpdateWindow(List<FirebaseDataModel> data)
+        {
+            if (data == null)
+            {
+                data = await FirebaseInteraction.GetAllDataFromFirebase();
+            }
+            collection_api.ItemsSource = null;
+            collection_api.ItemsSource = data;
+        }
+        internal async void Ev_FindApi(object sender, EventArgs e)
+        {
+            var data = await FirebaseInteraction.GetAllDataFromFirebase();
+            var mask = finder.Text.ToLower();
+            var selectData = new List<FirebaseDataModel>();
+            foreach (var item in data) 
+            {
+                if (mask.Length > item.apiSettings.NameResourse.Length) { continue; }
+                if (mask == item.apiSettings.NameResourse.ToLower().Substring(0, mask.Length))
+                {
+                    selectData.Add(item);
+                }
+            }
+            await UpdateWindow(selectData);
         }
     }
 }
