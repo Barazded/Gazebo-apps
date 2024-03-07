@@ -861,7 +861,7 @@ Firebase:
    limitations under the License.
    
 
-Google Auto, Guava JDK5, J2ObjC, JSR 250, SafeParcelable library:
+Google Auto, Guava JDK5, J2ObjC, JSR 250, SafeParcelable library, Tink:
 
 
                                  Apache License

@@ -63,5 +63,17 @@ namespace News_aggregator.Data
             var firebase = GetDataBase();
             firebase.Child("APIs").Child(id).DeleteAsync();
         }
+        internal async static Task<FirebaseDataModel> GetFirebaseData(string id)
+        {
+            var data = await GetAllDataFromFirebase();
+            foreach (FirebaseDataModel el in data)
+            {
+                if (el.id == id)
+                {
+                    return el;
+                }
+            }
+            return null;
+        }
     }
 }

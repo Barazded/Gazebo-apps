@@ -1,20 +1,28 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
-             x:Class="News_aggregator.Pages.SettingsPage" 
-             Title="Настройки">
+             x:Class="News_aggregator.Pages.SettingsPage">
 
     <ContentPage.Content>
-        <StackLayout x:Name="sl_listproperties" BackgroundColor="#212121" Padding="0,20">
-            <Label x:Name="username" Text="" FontSize="15" HorizontalOptions="CenterAndExpand" TextColor="White"/>
-            <Button x:Name="profileButt" Clicked="AverageButt_Clicked" Text="Профиль" TextColor="#E0E0E0"  FontSize="15"
-            FontAttributes="Bold" BackgroundColor="#323232" CornerRadius="4" Margin="5"/>
+        <StackLayout x:Name="sl_listproperties" BackgroundColor="#151515">
+            <Frame BackgroundColor="#424242" CornerRadius="10" Margin="25,0,25,0"  Padding="0,30,0,10">
+                <Grid>
+                    <Label Text="Учётная запись:" Margin="10,-20,0,0"
+                       FontAttributes="Bold" FontSize="15" HorizontalOptions="Start" TextColor="#E7E7E7"/>
+                    <Label x:Name="username" Text="Barazded" Margin="10,0,0,0"
+                       FontAttributes="Bold" FontSize="15" HorizontalOptions="Start" TextColor="#000000"/>
+                </Grid>
+            </Frame>
+            <StackLayout Margin="0,100,0,0" Spacing="-4"> 
+                <Button x:Name="profileButt" Clicked="AverageButt_Clicked" TextColor="#E0E0E0"  FontSize="15"
+                FontAttributes="Bold" TextTransform="None" HeightRequest="50" CornerRadius="10" BackgroundColor="#151515" ImageSource="ProfileButt.png"/>
+                
+                <Button x:Name="ResoursePage" Clicked="ResourseButt_Clicked" TextColor="#E0E0E0"  FontSize="15"
+                FontAttributes="Bold" TextTransform="None" HeightRequest="50" CornerRadius="10" BackgroundColor="#151515" ImageSource="ResourseButt.png"/>
 
-            <Button x:Name="ResoursePage" Clicked="ResourseButt_Clicked" Text="Ресурсы" TextColor="#E0E0E0"  FontSize="15"
-            FontAttributes="Bold" BackgroundColor="#323232" CornerRadius="4" Margin="5"/>
-
-            <Button x:Name="ExitButt" Clicked="Ev_ExitButtonClicked" Text="Выйти из аккаунта" TextColor="#E0E0E0"  FontSize="15"
-            FontAttributes="Bold" BackgroundColor="#323232" CornerRadius="4" Margin="5"/>
+                <Button x:Name="ExitButt" Clicked="Ev_ExitButtonClicked" TextColor="#E0E0E0"  FontSize="15"
+                FontAttributes="Bold" TextTransform="None" HeightRequest="50" CornerRadius="10" BackgroundColor="#151515" ImageSource="ExitButt.png"/>
+            </StackLayout>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

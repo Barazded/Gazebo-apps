@@ -1,31 +1,42 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="News_aggregator.Pages.CommunityPage"
-             Title="Сообщество">
-    <StackLayout BackgroundColor="#212121">
+             x:Class="News_aggregator.Pages.CommunityPage">
+    <StackLayout BackgroundColor="#151515">
         <StackLayout>
-            <Button x:Name="Constructor" Text = "Конструктор" TextColor="#E0E0E0"  FontSize="15" Clicked = "ConstructorButt_Clicked" FontAttributes="Bold" 
-                    BackgroundColor="#323232" CornerRadius="4" Margin="5"/>
-            <Entry x:Name="finder" Text="" TextColor="White" FontSize="15" HorizontalOptions="StartAndExpand" HeightRequest="50" WidthRequest="400"
-                   TextChanged="Ev_FindApi" Margin="10,10"/>
+            <Button x:Name="Constructor" Text = "Конструктор" TextColor="#E7E7E7"  FontSize="15" Clicked = "ConstructorButt_Clicked" FontAttributes="Bold" 
+                    BackgroundColor="#424242" CornerRadius="10" TextTransform="None" Margin="15,0,15,0"/>
+            <Frame CornerRadius="10" HasShadow="False" BackgroundColor="#676767" Opacity="0.9" Margin="15,20,15,0" HeightRequest="10" WidthRequest="350">
+                <Entry x:Name="finder" FontSize="15" FontAttributes="Bold" FontFamily="Inter" PlaceholderColor="#E7E7E7" 
+                       Placeholder="Поиск" HorizontalTextAlignment="Start" TextColor="#E7E7E7" Margin="0,-30,0,-30"/>
+            </Frame>
         </StackLayout>
-        <CollectionView x:Name="collection_api" Margin="5" SelectionMode="Single" SelectionChanged="Ev_ApiInfoClicked">
+        <CollectionView x:Name="collection_api" Margin="0,5,0,0" SelectionChanged="Ev_ApiInfoClicked">
             <CollectionView.ItemTemplate>
                 <DataTemplate>
-                    <StackLayout>
-                        <StackLayout Margin="5" VerticalOptions="FillAndExpand" Background="#323232" >
-                            <Label Text="{Binding id}" FontSize="1" TextColor="#323232"/>
-                            <StackLayout Orientation="Horizontal">
-                                <Label Text="{Binding apiSettings.NameResourse}" FontSize="20" TextColor="WhiteSmoke"/>
-                                <Button Text="Delit" FontSize="10" TextColor="White"  HorizontalOptions="EndAndExpand"
-                                WidthRequest="70" HeightRequest="40" Clicked="Ev_delitApi" BackgroundColor="#212121"/>
+                    <StackLayout Spacing="0" Padding="0,10,0,0">
+                        <Label Text="{Binding id}" Opacity="0" FontSize="1"/>
+                        <Grid>
+                            <Image Source="Rectangle_box_api" Margin="15,0,15,0" Aspect="Fill" HeightRequest="50"/>
+                            <Label Margin="30,15,0,0" TextColor="#E7E7E7" FontAttributes="Bold">
+                                <Label.Text>
+                                    <MultiBinding StringFormat="{}{1}/{0}">
+                                        <Binding Path="apiSettings.NameResourse"/>
+                                        <Binding Path="apiSettings.UsernameCreator[0]"/>
+                                    </MultiBinding>
+                                </Label.Text>
+                            </Label>
+                        </Grid>
+                        <Grid>
+                            <Image Source="Fill_Rectangle_Box_API.png" Margin="15,0,15,0" Aspect="Fill" HeightRequest="100"/>
+                            <StackLayout Margin="30,120,230,30">
+                                <Button Text="{Binding apiSettings.TypeResourse}" TextTransform="None" Padding="0,0,0,1" BackgroundColor="#424242" TextColor="#E7E7E7"
+                                    HeightRequest="30" CornerRadius="20" FontSize="15" FontAttributes="Bold"/>
                             </StackLayout>
-                            <Label Text="{Binding apiSettings.TypeResourse}" FontSize="10" TextColor="WhiteSmoke"/>
-                            <Label Text="{Binding apiSettings.UsernameCreator[0]}" FontSize="10" TextColor="WhiteSmoke"/>
-                            <Label Text="{Binding apiSettings.DateCreate}" FontSize="10" TextColor="WhiteSmoke"/>
-                            <Label x:Name="login" Text="{Binding apiSettings.UsernameCreator[1]}" FontSize="1" TextColor="#323232" IsVisible="False"/>
-                        </StackLayout>
+                            <Label Margin="30,10,0,0" Text="{Binding apiSettings.NameResourse}" TextColor="#E7E7E7" FontAttributes="Bold"/>
+                        </Grid>
+                        <Button Text="Подробнее" TextTransform="None" TextColor="#E7E7E7" FontAttributes="Bold" FontSize="18"
+                            BackgroundColor="#424242" Opacity="0.9" CornerRadius="10" Margin="15,-10,15,0" Clicked="Ev_ApiInfoClicked"/>
                     </StackLayout>
                 </DataTemplate>
             </CollectionView.ItemTemplate>

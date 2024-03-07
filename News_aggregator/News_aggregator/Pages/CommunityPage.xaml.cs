@@ -4,8 +4,8 @@ using News_aggregator.Data;
 using News_aggregator.Models;
 using System.Linq;
 using System.Collections.Generic;
-using System.Data.SqlTypes;
 using System.Threading.Tasks;
+using System.Dynamic;
 
 namespace News_aggregator.Pages
 {
@@ -31,7 +31,10 @@ namespace News_aggregator.Pages
         }
         internal async void Ev_ApiInfoClicked(object sender, EventArgs e)
         {
-            FirebaseDataModel api = (FirebaseDataModel)(sender as CollectionView).SelectedItem;
+            Label label = (Label)((StackLayout)((Button)sender).Parent).Children[0];
+            string id = label.Text;
+            var api = await FirebaseInteraction.GetFirebaseData(id);
+            //
             if (api == null) 
             {
                 await DisplayAlert("Недействительный API", "Обнаружена ошибка доступа", "продолжить");

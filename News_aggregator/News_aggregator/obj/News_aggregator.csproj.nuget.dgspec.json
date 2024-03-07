@@ -71,6 +71,10 @@
               "target": "Package",
               "version": "[0.11.4, )"
             },
+            "Xamarin.CommunityToolkit": {
+              "target": "Package",
+              "version": "[2.0.6, )"
+            },
             "Xamarin.Essentials": {
               "target": "Package",
               "version": "[1.7.5, )"

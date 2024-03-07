@@ -135,10 +135,11 @@ namespace News_aggregator.Pages
             collectionResourses.ItemsSource = filterCards;
         }
         //вызывается при нажатии на элементъ collectionResourses
-        private async void OnCardClick(object sender, SelectionChangedEventArgs e)
+        private async void OnCardClick(object sender, EventArgs e)
         {
-            //срабатывает при нажатии на элемент collectonView
-            await Navigation.PushAsync(new ViewPage(e.CurrentSelection.FirstOrDefault() as Card));
+            StackLayout stack = (StackLayout)((Button)sender).Parent;
+            string link = ((Label)stack.Children[0]).Text;
+            await Navigation.PushAsync(new ViewPage(link));
         }
         private async void FilterChanged(object sender, EventArgs e)
         {

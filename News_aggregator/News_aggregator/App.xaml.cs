@@ -6,6 +6,7 @@ using News_aggregator.Data;
 using System.Runtime.Serialization.Formatters.Binary;
 using System.Collections.Generic;
 using News_aggregator.Pages;
+[assembly: ExportFont("Inter.ttf", Alias = "Inter")]
 
 namespace News_aggregator
 {
@@ -32,11 +33,12 @@ namespace News_aggregator
             int pos = 0;
             try
             {
-                pos = (int)Current.Properties["IsRegist"];
+                pos = (int)App.Current.Properties["IsRegist"];
             }
             catch { pos = 0; }
             if (pos == 0) { SetMainPage(new EnterPage()); }
-            else { SetMainPage(new CustomTabbedPage()); }
+            else { SetMainPage(new AppShell()); }
+            SetMainPage(new AppShell());
             //если приложение открылось в первый раз
             if (!Current.Properties.ContainsKey("curentStandart"))
             {

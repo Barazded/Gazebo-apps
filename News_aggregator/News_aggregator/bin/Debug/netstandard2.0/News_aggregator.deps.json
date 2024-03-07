@@ -15,6 +15,7 @@
           "NETStandard.Library": "2.0.3",
           "System.Reflection.Metadata": "7.0.2",
           "Xamarin.Build.Download": "0.11.4",
+          "Xamarin.CommunityToolkit": "2.0.6",
           "Xamarin.Essentials": "1.7.5",
           "Xamarin.Forms": "5.0.0.2545",
           "sqlite-net-pcl": "1.8.116"
@@ -192,6 +193,25 @@
           "System.Runtime": "4.3.0"
         }
       },
+      "System.Reflection.Emit.ILGeneration/4.7.0": {
+        "runtime": {
+          "lib/netstandard2.0/System.Reflection.Emit.ILGeneration.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.700.19.56404"
+          }
+        }
+      },
+      "System.Reflection.Emit.Lightweight/4.7.0": {
+        "dependencies": {
+          "System.Reflection.Emit.ILGeneration": "4.7.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Reflection.Emit.Lightweight.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.700.19.56404"
+          }
+        }
+      },
       "System.Reflection.Metadata/7.0.2": {
         "dependencies": {
           "System.Collections.Immutable": "7.0.0",
@@ -274,7 +294,31 @@
           "System.Runtime": "4.3.0"
         }
       },
+      "System.Threading.Tasks.Extensions/4.5.4": {
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Threading.Tasks.Extensions.dll": {
+            "assemblyVersion": "4.2.0.1",
+            "fileVersion": "4.6.28619.1"
+          }
+        }
+      },
       "Xamarin.Build.Download/0.11.4": {},
+      "Xamarin.CommunityToolkit/2.0.6": {
+        "dependencies": {
+          "System.Reflection.Emit.Lightweight": "4.7.0",
+          "System.Threading.Tasks.Extensions": "4.5.4",
+          "Xamarin.Forms": "5.0.0.2545"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Xamarin.CommunityToolkit.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
       "Xamarin.Essentials/1.7.5": {
         "dependencies": {
           "System.Numerics.Vectors": "4.5.0"
@@ -450,6 +494,20 @@
       "path": "system.reflection/4.3.0",
       "hashPath": "system.reflection.4.3.0.nupkg.sha512"
     },
+    "System.Reflection.Emit.ILGeneration/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-AucBYo3DSI0IDxdUjKksBcQJXPHyoPyrCXYURW1WDsLI4M65Ar/goSHjdnHOAY9MiYDNKqDlIgaYm+zL2hA1KA==",
+      "path": "system.reflection.emit.ilgeneration/4.7.0",
+      "hashPath": "system.reflection.emit.ilgeneration.4.7.0.nupkg.sha512"
+    },
+    "System.Reflection.Emit.Lightweight/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-a4OLB4IITxAXJeV74MDx49Oq2+PsF6Sml54XAFv+2RyWwtDBcabzoxiiJRhdhx+gaohLh4hEGCLQyBozXoQPqA==",
+      "path": "system.reflection.emit.lightweight/4.7.0",
+      "hashPath": "system.reflection.emit.lightweight.4.7.0.nupkg.sha512"
+    },
     "System.Reflection.Metadata/7.0.2": {
       "type": "package",
       "serviceable": true,
@@ -513,12 +571,26 @@
       "path": "system.threading.tasks/4.3.0",
       "hashPath": "system.threading.tasks.4.3.0.nupkg.sha512"
     },
+    "System.Threading.Tasks.Extensions/4.5.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-zteT+G8xuGu6mS+mzDzYXbzS7rd3K6Fjb9RiZlYlJPam2/hU7JCBZBVEcywNuR+oZ1ncTvc/cq0faRr3P01OVg==",
+      "path": "system.threading.tasks.extensions/4.5.4",
+      "hashPath": "system.threading.tasks.extensions.4.5.4.nupkg.sha512"
+    },
     "Xamarin.Build.Download/0.11.4": {
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-u2ROt0h6P7mfs0jbmgvmTrqU/YEpEZcf16xcHa78GSEp7fOZunNtJLCZxooeI1V5p+lrr9kYdg3Pa8FoTbgcXQ==",
       "path": "xamarin.build.download/0.11.4",
       "hashPath": "xamarin.build.download.0.11.4.nupkg.sha512"
+    },
+    "Xamarin.CommunityToolkit/2.0.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-viJ5AjiVtT6sWxRinNDVuH9XxRKxYfQN7D9Z2zYvXMMjsdo3QX7/vd/kMJeLw0bozwIDONBKGmmEK/iohFL6wg==",
+      "path": "xamarin.communitytoolkit/2.0.6",
+      "hashPath": "xamarin.communitytoolkit.2.0.6.nupkg.sha512"
     },
     "Xamarin.Essentials/1.7.5": {
       "type": "package",

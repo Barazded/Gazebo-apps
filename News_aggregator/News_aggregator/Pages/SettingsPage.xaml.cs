@@ -25,11 +25,12 @@ namespace News_aggregator.Pages
         }
         private async void Ev_ExitButtonClicked(object sender, EventArgs e)
         {
-            await DisplayAlert($"Выход из аккаунта", "", "продолжить");
-            App.SetMainPage(new EnterPage());
-            App.Current.Properties["IsRegist"] = 0;
+            App.Current.Properties["IsRegist"] = null;
             App.Current.Properties["Username"] = "DefaulstUser";
             App.Current.Properties["Login"] = null;
+            await App.Current.SavePropertiesAsync();
+            await DisplayAlert($"Выход из аккаунта", "", "продолжить");
+            App.SetMainPage(new EnterPage());
         }
     }
 }

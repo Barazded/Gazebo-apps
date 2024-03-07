@@ -4,10 +4,10 @@
              x:Class="News_aggregator.Pages.NewsPage"
              Title="Новости">
 
-    <StackLayout Background="#212121">
-        <StackLayout Margin="5" Padding="10,-5">
+    <StackLayout Background="#151515">
+        <StackLayout>
             <Label Text="Фильтр:" FontSize="15" TextColor="WhiteSmoke"/>
-            <Picker x:Name="pickerFilter" FontSize="13" SelectedIndex="0" TextColor="WhiteSmoke"  BackgroundColor="#212121" TitleColor="White" SelectedIndexChanged="FilterChanged">
+            <Picker x:Name="pickerFilter" FontSize="13" SelectedIndex="0" TextColor="WhiteSmoke"  BackgroundColor="#151515" TitleColor="White" SelectedIndexChanged="FilterChanged">
                 <Picker.Items>
                     <x:String>всё</x:String>
                     <x:String>игры</x:String>
@@ -15,21 +15,39 @@
                     <x:String>наука и технологии</x:String>
                 </Picker.Items>
             </Picker>
-        </StackLayout>
-        <CollectionView x:Name="collectionResourses" Margin="5" SelectionMode="Single" SelectionChanged="OnCardClick">
-            <CollectionView.ItemTemplate>
-                <DataTemplate>
-                    <StackLayout >
-                        <StackLayout Margin="5" VerticalOptions="FillAndExpand" Background="#323232" >
-                            <Label Text="{Binding ID}" FontSize="8" TextColor="WhiteSmoke" HorizontalOptions="StartAndExpand"/>
-                            <Label Text="{Binding Title}" FontSize="20" TextColor="WhiteSmoke"/>
-                            <Label Text="{Binding Info}" FontSize="15" TextColor="WhiteSmoke" />
-                            <Label Text="{Binding Date}" FontSize="10" TextColor="WhiteSmoke"/>
-                            <Label Text="{Binding NameResourse}" FontSize="10" TextColor="WhiteSmoke"/>
+            <CollectionView x:Name="collectionResourses">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <StackLayout Margin="0,20,0,0">
+                            <Grid>
+                                <StackLayout Spacing="0">
+                                    <Label Text="{Binding Link}" Opacity="0" FontSize="1"/>
+                                    <Grid>
+                                        <Image Source="Rectangle_box_api" Margin="15,0,15,0" Aspect="Fill" HeightRequest="50"/>
+                                        <Label Margin="25,8,15,0" Text="{Binding Title}" TextColor="#E7E7E7" FontAttributes="Bold"/>
+                                    </Grid>
+                                    <Grid>
+                                        <Image Source="Fill_Rectangle_Box_API.png" Margin="15,0,15,0" Aspect="Fill" HeightRequest="100"/>
+                                        <ScrollView Orientation="Horizontal" >
+                                            <StackLayout Margin="30,120,230,30" Orientation="Horizontal">
+                                                <Button Text="{Binding NameResourse}" TextTransform="None" Padding="0,0,0,1" BackgroundColor="#424242" TextColor="#E7E7E7"
+                                                    HeightRequest="30" CornerRadius="20" FontSize="15" FontAttributes="Bold"/>
+                                                <Button Text="{Binding NameResourse}" TextTransform="None" Padding="0,0,0,1" BackgroundColor="#424242" TextColor="#E7E7E7"
+                                                    HeightRequest="30" CornerRadius="20" FontSize="15" FontAttributes="Bold"/>
+                                                <Button Text="{Binding Date}" TextTransform="None" Padding="0,0,0,1" BackgroundColor="#424242" TextColor="#E7E7E7"
+                                                    HeightRequest="30" CornerRadius="20" FontSize="15" FontAttributes="Bold"/>
+                                            </StackLayout>
+                                        </ScrollView>
+                                        <Label Margin="30,10,15,0" Text="{Binding Info}" TextColor="#E7E7E7" FontAttributes="Bold"/>
+                                    </Grid>
+                                    <Button Text="Подробнее" TextTransform="None" TextColor="#E7E7E7" FontAttributes="Bold" FontSize="18"
+                                        BackgroundColor="#424242" Opacity="0.9" CornerRadius="10" Margin="15,-10,15,0" Clicked="OnCardClick"/>
+                                </StackLayout>
+                            </Grid>
                         </StackLayout>
-                    </StackLayout>
-                </DataTemplate>
-            </CollectionView.ItemTemplate>
-        </CollectionView>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+        </StackLayout>
     </StackLayout>
 </ContentPage>

@@ -278,6 +278,25 @@
           "buildTransitive/Xamarin.Build.Download.targets": {}
         }
       },
+      "Xamarin.CommunityToolkit/2.0.6": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "5.0.0.2291"
+        },
+        "frameworkAssemblies": [
+          "System.Drawing.Common.dll"
+        ],
+        "compile": {
+          "lib/xamarinios10/Xamarin.CommunityToolkit.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/xamarinios10/Xamarin.CommunityToolkit.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Xamarin.Essentials/1.7.5": {
         "type": "package",
         "dependencies": {
@@ -504,6 +523,7 @@
           "Microsoft.NETCore.UniversalWindowsPlatform": "6.2.14",
           "System.Reflection.Metadata": "7.0.2",
           "Xamarin.Build.Download": "0.11.4",
+          "Xamarin.CommunityToolkit": "2.0.6",
           "Xamarin.Essentials": "1.7.5",
           "Xamarin.Forms": "5.0.0.2545",
           "sqlite-net-pcl": "1.8.116"
@@ -793,6 +813,25 @@
           "buildTransitive/Xamarin.Build.Download.targets": {}
         }
       },
+      "Xamarin.CommunityToolkit/2.0.6": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "5.0.0.2291"
+        },
+        "frameworkAssemblies": [
+          "System.Drawing.Common.dll"
+        ],
+        "compile": {
+          "lib/xamarinios10/Xamarin.CommunityToolkit.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/xamarinios10/Xamarin.CommunityToolkit.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Xamarin.Essentials/1.7.5": {
         "type": "package",
         "dependencies": {
@@ -1019,6 +1058,7 @@
           "Microsoft.NETCore.UniversalWindowsPlatform": "6.2.14",
           "System.Reflection.Metadata": "7.0.2",
           "Xamarin.Build.Download": "0.11.4",
+          "Xamarin.CommunityToolkit": "2.0.6",
           "Xamarin.Essentials": "1.7.5",
           "Xamarin.Forms": "5.0.0.2545",
           "sqlite-net-pcl": "1.8.116"
@@ -1308,6 +1348,25 @@
           "buildTransitive/Xamarin.Build.Download.targets": {}
         }
       },
+      "Xamarin.CommunityToolkit/2.0.6": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "5.0.0.2291"
+        },
+        "frameworkAssemblies": [
+          "System.Drawing.Common.dll"
+        ],
+        "compile": {
+          "lib/xamarinios10/Xamarin.CommunityToolkit.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/xamarinios10/Xamarin.CommunityToolkit.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Xamarin.Essentials/1.7.5": {
         "type": "package",
         "dependencies": {
@@ -1534,6 +1593,7 @@
           "Microsoft.NETCore.UniversalWindowsPlatform": "6.2.14",
           "System.Reflection.Metadata": "7.0.2",
           "Xamarin.Build.Download": "0.11.4",
+          "Xamarin.CommunityToolkit": "2.0.6",
           "Xamarin.Essentials": "1.7.5",
           "Xamarin.Forms": "5.0.0.2545",
           "sqlite-net-pcl": "1.8.116"
@@ -1823,6 +1883,25 @@
           "buildTransitive/Xamarin.Build.Download.targets": {}
         }
       },
+      "Xamarin.CommunityToolkit/2.0.6": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "5.0.0.2291"
+        },
+        "frameworkAssemblies": [
+          "System.Drawing.Common.dll"
+        ],
+        "compile": {
+          "lib/xamarinios10/Xamarin.CommunityToolkit.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/xamarinios10/Xamarin.CommunityToolkit.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Xamarin.Essentials/1.7.5": {
         "type": "package",
         "dependencies": {
@@ -2049,6 +2128,7 @@
           "Microsoft.NETCore.UniversalWindowsPlatform": "6.2.14",
           "System.Reflection.Metadata": "7.0.2",
           "Xamarin.Build.Download": "0.11.4",
+          "Xamarin.CommunityToolkit": "2.0.6",
           "Xamarin.Essentials": "1.7.5",
           "Xamarin.Forms": "5.0.0.2545",
           "sqlite-net-pcl": "1.8.116"
@@ -2338,6 +2418,25 @@
           "buildTransitive/Xamarin.Build.Download.targets": {}
         }
       },
+      "Xamarin.CommunityToolkit/2.0.6": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "5.0.0.2291"
+        },
+        "frameworkAssemblies": [
+          "System.Drawing.Common.dll"
+        ],
+        "compile": {
+          "lib/xamarinios10/Xamarin.CommunityToolkit.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/xamarinios10/Xamarin.CommunityToolkit.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Xamarin.Essentials/1.7.5": {
         "type": "package",
         "dependencies": {
@@ -2564,6 +2663,7 @@
           "Microsoft.NETCore.UniversalWindowsPlatform": "6.2.14",
           "System.Reflection.Metadata": "7.0.2",
           "Xamarin.Build.Download": "0.11.4",
+          "Xamarin.CommunityToolkit": "2.0.6",
           "Xamarin.Essentials": "1.7.5",
           "Xamarin.Forms": "5.0.0.2545",
           "sqlite-net-pcl": "1.8.116"
@@ -3464,6 +3564,47 @@
         "buildTransitive/Xamarin.Build.Download.targets",
         "xamarin.build.download.0.11.4.nupkg.sha512",
         "xamarin.build.download.nuspec"
+      ]
+    },
+    "Xamarin.CommunityToolkit/2.0.6": {
+      "sha512": "viJ5AjiVtT6sWxRinNDVuH9XxRKxYfQN7D9Z2zYvXMMjsdo3QX7/vd/kMJeLw0bozwIDONBKGmmEK/iohFL6wg==",
+      "type": "package",
+      "path": "xamarin.communitytoolkit/2.0.6",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "analyzers/dotnet/xct/cs/Xamarin.CommunityToolkit.SourceGenerator.dll",
+        "icon.png",
+        "lib/monoandroid10.0/Xamarin.CommunityToolkit.dll",
+        "lib/monoandroid10.0/Xamarin.CommunityToolkit.xml",
+        "lib/net471/Xamarin.CommunityToolkit.dll",
+        "lib/net471/Xamarin.CommunityToolkit.xml",
+        "lib/net472/Xamarin.CommunityToolkit.dll",
+        "lib/net472/Xamarin.CommunityToolkit.xml",
+        "lib/netcoreapp3.1/Xamarin.CommunityToolkit.dll",
+        "lib/netcoreapp3.1/Xamarin.CommunityToolkit.xml",
+        "lib/netstandard1.0/Xamarin.CommunityToolkit.dll",
+        "lib/netstandard1.0/Xamarin.CommunityToolkit.xml",
+        "lib/netstandard2.0/Xamarin.CommunityToolkit.dll",
+        "lib/netstandard2.0/Xamarin.CommunityToolkit.xml",
+        "lib/netstandard2.1/Xamarin.CommunityToolkit.dll",
+        "lib/netstandard2.1/Xamarin.CommunityToolkit.xml",
+        "lib/tizen40/Xamarin.CommunityToolkit.dll",
+        "lib/tizen40/Xamarin.CommunityToolkit.xml",
+        "lib/uap10.0.18362/Xamarin.CommunityToolkit.dll",
+        "lib/uap10.0.18362/Xamarin.CommunityToolkit.pri",
+        "lib/uap10.0.18362/Xamarin.CommunityToolkit.xml",
+        "lib/xamarinios10/Xamarin.CommunityToolkit.dll",
+        "lib/xamarinios10/Xamarin.CommunityToolkit.xml",
+        "lib/xamarinmac20/Xamarin.CommunityToolkit.dll",
+        "lib/xamarinmac20/Xamarin.CommunityToolkit.xml",
+        "lib/xamarintvos10/Xamarin.CommunityToolkit.dll",
+        "lib/xamarintvos10/Xamarin.CommunityToolkit.xml",
+        "lib/xamarinwatchos10/Xamarin.CommunityToolkit.dll",
+        "lib/xamarinwatchos10/Xamarin.CommunityToolkit.xml",
+        "xamarin.communitytoolkit.2.0.6.nupkg.sha512",
+        "xamarin.communitytoolkit.nuspec"
       ]
     },
     "Xamarin.Essentials/1.7.5": {
@@ -4920,6 +5061,7 @@
       "Microsoft.NETCore.UniversalWindowsPlatform >= 6.2.14",
       "News_aggregator >= 1.0.0",
       "Xamarin.Build.Download >= 0.11.4",
+      "Xamarin.CommunityToolkit >= 2.0.6",
       "Xamarin.Essentials >= 1.7.5",
       "Xamarin.Firebase.iOS.Auth >= 8.10.0.3",
       "Xamarin.Firebase.iOS.Core >= 8.10.0.3",
@@ -4980,6 +5122,10 @@
           "Xamarin.Build.Download": {
             "target": "Package",
             "version": "[0.11.4, )"
+          },
+          "Xamarin.CommunityToolkit": {
+            "target": "Package",
+            "version": "[2.0.6, )"
           },
           "Xamarin.Essentials": {
             "target": "Package",

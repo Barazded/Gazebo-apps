@@ -5,16 +5,16 @@ namespace News_aggregator.Pages
 {
     public partial class ViewPage : ContentPage
     {
-        private Card card = new Card();
-        public ViewPage(Card card)
+        private string link = "";
+        public ViewPage(string link)
         {
             InitializeComponent();
-            this.card = card;
+            this.link = link;
         }
         protected override void OnAppearing()
         {
             base.OnAppearing();
-            webView.Source = card.Link;
+            webView.Source = link;
         }
         protected override void OnDisappearing()
         {
