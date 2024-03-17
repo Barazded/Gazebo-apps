@@ -1,21 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Shell xmlns="http://xamarin.com/schemas/2014/forms"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="News_aggregator.AppShell"
-             xmlns:local="clr-namespace:News_aggregator.Pages"
+       xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+       x:Class="News_aggregator.AppShell"
+       xmlns:local="clr-namespace:News_aggregator.Pages" 
        BackgroundColor="#151515">
-    <Shell.Resources>
-        <ResourceDictionary>
-        </ResourceDictionary>
-    </Shell.Resources>
     <TabBar>
-        <Tab Title="Settings" Icon="Settings_select.png">
+        <Tab Title="Settings" Icon="settings_icon.png">
             <ShellContent ContentTemplate="{DataTemplate local:SettingsPage}" />
         </Tab>
-        <Tab Title="Community" Icon="Settings_select.png">
+        <Tab Title="Community" Icon="community_icon.png">
             <ShellContent ContentTemplate="{DataTemplate local:CommunityPage}" />
         </Tab>
-        <Tab Title="News" Icon="Settings_select.png" >
+        <Tab Title="News" Icon="lenta_icon.png">
             <ShellContent ContentTemplate="{DataTemplate local:NewsPage}" />
         </Tab>
     </TabBar>

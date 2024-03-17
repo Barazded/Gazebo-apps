@@ -4,6 +4,7 @@ using News_aggregator.Data;
 using News_aggregator.Models;
 using News_aggregator.Parser;
 using System;
+using System.Collections.Generic;
 using Xamarin.Forms;
 
 namespace News_aggregator.Pages
@@ -12,75 +13,65 @@ namespace News_aggregator.Pages
     {
         private ParserConstructor parserConstructor = new ParserConstructor();
         private StartParser parser = new StartParser(null);
-        //настройки ресурса
-        internal string nameWebResourсe;
-        internal string linkOnWebResourсe;
-        internal string typeOfResource;
-        //настройки парсера
-        internal string titleSelector;
-        internal string linkSelector;
-        internal string infoSelector;
-        internal string dateSelector;
         public ConstructorPage()
         {
             InitializeComponent();
         }
-
+        protected override void OnAppearing()
+        {
+            type_picker.SelectedIndex = 0;
+        }
         private async void Ev_ParseButtonCliced(object sender, EventArgs e)
         {
-            //настройки ресурса
-            //nameWebResourсe = name_resourse.Text;
-            nameWebResourсe = "Test_API";
-            //linkOnWebResourсe = link_resource.Text;
-            linkOnWebResourсe = "https://ru.investing.com/news/";
-            //typeOfResource = 
-            //настройки парсера
-            //titleSelector = title_selector.Text;
-            //linkSelector = link_selector.Text;
-            //dateSelector = date_selector.Text;
-            //infoSelector = info_selector.Text;
-            titleSelector = "#latestNews > div > article:nth-child(n) > div.textDiv > a";
-            linkSelector = "#latestNews > div > article:nth-child(n) > div.textDiv > a";
-            dateSelector = "#latestNews > div > article:nth-child(n) > div.textDiv > p";
-            //infoSelector = "#latestNews > div > article:nth-child(n) > div.textDiv > p";
-            infoSelector = "";
+            //проверка 
+            if (!CheckEntry())
+            {
+                await DisplayAlert("Entry error", "Check data", "ok");
+                return;
+            }
             string format = "dd.MM.yyyy";
             var currientDate = DateTime.Now.ToString(format);
-            var document = await parser.RequestHtmlAsync(linkOnWebResourсe);
-            var cards = parserConstructor.Parse((IHtmlDocument)document, titleSelector, linkSelector, infoSelector, dateSelector);
+            var document = await parser.RequestHtmlAsync(link_resource.Text);
+            var cards = parserConstructor.Parse((IHtmlDocument)document, title_selector.Text, link_selector.Text, info_selector.Text, date_selector.Text);
 
             await Navigation.PushAsync(new OutputPage(cards));
             var api = new ParserSettings()
             {
-                NameResourse = nameWebResourсe,
-                UrlResourse = linkOnWebResourсe,
-                TitleSelector = titleSelector,
-                LinkSelector = linkSelector,
-                DateSelector = dateSelector,
-                InfoSelector = infoSelector,
+                NameResourse = name_resourse.Text,
+                UrlResourse = link_resource.Text,
+                TitleSelector = title_selector.Text,
+                LinkSelector = link_selector.Text,
+                DateSelector = date_selector.Text,
+                InfoSelector = info_selector.Text,
+                AboutResourse = about_resourse.Text,
                 UsernameCreator = (App.Current.Properties["Username"].ToString(), App.Current.Properties["Login"].ToString()),
-                TypeResourse = typeOfResource,
+                TypeResourse = type_picker.Items[type_picker.SelectedIndex].ToString(),
                 DateCreate = currientDate
             };
-            var firebase = FirebaseInteraction.GetDataBase();
-            await firebase.Child("APIs").PostAsync(api);
-        }
-        private void Ev_pickerChange(object sender, EventArgs e)
-        {
-            typeOfResource = type_picker.Items[type_picker.SelectedIndex].ToString();
         }
         private async void Ev_PublishButtonCliced(object sender, EventArgs e)
         {
             //проверка 
-            var document = await parser.RequestHtmlAsync(linkOnWebResourсe);
+            if (!CheckEntry())
+            {
+                await DisplayAlert("Entry error", "Check data", "ok");
+                return;
+            }
+            string format = "dd.MM.yyyy";
+            var currientDate = DateTime.Now.ToString(format);
+            var document = await parser.RequestHtmlAsync(link_resource.Text);
             var api = new ParserSettings()
             {
-                NameResourse = nameWebResourсe,
-                UrlResourse = linkOnWebResourсe,
-                TitleSelector = titleSelector,
-                LinkSelector = linkSelector,
-                DateSelector = dateSelector,
-                InfoSelector = infoSelector
+                NameResourse = name_resourse.Text,
+                UrlResourse = link_resource.Text,
+                TitleSelector = title_selector.Text,
+                LinkSelector = link_selector.Text,
+                DateSelector = date_selector.Text,
+                InfoSelector = info_selector.Text,
+                AboutResourse = about_resourse.Text,
+                UsernameCreator = (App.Current.Properties["Username"].ToString(), App.Current.Properties["Login"].ToString()),
+                TypeResourse = type_picker.Items[type_picker.SelectedIndex].ToString(),
+                DateCreate = currientDate
             };
             var cards = parserConstructor.Parse((IHtmlDocument)document, api.TitleSelector, api.LinkSelector, api.InfoSelector, api.DateSelector);
             if (cards == null || cards.Count == 0) 
@@ -88,8 +79,52 @@ namespace News_aggregator.Pages
                 await DisplayAlert("Ошибка компиляции!", "API недействителен", "продолжить");
                 return;
             };
+            //сохранение в firebase
+            var firebase = FirebaseInteraction.GetDataBase();
+            await firebase.Child("APIs").PostAsync(api);
+            //сохранение в локальную бд
             await App.DataBaseNew.SaveItemAsync(App.ConvertApiToResourseSettings(api));
             await DisplayAlert("API был опубликован и добавлен в ваш список", "Ошибки не найдены", "продолжить");
+        }
+        private void Ev_TestApiData(object sender, EventArgs e)
+        {
+            name_resourse.Text = "test";
+            link_resource.Text = "https://ru.investing.com/news/";
+            title_selector.Text = "#latestNews > div > article:nth-child(n) > div.textDiv > a";
+            link_selector.Text = "#latestNews > div > article:nth-child(n) > div.textDiv > a";
+            date_selector.Text = "#latestNews > div > article:nth-child(n) > div.textDiv > p";
+            info_selector.Text = "null";
+        }
+        private void Ev_TestClearData(object sender, EventArgs e)
+        {
+            List<Entry> pols = new List<Entry>()
+            {
+                name_resourse,
+                link_resource,
+                title_selector,
+                link_selector,
+                date_selector,
+                info_selector,
+            };
+            for (int i = 0; i < pols.Count; i++) { pols[i].Text = null; }
+        }
+        private bool CheckEntry()
+        {
+            List<Entry> pols = new List<Entry>()
+            {
+                name_resourse,
+                link_resource,
+                title_selector,
+                link_selector,
+            };
+            for (int i = 0; i < pols.Count; i++) 
+            {
+                if (pols[i].Text == null) 
+                { 
+                    return false; 
+                }
+            }
+            return true;
         }
     }
 

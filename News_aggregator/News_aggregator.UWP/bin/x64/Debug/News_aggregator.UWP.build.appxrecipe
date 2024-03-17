@@ -76,6 +76,9 @@
     <AppxPackagedFile Include="C:\Users\Ivan\.nuget\packages\win2d.uwp\1.20.0\runtimes\win10-x64\native\Microsoft.Graphics.Canvas.dll">
       <PackagePath>Microsoft.Graphics.Canvas.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ivan\.nuget\packages\xamarin.communitytoolkit\2.0.6\lib\netstandard2.0\Xamarin.CommunityToolkit.dll">
+      <PackagePath>Xamarin.CommunityToolkit.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ivan\.nuget\packages\xamarin.essentials\1.7.5\lib\uap10.0.16299\Xamarin.Essentials.dll">
       <PackagePath>Xamarin.Essentials.dll</PackagePath>
     </AppxPackagedFile>
@@ -90,6 +93,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ivan\.nuget\packages\xamarin.forms\5.0.0.2545\lib\uap10.0.16299\Xamarin.Forms.Xaml.dll">
       <PackagePath>Xamarin.Forms.Xaml.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ivan\.nuget\packages\xamarin.forms.pancakeview\2.3.0.763-beta\lib\netstandard2.0\Xamarin.Forms.PancakeView.dll">
+      <PackagePath>Xamarin.Forms.PancakeView.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator\bin\Debug\netstandard2.0\News_aggregator.dll">
       <PackagePath>News_aggregator.dll</PackagePath>

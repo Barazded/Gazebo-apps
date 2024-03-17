@@ -824,6 +824,20 @@
           }
         }
       },
+      "System.ComponentModel/4.3.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime": "4.3.0"
+        },
+        "compile": {
+          "ref/netcore50/System.ComponentModel.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netcore50/System.ComponentModel.dll": {}
+        }
+      },
       "System.Diagnostics.Contracts/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -1290,6 +1304,23 @@
           "buildTransitive/Xamarin.Forms.targets": {}
         }
       },
+      "Xamarin.Forms.PancakeView/2.3.0.763-beta": {
+        "type": "package",
+        "dependencies": {
+          "System.ComponentModel": "4.3.0",
+          "Xamarin.Forms": "4.8.0.1451"
+        },
+        "compile": {
+          "lib/netstandard2.0/Xamarin.Forms.PancakeView.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Xamarin.Forms.PancakeView.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "News_aggregator/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
@@ -1302,6 +1333,7 @@
           "Xamarin.CommunityToolkit": "2.0.6",
           "Xamarin.Essentials": "1.7.5",
           "Xamarin.Forms": "5.0.0.2545",
+          "Xamarin.Forms.PancakeView": "2.3.0.763-beta",
           "sqlite-net-pcl": "1.8.116"
         },
         "compile": {
@@ -2365,6 +2397,20 @@
           }
         }
       },
+      "System.ComponentModel/4.3.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime": "4.3.0"
+        },
+        "compile": {
+          "ref/netcore50/System.ComponentModel.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netcore50/System.ComponentModel.dll": {}
+        }
+      },
       "System.Diagnostics.Contracts/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -2817,6 +2863,23 @@
           "buildTransitive/Xamarin.Forms.targets": {}
         }
       },
+      "Xamarin.Forms.PancakeView/2.3.0.763-beta": {
+        "type": "package",
+        "dependencies": {
+          "System.ComponentModel": "4.3.0",
+          "Xamarin.Forms": "4.8.0.1451"
+        },
+        "compile": {
+          "lib/netstandard2.0/Xamarin.Forms.PancakeView.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Xamarin.Forms.PancakeView.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "News_aggregator/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
@@ -2829,6 +2892,7 @@
           "Xamarin.CommunityToolkit": "2.0.6",
           "Xamarin.Essentials": "1.7.5",
           "Xamarin.Forms": "5.0.0.2545",
+          "Xamarin.Forms.PancakeView": "2.3.0.763-beta",
           "sqlite-net-pcl": "1.8.116"
         },
         "compile": {
@@ -3923,6 +3987,20 @@
           }
         }
       },
+      "System.ComponentModel/4.3.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime": "4.3.0"
+        },
+        "compile": {
+          "ref/netcore50/System.ComponentModel.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netcore50/System.ComponentModel.dll": {}
+        }
+      },
       "System.Diagnostics.Contracts/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -4412,6 +4490,23 @@
           "buildTransitive/Xamarin.Forms.targets": {}
         }
       },
+      "Xamarin.Forms.PancakeView/2.3.0.763-beta": {
+        "type": "package",
+        "dependencies": {
+          "System.ComponentModel": "4.3.0",
+          "Xamarin.Forms": "4.8.0.1451"
+        },
+        "compile": {
+          "lib/netstandard2.0/Xamarin.Forms.PancakeView.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Xamarin.Forms.PancakeView.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "News_aggregator/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
@@ -4424,6 +4519,7 @@
           "Xamarin.CommunityToolkit": "2.0.6",
           "Xamarin.Essentials": "1.7.5",
           "Xamarin.Forms": "5.0.0.2545",
+          "Xamarin.Forms.PancakeView": "2.3.0.763-beta",
           "sqlite-net-pcl": "1.8.116"
         },
         "compile": {
@@ -5518,6 +5614,20 @@
           }
         }
       },
+      "System.ComponentModel/4.3.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime": "4.3.0"
+        },
+        "compile": {
+          "ref/netcore50/System.ComponentModel.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netcore50/System.ComponentModel.dll": {}
+        }
+      },
       "System.Diagnostics.Contracts/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -6004,6 +6114,23 @@
           "buildTransitive/Xamarin.Forms.targets": {}
         }
       },
+      "Xamarin.Forms.PancakeView/2.3.0.763-beta": {
+        "type": "package",
+        "dependencies": {
+          "System.ComponentModel": "4.3.0",
+          "Xamarin.Forms": "4.8.0.1451"
+        },
+        "compile": {
+          "lib/netstandard2.0/Xamarin.Forms.PancakeView.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Xamarin.Forms.PancakeView.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "News_aggregator/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
@@ -6016,6 +6143,7 @@
           "Xamarin.CommunityToolkit": "2.0.6",
           "Xamarin.Essentials": "1.7.5",
           "Xamarin.Forms": "5.0.0.2545",
+          "Xamarin.Forms.PancakeView": "2.3.0.763-beta",
           "sqlite-net-pcl": "1.8.116"
         },
         "compile": {
@@ -7079,6 +7207,20 @@
           }
         }
       },
+      "System.ComponentModel/4.3.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime": "4.3.0"
+        },
+        "compile": {
+          "ref/netcore50/System.ComponentModel.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netcore50/System.ComponentModel.dll": {}
+        }
+      },
       "System.Diagnostics.Contracts/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -7531,6 +7673,23 @@
           "buildTransitive/Xamarin.Forms.targets": {}
         }
       },
+      "Xamarin.Forms.PancakeView/2.3.0.763-beta": {
+        "type": "package",
+        "dependencies": {
+          "System.ComponentModel": "4.3.0",
+          "Xamarin.Forms": "4.8.0.1451"
+        },
+        "compile": {
+          "lib/netstandard2.0/Xamarin.Forms.PancakeView.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Xamarin.Forms.PancakeView.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "News_aggregator/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
@@ -7543,6 +7702,7 @@
           "Xamarin.CommunityToolkit": "2.0.6",
           "Xamarin.Essentials": "1.7.5",
           "Xamarin.Forms": "5.0.0.2545",
+          "Xamarin.Forms.PancakeView": "2.3.0.763-beta",
           "sqlite-net-pcl": "1.8.116"
         },
         "compile": {
@@ -8637,6 +8797,20 @@
           }
         }
       },
+      "System.ComponentModel/4.3.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime": "4.3.0"
+        },
+        "compile": {
+          "ref/netcore50/System.ComponentModel.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netcore50/System.ComponentModel.dll": {}
+        }
+      },
       "System.Diagnostics.Contracts/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -9126,6 +9300,23 @@
           "buildTransitive/Xamarin.Forms.targets": {}
         }
       },
+      "Xamarin.Forms.PancakeView/2.3.0.763-beta": {
+        "type": "package",
+        "dependencies": {
+          "System.ComponentModel": "4.3.0",
+          "Xamarin.Forms": "4.8.0.1451"
+        },
+        "compile": {
+          "lib/netstandard2.0/Xamarin.Forms.PancakeView.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Xamarin.Forms.PancakeView.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "News_aggregator/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
@@ -9138,6 +9329,7 @@
           "Xamarin.CommunityToolkit": "2.0.6",
           "Xamarin.Essentials": "1.7.5",
           "Xamarin.Forms": "5.0.0.2545",
+          "Xamarin.Forms.PancakeView": "2.3.0.763-beta",
           "sqlite-net-pcl": "1.8.116"
         },
         "compile": {
@@ -10201,6 +10393,20 @@
           }
         }
       },
+      "System.ComponentModel/4.3.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime": "4.3.0"
+        },
+        "compile": {
+          "ref/netcore50/System.ComponentModel.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netcore50/System.ComponentModel.dll": {}
+        }
+      },
       "System.Diagnostics.Contracts/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -10653,6 +10859,23 @@
           "buildTransitive/Xamarin.Forms.targets": {}
         }
       },
+      "Xamarin.Forms.PancakeView/2.3.0.763-beta": {
+        "type": "package",
+        "dependencies": {
+          "System.ComponentModel": "4.3.0",
+          "Xamarin.Forms": "4.8.0.1451"
+        },
+        "compile": {
+          "lib/netstandard2.0/Xamarin.Forms.PancakeView.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Xamarin.Forms.PancakeView.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "News_aggregator/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
@@ -10665,6 +10888,7 @@
           "Xamarin.CommunityToolkit": "2.0.6",
           "Xamarin.Essentials": "1.7.5",
           "Xamarin.Forms": "5.0.0.2545",
+          "Xamarin.Forms.PancakeView": "2.3.0.763-beta",
           "sqlite-net-pcl": "1.8.116"
         },
         "compile": {
@@ -11759,6 +11983,20 @@
           }
         }
       },
+      "System.ComponentModel/4.3.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime": "4.3.0"
+        },
+        "compile": {
+          "ref/netcore50/System.ComponentModel.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netcore50/System.ComponentModel.dll": {}
+        }
+      },
       "System.Diagnostics.Contracts/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -12248,6 +12486,23 @@
           "buildTransitive/Xamarin.Forms.targets": {}
         }
       },
+      "Xamarin.Forms.PancakeView/2.3.0.763-beta": {
+        "type": "package",
+        "dependencies": {
+          "System.ComponentModel": "4.3.0",
+          "Xamarin.Forms": "4.8.0.1451"
+        },
+        "compile": {
+          "lib/netstandard2.0/Xamarin.Forms.PancakeView.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Xamarin.Forms.PancakeView.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "News_aggregator/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
@@ -12260,6 +12515,7 @@
           "Xamarin.CommunityToolkit": "2.0.6",
           "Xamarin.Essentials": "1.7.5",
           "Xamarin.Forms": "5.0.0.2545",
+          "Xamarin.Forms.PancakeView": "2.3.0.763-beta",
           "sqlite-net-pcl": "1.8.116"
         },
         "compile": {
@@ -17480,6 +17736,65 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "System.ComponentModel/4.3.0": {
+      "sha512": "VyGn1jGRZVfxnh8EdvDCi71v3bMXrsu8aYJOwoV7SNDLVhiEqwP86pPMyRGsDsxhXAm2b3o9OIqeETfN5qfezw==",
+      "type": "package",
+      "path": "system.componentmodel/4.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ThirdPartyNotices.txt",
+        "dotnet_library_license.txt",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net45/_._",
+        "lib/netcore50/System.ComponentModel.dll",
+        "lib/netstandard1.3/System.ComponentModel.dll",
+        "lib/portable-net45+win8+wp8+wpa81/_._",
+        "lib/win8/_._",
+        "lib/wp80/_._",
+        "lib/wpa81/_._",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net45/_._",
+        "ref/netcore50/System.ComponentModel.dll",
+        "ref/netcore50/System.ComponentModel.xml",
+        "ref/netcore50/de/System.ComponentModel.xml",
+        "ref/netcore50/es/System.ComponentModel.xml",
+        "ref/netcore50/fr/System.ComponentModel.xml",
+        "ref/netcore50/it/System.ComponentModel.xml",
+        "ref/netcore50/ja/System.ComponentModel.xml",
+        "ref/netcore50/ko/System.ComponentModel.xml",
+        "ref/netcore50/ru/System.ComponentModel.xml",
+        "ref/netcore50/zh-hans/System.ComponentModel.xml",
+        "ref/netcore50/zh-hant/System.ComponentModel.xml",
+        "ref/netstandard1.0/System.ComponentModel.dll",
+        "ref/netstandard1.0/System.ComponentModel.xml",
+        "ref/netstandard1.0/de/System.ComponentModel.xml",
+        "ref/netstandard1.0/es/System.ComponentModel.xml",
+        "ref/netstandard1.0/fr/System.ComponentModel.xml",
+        "ref/netstandard1.0/it/System.ComponentModel.xml",
+        "ref/netstandard1.0/ja/System.ComponentModel.xml",
+        "ref/netstandard1.0/ko/System.ComponentModel.xml",
+        "ref/netstandard1.0/ru/System.ComponentModel.xml",
+        "ref/netstandard1.0/zh-hans/System.ComponentModel.xml",
+        "ref/netstandard1.0/zh-hant/System.ComponentModel.xml",
+        "ref/portable-net45+win8+wp8+wpa81/_._",
+        "ref/win8/_._",
+        "ref/wp80/_._",
+        "ref/wpa81/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "system.componentmodel.4.3.0.nupkg.sha512",
+        "system.componentmodel.nuspec"
+      ]
+    },
     "System.Diagnostics.Contracts/4.3.0": {
       "sha512": "eelRRbnm+OloiQvp9CXS0ixjNQldjjkHO4iIkR5XH2VIP8sUB/SIpa1TdUW6/+HDcQ+MlhP3pNa1u5SbzYuWGA==",
       "type": "package",
@@ -19166,6 +19481,42 @@
         "lib/uap10.0.16299/Xamarin.Forms.Xaml.xml",
         "xamarin.forms.5.0.0.2545.nupkg.sha512",
         "xamarin.forms.nuspec"
+      ]
+    },
+    "Xamarin.Forms.PancakeView/2.3.0.763-beta": {
+      "sha512": "GghetVBkMzzb6L1Ul3SH9JnHIvdmhgjRacAQaD5IUGMr2yxFtSeB0lRYTT0QjNJFK6TSgyh/lDwqMSaCMBjbMg==",
+      "type": "package",
+      "path": "xamarin.forms.pancakeview/2.3.0.763-beta",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/monoandroid10.0/Xamarin.Forms.PancakeView.dll",
+        "lib/monoandroid10.0/Xamarin.Forms.PancakeView.xml",
+        "lib/monoandroid90/Xamarin.Forms.PancakeView.dll",
+        "lib/monoandroid90/Xamarin.Forms.PancakeView.xml",
+        "lib/net471/Xamarin.Forms.PancakeView.dll",
+        "lib/net471/Xamarin.Forms.PancakeView.xml",
+        "lib/net472/Xamarin.Forms.PancakeView.dll",
+        "lib/net472/Xamarin.Forms.PancakeView.xml",
+        "lib/netcoreapp3.1/Xamarin.Forms.PancakeView.dll",
+        "lib/netcoreapp3.1/Xamarin.Forms.PancakeView.xml",
+        "lib/netstandard1.0/Xamarin.Forms.PancakeView.dll",
+        "lib/netstandard1.0/Xamarin.Forms.PancakeView.xml",
+        "lib/netstandard2.0/Xamarin.Forms.PancakeView.dll",
+        "lib/netstandard2.0/Xamarin.Forms.PancakeView.xml",
+        "lib/netstandard2.1/Xamarin.Forms.PancakeView.dll",
+        "lib/netstandard2.1/Xamarin.Forms.PancakeView.xml",
+        "lib/tizen40/Xamarin.Forms.PancakeView.dll",
+        "lib/tizen40/Xamarin.Forms.PancakeView.xml",
+        "lib/uap10.0.17763/Xamarin.Forms.PancakeView.dll",
+        "lib/uap10.0.17763/Xamarin.Forms.PancakeView.pri",
+        "lib/uap10.0.17763/Xamarin.Forms.PancakeView.xml",
+        "lib/xamarinios10/Xamarin.Forms.PancakeView.dll",
+        "lib/xamarinios10/Xamarin.Forms.PancakeView.xml",
+        "lib/xamarinmac20/Xamarin.Forms.PancakeView.dll",
+        "lib/xamarinmac20/Xamarin.Forms.PancakeView.xml",
+        "xamarin.forms.pancakeview.2.3.0.763-beta.nupkg.sha512",
+        "xamarin.forms.pancakeview.nuspec"
       ]
     },
     "News_aggregator/1.0.0": {

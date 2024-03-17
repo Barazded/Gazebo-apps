@@ -2,7 +2,7 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="News_aggregator.Pages.InfoApiPage">
-    <StackLayout BackgroundColor="#212121">
+    <StackLayout BackgroundColor="#151515">
         <StackLayout>
             <Label Text="Описание API:" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" FontSize="15" TextColor="White" Margin="5"/>
         </StackLayout>

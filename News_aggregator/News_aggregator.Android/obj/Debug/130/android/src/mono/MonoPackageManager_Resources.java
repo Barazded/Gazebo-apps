@@ -78,6 +78,7 @@ public class MonoPackageManager_Resources {
 		"Xamarin.Firebase.Common.dll",
 		"Xamarin.Firebase.Components.dll",
 		"Xamarin.Forms.Core.dll",
+		"Xamarin.Forms.PancakeView.dll",
 		"Xamarin.Forms.Platform.Android.dll",
 		"Xamarin.Forms.Platform.dll",
 		"Xamarin.Forms.Xaml.dll",

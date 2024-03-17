@@ -59,6 +59,7 @@ Xamarin.Firebase.Auth.dll
 Xamarin.Firebase.Auth.Interop.dll
 Xamarin.Firebase.Common.dll
 Xamarin.Firebase.Components.dll
+Xamarin.Forms.PancakeView.dll
 Xamarin.Forms.Platform.Android.dll
 Xamarin.Forms.Platform.dll
 Xamarin.Google.Android.Material.dll

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "O3Cxtyp8cpKqQtwaIAiW+CErsvfFvfOfQ513zGb5RI2XKgci0WkxxCEDETzWbHOfIhOtTc4yHccww1DGYXMoGA==",
+  "dgSpecHash": "LCmQmqx/IHp3fUcPllVN22n8c1sJ1Epw8hpi4qXnmflKAf2r9MMXu6Jic8Hq+KVTQw9bIAgMuwS0gYANCzs9Aw==",
   "success": true,
   "projectFilePath": "F:\\Рабочий стол\\XamarinForm\\Gazebo-apps\\News_aggregator\\News_aggregator.Android\\News_aggregator.Android.csproj",
   "expectedPackageFiles": [
@@ -16,6 +16,7 @@
     "C:\\Users\\Ivan\\.nuget\\packages\\sqlitepclraw.provider.e_sqlite3\\2.0.4\\sqlitepclraw.provider.e_sqlite3.2.0.4.nupkg.sha512",
     "C:\\Users\\Ivan\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
     "C:\\Users\\Ivan\\.nuget\\packages\\system.collections.immutable\\7.0.0\\system.collections.immutable.7.0.0.nupkg.sha512",
+    "C:\\Users\\Ivan\\.nuget\\packages\\system.componentmodel\\4.3.0\\system.componentmodel.4.3.0.nupkg.sha512",
     "C:\\Users\\Ivan\\.nuget\\packages\\system.json\\4.5.0\\system.json.4.5.0.nupkg.sha512",
     "C:\\Users\\Ivan\\.nuget\\packages\\system.memory\\4.5.5\\system.memory.4.5.5.nupkg.sha512",
     "C:\\Users\\Ivan\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
@@ -89,6 +90,7 @@
     "C:\\Users\\Ivan\\.nuget\\packages\\xamarin.firebase.common\\119.5.0\\xamarin.firebase.common.119.5.0.nupkg.sha512",
     "C:\\Users\\Ivan\\.nuget\\packages\\xamarin.firebase.components\\116.1.0\\xamarin.firebase.components.116.1.0.nupkg.sha512",
     "C:\\Users\\Ivan\\.nuget\\packages\\xamarin.forms\\5.0.0.2545\\xamarin.forms.5.0.0.2545.nupkg.sha512",
+    "C:\\Users\\Ivan\\.nuget\\packages\\xamarin.forms.pancakeview\\2.3.0.763-beta\\xamarin.forms.pancakeview.2.3.0.763-beta.nupkg.sha512",
     "C:\\Users\\Ivan\\.nuget\\packages\\xamarin.google.android.material\\1.4.0.2\\xamarin.google.android.material.1.4.0.2.nupkg.sha512",
     "C:\\Users\\Ivan\\.nuget\\packages\\xamarin.google.guava.listenablefuture\\1.0.0.2\\xamarin.google.guava.listenablefuture.1.0.0.2.nupkg.sha512",
     "C:\\Users\\Ivan\\.nuget\\packages\\xamarin.googleplayservices.auth.api.phone\\117.5.0\\xamarin.googleplayservices.auth.api.phone.117.5.0.nupkg.sha512",

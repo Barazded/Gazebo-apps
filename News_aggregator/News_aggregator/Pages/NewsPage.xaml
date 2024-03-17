@@ -1,20 +1,22 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="News_aggregator.Pages.NewsPage"
-             Title="Новости">
-
+             x:Class="News_aggregator.Pages.NewsPage">
     <StackLayout Background="#151515">
         <StackLayout>
-            <Label Text="Фильтр:" FontSize="15" TextColor="WhiteSmoke"/>
-            <Picker x:Name="pickerFilter" FontSize="13" SelectedIndex="0" TextColor="WhiteSmoke"  BackgroundColor="#151515" TitleColor="White" SelectedIndexChanged="FilterChanged">
-                <Picker.Items>
-                    <x:String>всё</x:String>
-                    <x:String>игры</x:String>
-                    <x:String>экономика</x:String>
-                    <x:String>наука и технологии</x:String>
-                </Picker.Items>
-            </Picker>
+            <Label Text="Фильтр:" FontSize="14" TextColor="#E7E7E7" FontAttributes="Bold" Margin="15,0,0,10"/>
+            <Grid Margin="15,0,15,10">
+                <Frame CornerRadius="10" HasShadow="False" BackgroundColor="#676767" HeightRequest="85" Padding="20,-30,0,0">
+                    <Picker x:Name="pickerFilter" SelectedIndex="0" FontSize="14" TextColor="#E7E7E7" FontAttributes="Bold" TitleColor="White" SelectedIndexChanged="FilterChanged" Margin="0,0,0,-30">
+                        <Picker.Items>
+                            <x:String>всё</x:String>
+                            <x:String>игры</x:String>
+                            <x:String>экономика</x:String>
+                            <x:String>наука и технологии</x:String>
+                        </Picker.Items>
+                    </Picker>
+                </Frame>
+            </Grid>
             <CollectionView x:Name="collectionResourses">
                 <CollectionView.ItemTemplate>
                     <DataTemplate>
@@ -32,7 +34,7 @@
                                             <StackLayout Margin="30,120,230,30" Orientation="Horizontal">
                                                 <Button Text="{Binding NameResourse}" TextTransform="None" Padding="0,0,0,1" BackgroundColor="#424242" TextColor="#E7E7E7"
                                                     HeightRequest="30" CornerRadius="20" FontSize="15" FontAttributes="Bold"/>
-                                                <Button Text="{Binding NameResourse}" TextTransform="None" Padding="0,0,0,1" BackgroundColor="#424242" TextColor="#E7E7E7"
+                                                <Button Text="{Binding Type}" TextTransform="None" Padding="0,0,0,1" BackgroundColor="#424242" TextColor="#E7E7E7"
                                                     HeightRequest="30" CornerRadius="20" FontSize="15" FontAttributes="Bold"/>
                                                 <Button Text="{Binding Date}" TextTransform="None" Padding="0,0,0,1" BackgroundColor="#424242" TextColor="#E7E7E7"
                                                     HeightRequest="30" CornerRadius="20" FontSize="15" FontAttributes="Bold"/>

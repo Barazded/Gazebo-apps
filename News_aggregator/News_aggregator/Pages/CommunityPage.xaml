@@ -8,13 +8,13 @@
                     BackgroundColor="#424242" CornerRadius="10" TextTransform="None" Margin="15,0,15,0"/>
             <Frame CornerRadius="10" HasShadow="False" BackgroundColor="#676767" Opacity="0.9" Margin="15,20,15,0" HeightRequest="10" WidthRequest="350">
                 <Entry x:Name="finder" FontSize="15" FontAttributes="Bold" FontFamily="Inter" PlaceholderColor="#E7E7E7" 
-                       Placeholder="Поиск" HorizontalTextAlignment="Start" TextColor="#E7E7E7" Margin="0,-30,0,-30"/>
+                       Placeholder="Поиск" HorizontalTextAlignment="Start" TextColor="#E7E7E7" Margin="0,-30,0,-30" TextChanged="Ev_FindApi"/>
             </Frame>
         </StackLayout>
         <CollectionView x:Name="collection_api" Margin="0,5,0,0" SelectionChanged="Ev_ApiInfoClicked">
             <CollectionView.ItemTemplate>
                 <DataTemplate>
-                    <StackLayout Spacing="0" Padding="0,10,0,0">
+                    <StackLayout Spacing="0" Padding="0,10,0,0" Margin="0,25,0,0">
                         <Label Text="{Binding id}" Opacity="0" FontSize="1"/>
                         <Grid>
                             <Image Source="Rectangle_box_api" Margin="15,0,15,0" Aspect="Fill" HeightRequest="50"/>
@@ -33,7 +33,7 @@
                                 <Button Text="{Binding apiSettings.TypeResourse}" TextTransform="None" Padding="0,0,0,1" BackgroundColor="#424242" TextColor="#E7E7E7"
                                     HeightRequest="30" CornerRadius="20" FontSize="15" FontAttributes="Bold"/>
                             </StackLayout>
-                            <Label Margin="30,10,0,0" Text="{Binding apiSettings.NameResourse}" TextColor="#E7E7E7" FontAttributes="Bold"/>
+                            <Label Margin="30,10,0,0" Text="{Binding apiSettings.AboutResourse}" TextColor="#E7E7E7" FontAttributes="Bold"/>
                         </Grid>
                         <Button Text="Подробнее" TextTransform="None" TextColor="#E7E7E7" FontAttributes="Bold" FontSize="18"
                             BackgroundColor="#424242" Opacity="0.9" CornerRadius="10" Margin="15,-10,15,0" Clicked="Ev_ApiInfoClicked"/>

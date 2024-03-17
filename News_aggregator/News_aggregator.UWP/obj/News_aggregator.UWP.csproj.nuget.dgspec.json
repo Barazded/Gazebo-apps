@@ -182,6 +182,10 @@
               "target": "Package",
               "version": "[5.0.0.2545, )"
             },
+            "Xamarin.Forms.PancakeView": {
+              "target": "Package",
+              "version": "[2.3.0.763-beta, )"
+            },
             "sqlite-net-pcl": {
               "target": "Package",
               "version": "[1.8.116, )"

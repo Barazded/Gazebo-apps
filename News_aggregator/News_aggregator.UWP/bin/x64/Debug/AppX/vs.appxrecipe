@@ -30,13 +30,13 @@
     <AppXManifest Include="F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.UWP\bin\x64\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-01-17T08:50:52.798</Modified>
+      <Modified>2024-03-16T13:32:07.001</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.UWP\bin\x64\Debug\News_aggregator.UWP.exe">
       <PackagePath>entrypoint\News_aggregator.UWP.exe</PackagePath>
-      <Modified>2024-01-16T18:40:19.264</Modified>
+      <Modified>2024-03-16T13:32:05.204</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ivan\.nuget\packages\anglesharp\1.0.5\lib\netstandard2.0\AngleSharp.dll">
       <PackagePath>AngleSharp.dll</PackagePath>
@@ -102,6 +102,10 @@
       <PackagePath>Microsoft.Graphics.Canvas.dll</PackagePath>
       <Modified>2016-11-30T02:58:38.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ivan\.nuget\packages\xamarin.communitytoolkit\2.0.6\lib\netstandard2.0\Xamarin.CommunityToolkit.dll">
+      <PackagePath>Xamarin.CommunityToolkit.dll</PackagePath>
+      <Modified>2023-05-01T09:26:22.000</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ivan\.nuget\packages\xamarin.essentials\1.7.5\lib\uap10.0.16299\Xamarin.Essentials.dll">
       <PackagePath>Xamarin.Essentials.dll</PackagePath>
       <Modified>2023-02-13T15:30:00.000</Modified>
@@ -122,9 +126,13 @@
       <PackagePath>Xamarin.Forms.Xaml.dll</PackagePath>
       <Modified>2022-12-01T13:28:16.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ivan\.nuget\packages\xamarin.forms.pancakeview\2.3.0.763-beta\lib\netstandard2.0\Xamarin.Forms.PancakeView.dll">
+      <PackagePath>Xamarin.Forms.PancakeView.dll</PackagePath>
+      <Modified>2020-12-04T07:39:06.000</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator\bin\Debug\netstandard2.0\News_aggregator.dll">
       <PackagePath>News_aggregator.dll</PackagePath>
-      <Modified>2024-01-17T08:50:46.956</Modified>
+      <Modified>2024-03-16T13:31:59.034</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Ivan\.nuget\packages\win2d.uwp\1.20.0\lib\uap10.0\Microsoft.Graphics.Canvas.winmd">
       <PackagePath>Microsoft.Graphics.Canvas.winmd</PackagePath>
@@ -291,11 +299,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.UWP\bin\x64\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2024-01-17T08:50:51.622</Modified>
+      <Modified>2024-03-16T13:32:05.158</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.UWP\bin\x64\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2024-01-17T08:50:51.622</Modified>
+      <Modified>2024-03-16T13:32:05.158</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.22000.0\\redist\Debug\X64\ucrtbased.dll">
       <PackagePath>ucrtbased.dll</PackagePath>
@@ -311,11 +319,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.UWP\bin\x64\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2024-01-16T18:40:19.903</Modified>
+      <Modified>2024-03-16T13:32:05.923</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.UWP\bin\x64\Debug\Core\News_aggregator.UWP.exe">
       <PackagePath>News_aggregator.UWP.exe</PackagePath>
-      <Modified>2024-01-17T08:50:52.795</Modified>
+      <Modified>2024-03-16T13:32:07.001</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

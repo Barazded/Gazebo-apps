@@ -31,14 +31,16 @@ namespace News_aggregator
         {
             InitializeComponent();
             int pos = 0;
-            try
-            {
-                pos = (int)App.Current.Properties["IsRegist"];
+            try 
+            { 
+                pos = (int)App.Current.Properties["IsRegist"]; 
             }
-            catch { pos = 0; }
+            catch 
+            { 
+                pos = 0; 
+            }
             if (pos == 0) { SetMainPage(new EnterPage()); }
             else { SetMainPage(new AppShell()); }
-            SetMainPage(new AppShell());
             //если приложение открылось в первый раз
             if (!Current.Properties.ContainsKey("curentStandart"))
             {
@@ -61,7 +63,7 @@ namespace News_aggregator
                 {
                     NameResourse = "Banki",
                     UrlResourse = "https://www.banki.ru/news/lenta/",
-                    //TypeResourse = ResourseType.economyc,
+                    TypeResourse = "экономика",
                     TitleSelector = "body > div.page-container > main > div > div:nth-child(n) > div.bg-minor-black-lighten2 > div > div > div.lbb023d8c.l0a493b73 > " +
                     "div.lf4cbd87d.ld6d46e58.lfd76152f > div:nth-child(n) > div > div:nth-child(n) > div > div.lf4cbd87d.ld6d46e58.lb47af913 > a",
                     LinkSelector = "body > div.page-container > main > div > div:nth-child(n) > div.bg-minor-black-lighten2 > div > div > " +
@@ -80,7 +82,7 @@ namespace News_aggregator
                 {
                     NameResourse = "Investing",
                     UrlResourse = "https://ru.investing.com/news/",
-                    //TypeResourse = ResourseType.economyc,
+                    TypeResourse = "экономика",
                     TitleSelector = "#latestNews > div > article:nth-child(n) > div.textDiv > a",
                     LinkSelector = "#latestNews > div > article:nth-child(n) > div.textDiv > a",
                     InfoSelector = "#latestNews > div > article:nth-child(n) > div.textDiv > p"
@@ -90,20 +92,47 @@ namespace News_aggregator
             {
                 ID = 3,
                 canDelit = false,
-                TextName = "StopGame",
+                TextName = "IXBTgames",
                 ParserSettingsByte = ObjectToByteArray(new ParserSettings
                 {
                     NameResourse = "StopGame",
-                    UrlResourse = "https://stopgame.ru/news",
-                    //TypeResourse = ResourseType.games,
-                    TitleSelector = "#w0 > div:nth-child(n) > div:nth-child(n) > div > div > a",
-                    LinkSelector = "#w0 > div:nth-child(n) > div:nth-child(n) > div > div > a",
-                    DateSelector = "#w0 > div:nth-child(n) > div:nth-child(n) > div > div > div > div._info-row_11mk8_121 > span"
+                    UrlResourse = "https://ixbt.games/news/",
+                    TypeResourse = "игры",
+                    TitleSelector = "body > div > div.main.clearfix.m-wrap > div > section > div:nth-child(n) > div:nth-child(n) > div > div > div.col.mx-3.d-flex.flex-column > div.card-title.my-2.order-1.order-sm-0 > a",
+                    LinkSelector = "body > div > div.main.clearfix.m-wrap > div > section > div:nth-child(n) > div:nth-child(n) > div > div > div.col.mx-3.d-flex.flex-column > div.card-title.my-2.order-1.order-sm-0 > a",
+                })
+            };
+            ResourseSettings rbkEconomyc = new ResourseSettings
+            {
+                ID = 4,
+                canDelit = false,
+                TextName = "RBKEconomyc",
+                ParserSettingsByte = ObjectToByteArray(new ParserSettings
+                {
+                    NameResourse = "RBKEconomyc",
+                    UrlResourse = "https://www.rbc.ru/economics/",
+                    TypeResourse = "экономика",
+                    TitleSelector = "#maincontent > div > div.l-row.js-load-container > div:nth-child(n) > div > a > span.item__title-wrap > span > span > span",
+                    LinkSelector = "#maincontent > div > div.l-row.js-load-container > div:nth-child(n) > div > div > span",
+                })
+            };
+            ResourseSettings IXBTtech = new ResourseSettings
+            {
+                ID = 5,
+                canDelit = false,
+                TextName = "IXBTtech",
+                ParserSettingsByte = ObjectToByteArray(new ParserSettings
+                {
+                    NameResourse = "IXBTtech",
+                    UrlResourse = "https://www.ixbt.com/news/",
+                    TypeResourse = "экономика",
+                    TitleSelector = "b-content__pagecontent > div > div > div.g-grid_column.g-grid_column__big > div > ul:nth-child(n) > li:nth-child(n) > a > strong",
+                    LinkSelector = "b-content__pagecontent > div > div > div.g-grid_column.g-grid_column__big > div > ul:nth-child(n) > li:nth-child(n) > a > strong",
                 })
             };
             List<ResourseSettings> listResourse = new List<ResourseSettings>()
             {
-                Banki,Investing,StopGame
+                Banki,Investing,StopGame,rbkEconomyc,IXBTtech
             };
             foreach (var item in listResourse)
             {

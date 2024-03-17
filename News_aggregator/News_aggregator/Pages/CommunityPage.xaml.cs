@@ -5,7 +5,6 @@ using News_aggregator.Models;
 using System.Linq;
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using System.Dynamic;
 
 namespace News_aggregator.Pages
 {

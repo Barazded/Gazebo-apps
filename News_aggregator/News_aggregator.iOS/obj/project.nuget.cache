@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "xHe54hdv7pY1dNpjDVY+4K18PAaBHBhIcsL7NoM3w2ux67xqlmWII3IpYwNgY06VztIYuSdbb+Ykg4LUM9WBKg==",
+  "dgSpecHash": "rOStyeNnH6ab1V7PsSZ4PiuPvXfdal5vWfclsChyB+QxmmwG6DsNRhD4ZBzgzGa3OXOGiAS6y2kb9iprRUfwQg==",
   "success": true,
   "projectFilePath": "F:\\Рабочий стол\\XamarinForm\\Gazebo-apps\\News_aggregator\\News_aggregator.iOS\\News_aggregator.iOS.csproj",
   "expectedPackageFiles": [
@@ -15,6 +15,7 @@
     "C:\\Users\\Ivan\\.nuget\\packages\\sqlitepclraw.provider.dynamic_cdecl\\2.0.4\\sqlitepclraw.provider.dynamic_cdecl.2.0.4.nupkg.sha512",
     "C:\\Users\\Ivan\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
     "C:\\Users\\Ivan\\.nuget\\packages\\system.collections.immutable\\7.0.0\\system.collections.immutable.7.0.0.nupkg.sha512",
+    "C:\\Users\\Ivan\\.nuget\\packages\\system.componentmodel\\4.3.0\\system.componentmodel.4.3.0.nupkg.sha512",
     "C:\\Users\\Ivan\\.nuget\\packages\\system.memory\\4.5.5\\system.memory.4.5.5.nupkg.sha512",
     "C:\\Users\\Ivan\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Users\\Ivan\\.nuget\\packages\\system.reactive\\4.0.0\\system.reactive.4.0.0.nupkg.sha512",
@@ -29,7 +30,8 @@
     "C:\\Users\\Ivan\\.nuget\\packages\\xamarin.essentials\\1.7.5\\xamarin.essentials.1.7.5.nupkg.sha512",
     "C:\\Users\\Ivan\\.nuget\\packages\\xamarin.firebase.ios.auth\\8.10.0.3\\xamarin.firebase.ios.auth.8.10.0.3.nupkg.sha512",
     "C:\\Users\\Ivan\\.nuget\\packages\\xamarin.firebase.ios.core\\8.10.0.3\\xamarin.firebase.ios.core.8.10.0.3.nupkg.sha512",
-    "C:\\Users\\Ivan\\.nuget\\packages\\xamarin.forms\\5.0.0.2545\\xamarin.forms.5.0.0.2545.nupkg.sha512"
+    "C:\\Users\\Ivan\\.nuget\\packages\\xamarin.forms\\5.0.0.2545\\xamarin.forms.5.0.0.2545.nupkg.sha512",
+    "C:\\Users\\Ivan\\.nuget\\packages\\xamarin.forms.pancakeview\\2.3.0.763-beta\\xamarin.forms.pancakeview.2.3.0.763-beta.nupkg.sha512"
   ],
   "logs": []
 }

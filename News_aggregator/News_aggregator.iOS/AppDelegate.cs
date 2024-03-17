@@ -22,8 +22,8 @@ namespace News_aggregator.iOS
         public override bool FinishedLaunching(UIApplication app, NSDictionary options)
         {
             global::Xamarin.Forms.Forms.Init();
-            Firebase.Core.App.Configure();
-            DependencyService.Register<IFirebaseAuthentication, FirebaseAuthenticationIos>();
+            //Firebase.Core.App.Configure();
+            //DependencyService.Register<IFirebaseAuthentication, FirebaseAuthenticationIos>();
             LoadApplication(new App());
 
             return base.FinishedLaunching(app, options);

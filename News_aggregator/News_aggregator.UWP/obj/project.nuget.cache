@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "tKZVZIKHMxhtxMtY0RCp8KcMI6/hUkjNnQiVcmKYFgm3rEohHSpHmwbNLnKW/rquHqgrH9DcxTLIcWryYG3CMw==",
+  "dgSpecHash": "/vxpMFj6AzaqZUuQC4hu6KtmdMy2RJLkRM3UOLRkUWWkuc0JzhpcpRduJgUbqomKE6yGGSXNXVMUPRMRX7fi7w==",
   "success": true,
   "projectFilePath": "F:\\Рабочий стол\\XamarinForm\\Gazebo-apps\\News_aggregator\\News_aggregator.UWP\\News_aggregator.UWP.csproj",
   "expectedPackageFiles": [
@@ -62,6 +62,7 @@
     "C:\\Users\\Ivan\\.nuget\\packages\\sqlitepclraw.provider.e_sqlite3\\2.0.4\\sqlitepclraw.provider.e_sqlite3.2.0.4.nupkg.sha512",
     "C:\\Users\\Ivan\\.nuget\\packages\\system.collections\\4.3.0\\system.collections.4.3.0.nupkg.sha512",
     "C:\\Users\\Ivan\\.nuget\\packages\\system.collections.immutable\\7.0.0\\system.collections.immutable.7.0.0.nupkg.sha512",
+    "C:\\Users\\Ivan\\.nuget\\packages\\system.componentmodel\\4.3.0\\system.componentmodel.4.3.0.nupkg.sha512",
     "C:\\Users\\Ivan\\.nuget\\packages\\system.diagnostics.contracts\\4.3.0\\system.diagnostics.contracts.4.3.0.nupkg.sha512",
     "C:\\Users\\Ivan\\.nuget\\packages\\system.diagnostics.debug\\4.3.0\\system.diagnostics.debug.4.3.0.nupkg.sha512",
     "C:\\Users\\Ivan\\.nuget\\packages\\system.globalization\\4.3.0\\system.globalization.4.3.0.nupkg.sha512",
@@ -90,7 +91,8 @@
     "C:\\Users\\Ivan\\.nuget\\packages\\xamarin.build.download\\0.11.4\\xamarin.build.download.0.11.4.nupkg.sha512",
     "C:\\Users\\Ivan\\.nuget\\packages\\xamarin.communitytoolkit\\2.0.6\\xamarin.communitytoolkit.2.0.6.nupkg.sha512",
     "C:\\Users\\Ivan\\.nuget\\packages\\xamarin.essentials\\1.7.5\\xamarin.essentials.1.7.5.nupkg.sha512",
-    "C:\\Users\\Ivan\\.nuget\\packages\\xamarin.forms\\5.0.0.2545\\xamarin.forms.5.0.0.2545.nupkg.sha512"
+    "C:\\Users\\Ivan\\.nuget\\packages\\xamarin.forms\\5.0.0.2545\\xamarin.forms.5.0.0.2545.nupkg.sha512",
+    "C:\\Users\\Ivan\\.nuget\\packages\\xamarin.forms.pancakeview\\2.3.0.763-beta\\xamarin.forms.pancakeview.2.3.0.763-beta.nupkg.sha512"
   ],
   "logs": []
 }

@@ -25,7 +25,7 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:1010023917963:ios:fcf0da64eaf16a9618a78e</string>
+	<string>1:1010023917963:ios:497933446ed19ce218a78e</string>
 	<key>DATABASE_URL</key>
 	<string>https://gzebo-news-aggregator-apis-default-rtdb.europe-west1.firebasedatabase.app</string>
 </dict>

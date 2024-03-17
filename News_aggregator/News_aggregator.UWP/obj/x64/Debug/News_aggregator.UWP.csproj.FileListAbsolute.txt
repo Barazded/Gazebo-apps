@@ -84,3 +84,5 @@ F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregat
 F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.UWP\obj\x64\Debug\System.Reactive\en-US\System.Reactive.Strings_PlatformServices.resw
 F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.UWP\obj\x64\Debug\System.Reactive\en-US\System.Reactive.Strings_Providers.resw
 F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.UWP\obj\x64\Debug\System.Reactive\en-US\System.Reactive.Platforms.Windows.Strings_WindowsThreading.resw
+F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.UWP\bin\x64\Debug\Xamarin.CommunityToolkit.dll
+F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.UWP\bin\x64\Debug\Xamarin.Forms.PancakeView.dll

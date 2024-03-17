@@ -11,7 +11,8 @@ namespace News_aggregator.Pages
         }
         protected override void OnAppearing()
         {
-            username.Text = App.Current.Properties["Username"].ToString();
+            if (App.Current.Properties.ContainsKey("Username"))
+                username.Text = App.Current.Properties["Username"].ToString();
             base.OnAppearing();
         }
         //события нажатий

@@ -15,5 +15,6 @@ namespace News_aggregator.Models
         public string TypeResourse { get; set; }
         public (string, string) UsernameCreator { get; set;}
         public string DateCreate { get; set; }
+        public string AboutResourse { get; set; }
     }
 }

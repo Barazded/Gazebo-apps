@@ -1,7 +1,6 @@
 ﻿using News_aggregator.Models;
 using News_aggregator.Parser;
 using System.Collections.Generic;
-using System.Linq;
 using Xamarin.Forms;
 using System;
 
@@ -23,13 +22,6 @@ namespace News_aggregator.Pages
         protected async override void OnAppearing()
         {
             base.OnAppearing();
-            filterDict = new Dictionary<string, ResourseType>()
-            {
-                {"игры", ResourseType.games },
-                {"экономика", ResourseType.economyc },
-                {"наука и технологии", ResourseType.tech },
-                {"всё", ResourseType.all }
-            };
             if (!Application.Current.Properties.ContainsKey("filterInx"))
                 pickerFilter.SelectedIndex = 0;
             else
@@ -82,7 +74,7 @@ namespace News_aggregator.Pages
                         ID = parsedCards.Count + 1,
                         Title = cardsToParse[i].Title,
                         Link = cardsToParse[i].Link,
-                        //Type = settings.TypeResourse,
+                        Type = settings.TypeResourse,
                         NameResourse = settings.NameResourse,
                         //
                         Info = (cardsToParse[i].Info == null ? "" : cardsToParse[i].Info),
@@ -154,17 +146,18 @@ namespace News_aggregator.Pages
         }
         private void FilterCards(string currentFilter, ref List<Card> _filterCards)
         {
-            var currentFilterEnum = filterDict[currentFilter];
-            if (currentFilter != "всё")
-            {
-                for (int i = 0; i < parsedCards.Count; i++)
-                {
-                    if (currentFilterEnum == parsedCards[i].Type)
-                        _filterCards.Add(parsedCards[i]);
-                }
-            }
-            else
+            //var currentFilterEnum = filterDict[currentFilter];
+            var fff = parsedCards;
+            if (currentFilter == "всё") 
+            { 
                 _filterCards = parsedCards;
+                return;
+            }
+            for (int i = 0; i < parsedCards.Count; i++)
+            {
+                if (currentFilter == parsedCards[i].Type)
+                    _filterCards.Add(parsedCards[i]);
+            }
         }
     }
 }
