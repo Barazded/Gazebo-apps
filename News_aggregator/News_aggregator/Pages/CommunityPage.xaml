@@ -15,28 +15,37 @@
             <CollectionView.ItemTemplate>
                 <DataTemplate>
                     <StackLayout Spacing="0" Padding="0,10,0,0" Margin="0,25,0,0">
-                        <Label Text="{Binding id}" Opacity="0" FontSize="1"/>
+                        <Label Text="{Binding Id}" Opacity="0" FontSize="1"/>
                         <Grid>
                             <Image Source="Rectangle_box_api" Margin="15,0,15,0" Aspect="Fill" HeightRequest="50"/>
                             <Label Margin="30,15,0,0" TextColor="#E7E7E7" FontAttributes="Bold">
                                 <Label.Text>
-                                    <MultiBinding StringFormat="{}{1}/{0}">
-                                        <Binding Path="apiSettings.NameResourse"/>
-                                        <Binding Path="apiSettings.UsernameCreator[0]"/>
+                                    <MultiBinding StringFormat="{}{0} ({1})">
+                                        <Binding Path="ApiSettings.NameResourse"/>
+                                        <Binding Path="ApiSettings.UsernameCreator[0]"/>
                                     </MultiBinding>
                                 </Label.Text>
                             </Label>
                         </Grid>
                         <Grid>
-                            <Image Source="Fill_Rectangle_Box_API.png" Margin="15,0,15,0" Aspect="Fill" HeightRequest="100"/>
-                            <StackLayout Margin="30,120,230,30">
-                                <Button Text="{Binding apiSettings.TypeResourse}" TextTransform="None" Padding="0,0,0,1" BackgroundColor="#424242" TextColor="#E7E7E7"
+                            <Image Source="Fill_Rectangle_Box_API.png" Margin="15,0,15,0" Aspect="Fill" HeightRequest="200"/>
+                            <Label Margin="30,10,0,0" Text="{Binding ApiSettings.AboutResourse}" TextColor="#E7E7E7" FontAttributes="Bold"/>
+                            <StackLayout Orientation="Vertical" Spacing="10" Margin="0,115,0,0">
+                                <StackLayout Orientation="Horizontal" Margin="25,0,0,0" Spacing="5">
+                                    <Button Text="{Binding ApiSettings.TypeResourse}" TextTransform="None" Padding="0,0,0,1" BackgroundColor="#424242" TextColor="#E7E7E7"
                                     HeightRequest="30" CornerRadius="20" FontSize="15" FontAttributes="Bold"/>
+                                    <Button Text="{Binding ApiSettings.LanguageResourse}" TextTransform="None" Padding="0,0,0,1" BackgroundColor="#424242" TextColor="#E7E7E7"
+                                    HeightRequest="30" CornerRadius="20" FontSize="15" FontAttributes="Bold"/>
+                                    <StackLayout Orientation="Horizontal" Spacing="0">
+                                        <Image Source="Arrow.png" Aspect="Fill" Margin="20,0,20,0"/>
+                                        <Label Text="0" TextColor="#E7E7E7" FontAttributes="Bold" HorizontalOptions="CenterAndExpand" VerticalOptions="Center" Margin="0,7,0,0" FontSize="15" WidthRequest="40"/>
+                                        <Image Source="Arrow_down.png" Aspect="Fill" Margin="-10,0,0,0"/>
+                                    </StackLayout>
+                                </StackLayout>
+                                <Button Text="Подробнее" TextTransform="None" TextColor="#E7E7E7" FontAttributes="Bold" FontSize="18"
+                                BackgroundColor="#424242" Opacity="0.9" CornerRadius="10" Margin="15,0,15,0" Clicked="Ev_ApiInfoClicked"/>
                             </StackLayout>
-                            <Label Margin="30,10,0,0" Text="{Binding apiSettings.AboutResourse}" TextColor="#E7E7E7" FontAttributes="Bold"/>
                         </Grid>
-                        <Button Text="Подробнее" TextTransform="None" TextColor="#E7E7E7" FontAttributes="Bold" FontSize="18"
-                            BackgroundColor="#424242" Opacity="0.9" CornerRadius="10" Margin="15,-10,15,0" Clicked="Ev_ApiInfoClicked"/>
                     </StackLayout>
                 </DataTemplate>
             </CollectionView.ItemTemplate>

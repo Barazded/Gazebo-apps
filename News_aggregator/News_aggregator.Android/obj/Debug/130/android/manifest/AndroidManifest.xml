@@ -15,7 +15,7 @@
       <action android:name="android.media.browse.MediaBrowserService" />
     </intent>
   </queries>
-  <application android:name="android.app.Application" android:allowBackup="true" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:debuggable="true" android:extractNativeLibs="true" android:icon="@mipmap/icon" android:label="News_aggregator.Android" android:theme="@style/MainTheme">
+  <application android:name="android.app.Application" android:allowBackup="true" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:debuggable="true" android:extractNativeLibs="true" android:icon="@drawable/moon" android:label="News_aggregator.Android" android:theme="@style/MainTheme">
     <uses-library android:name="org.apache.http.legacy" android:required="false" />
     <activity android:name="crc642d4e56be09408600.MainActivity" android:configChanges="orientation|smallestScreenSize|screenLayout|screenSize|uiMode" android:exported="true" android:icon="@mipmap/icon" android:label="News_aggregator" android:theme="@style/MainTheme">
       <intent-filter>

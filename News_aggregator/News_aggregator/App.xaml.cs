@@ -95,7 +95,7 @@ namespace News_aggregator
                 TextName = "IXBTgames",
                 ParserSettingsByte = ObjectToByteArray(new ParserSettings
                 {
-                    NameResourse = "StopGame",
+                    NameResourse = "IXBTgames",
                     UrlResourse = "https://ixbt.games/news/",
                     TypeResourse = "игры",
                     TitleSelector = "body > div > div.main.clearfix.m-wrap > div > section > div:nth-child(n) > div:nth-child(n) > div > div > div.col.mx-3.d-flex.flex-column > div.card-title.my-2.order-1.order-sm-0 > a",

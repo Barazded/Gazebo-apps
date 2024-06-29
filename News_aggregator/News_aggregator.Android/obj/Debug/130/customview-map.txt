@@ -22,6 +22,9 @@ com.google.android.material.tabs.TabLayout;F:\Рабочий стол\XamarinFor
 com.google.android.material.tabs.TabLayout;F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.Android\obj\Debug\130\lp\62\jl\res\layout\rootlayout.xml
 com.google.android.material.tabs.TabLayout;F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.Android\obj\Debug\130\lp\62\jl\res\layout\tabbar.xml
 corners;obj\Debug\130\res\drawable\bottombackground.xml
+crc642e1c7a98bdb5c44a.AutoFitTextureView;F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.Android\obj\Debug\130\lp\54\jl\res\layout\camerafragment.xml
+crc643f46942d9dd1fff9.ShellFlyoutLayout;F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.Android\obj\Debug\130\lp\62\jl\res\layout\flyoutcontent.xml
+crc64720bb2db43a66fe9.FormsViewPager;F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.Android\obj\Debug\130\lp\62\jl\res\layout\rootlayout.xml
 declare-styleable;F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.Android\obj\Debug\130\lp\62\jl\res\values\attrs.xml
 external-cache-path;F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.Android\obj\Debug\130\lp\55\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
 external-path;F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator.Android\obj\Debug\130\lp\55\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml

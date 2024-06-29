@@ -17,12 +17,22 @@
             </Frame>
             <Grid Margin="15,0,15,0">
                 <Frame CornerRadius="10" HasShadow="False" BackgroundColor="#676767" HeightRequest="85" Padding="20,-30,0,0">
-                    <Picker x:Name="type_picker" SelectedIndex="0" FontSize="14" TextColor="#E7E7E7" FontAttributes="Bold" TitleColor="White"  Margin="0,0,0,-30">
+                    <Picker x:Name="type_picker" FontSize="14" TextColor="#E7E7E7" FontAttributes="Bold" TitleColor="White"  Margin="0,0,0,-30">
                         <Picker.Items>
                             <x:String>Другое</x:String>
                             <x:String>Игры</x:String>
                             <x:String>Экономика</x:String>
                             <x:String>Технологии</x:String>
+                        </Picker.Items>
+                    </Picker>
+                </Frame>
+            </Grid>
+            <Grid Margin="15,0,15,0">
+                <Frame CornerRadius="10" HasShadow="False" BackgroundColor="#676767" HeightRequest="85" Padding="20,-30,0,0">
+                    <Picker x:Name="language_picker" FontSize="14" TextColor="#E7E7E7" FontAttributes="Bold" TitleColor="White"  Margin="0,0,0,-30">
+                        <Picker.Items>
+                            <x:String>Rus</x:String>
+                            <x:String>Eng</x:String>
                         </Picker.Items>
                     </Picker>
                 </Frame>

@@ -12,23 +12,23 @@
                     <StackLayout>
                         <StackLayout Margin="5" VerticalOptions="FillAndExpand" Background="#323232">
                             <Label Text="Название:" FontSize="13" TextColor="WhiteSmoke"/>
-                            <Entry Text="{Binding apiSettings.NameResourse}" FontSize="13" TextColor="WhiteSmoke" BackgroundColor="#212121" IsReadOnly="true"/>
+                            <Entry Text="{Binding ApiSettings.NameResourse}" FontSize="13" TextColor="WhiteSmoke" BackgroundColor="#212121" IsReadOnly="true"/>
                             <Label Text="Тип ресурса: " FontSize="13" TextColor="WhiteSmoke"/>
-                            <Entry Text="{Binding apiSettings.TypeResourse}" FontSize="13" TextColor="WhiteSmoke" BackgroundColor="#212121" IsReadOnly="true"/>
+                            <Entry Text="{Binding ApiSettings.TypeResourse}" FontSize="13" TextColor="WhiteSmoke" BackgroundColor="#212121" IsReadOnly="true"/>
                             <Label Text="Создатель: " FontSize="13" TextColor="WhiteSmoke"/>
-                            <Entry Text="{Binding apiSettings.UsernameCreator[0]}" FontSize="13" TextColor="WhiteSmoke" BackgroundColor="#212121" IsReadOnly="true"/>
+                            <Entry Text="{Binding ApiSettings.UsernameCreator[0]}" FontSize="13" TextColor="WhiteSmoke" BackgroundColor="#212121" IsReadOnly="true"/>
                             <Label Text="Дата создания: " FontSize="13" TextColor="WhiteSmoke"/>
-                            <Entry Text="{Binding apiSettings.DateCreate}" FontSize="13" TextColor="WhiteSmoke" BackgroundColor="#212121" IsReadOnly="true"/>
+                            <Entry Text="{Binding ApiSettings.DateCreate}" FontSize="13" TextColor="WhiteSmoke" BackgroundColor="#212121" IsReadOnly="true"/>
                             <Label Text="Id в базе данных: " FontSize="13" TextColor="WhiteSmoke"/>
-                            <Entry Text="{Binding id}" FontSize="13" TextColor="WhiteSmoke" BackgroundColor="#212121" IsReadOnly="true"/>
+                            <Entry Text="{Binding Id}" FontSize="13" TextColor="WhiteSmoke" BackgroundColor="#212121" IsReadOnly="true"/>
                             <Label Text="Селектор заголовков: " FontSize="13" TextColor="WhiteSmoke"/>
-                            <Entry Text="{Binding apiSettings.TitleSelector}" FontSize="13" TextColor="WhiteSmoke" BackgroundColor="#212121" IsReadOnly="true"/>
+                            <Entry Text="{Binding ApiSettings.TitleSelector}" FontSize="13" TextColor="WhiteSmoke" BackgroundColor="#212121" IsReadOnly="true"/>
                             <Label Text="Селектор описания: " FontSize="13" TextColor="WhiteSmoke"/>
-                            <Entry Text="{Binding apiSettings.InfoSelector}" FontSize="13" TextColor="WhiteSmoke" BackgroundColor="#212121" IsReadOnly="true"/>
+                            <Entry Text="{Binding ApiSettings.InfoSelector}" FontSize="13" TextColor="WhiteSmoke" BackgroundColor="#212121" IsReadOnly="true"/>
                             <Label Text="Селектор даты: " FontSize="13" TextColor="WhiteSmoke"/>
-                            <Entry Text="{Binding apiSettings.DateSelector}" FontSize="13" TextColor="WhiteSmoke" BackgroundColor="#212121" IsReadOnly="true"/>
+                            <Entry Text="{Binding ApiSettings.DateSelector}" FontSize="13" TextColor="WhiteSmoke" BackgroundColor="#212121" IsReadOnly="true"/>
                             <Label Text="Селектор ссылок: " FontSize="13" TextColor="WhiteSmoke"/>
-                            <Entry Text="{Binding apiSettings.LinkSelector}" FontSize="13" TextColor="WhiteSmoke" BackgroundColor="#212121" IsReadOnly="true"/>
+                            <Entry Text="{Binding ApiSettings.LinkSelector}" FontSize="13" TextColor="WhiteSmoke" BackgroundColor="#212121" IsReadOnly="true"/>
                         </StackLayout>
                         <Button Clicked="Ev_ParseButtonCliced" CornerRadius="5"  Text="Отладка" TextColor="White" BackgroundColor="#323232"/>
                         <Button Clicked="Ev_PublishButtonCliced" CornerRadius="5"  Text="Добавить в свой список" TextColor="White" BackgroundColor="#323232"/>

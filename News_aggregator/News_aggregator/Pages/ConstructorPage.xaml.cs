@@ -20,6 +20,7 @@ namespace News_aggregator.Pages
         protected override void OnAppearing()
         {
             type_picker.SelectedIndex = 0;
+            language_picker.SelectedIndex = 0;
         }
         private async void Ev_ParseButtonCliced(object sender, EventArgs e)
         {
@@ -46,7 +47,9 @@ namespace News_aggregator.Pages
                 AboutResourse = about_resourse.Text,
                 UsernameCreator = (App.Current.Properties["Username"].ToString(), App.Current.Properties["Login"].ToString()),
                 TypeResourse = type_picker.Items[type_picker.SelectedIndex].ToString(),
-                DateCreate = currientDate
+                //new func
+                LanguageResourse = language_picker.Items[language_picker.SelectedIndex],
+                DateCreate = currientDate,
             };
         }
         private async void Ev_PublishButtonCliced(object sender, EventArgs e)
@@ -71,6 +74,8 @@ namespace News_aggregator.Pages
                 AboutResourse = about_resourse.Text,
                 UsernameCreator = (App.Current.Properties["Username"].ToString(), App.Current.Properties["Login"].ToString()),
                 TypeResourse = type_picker.Items[type_picker.SelectedIndex].ToString(),
+                //new func
+                LanguageResourse = language_picker.Items[language_picker.SelectedIndex],
                 DateCreate = currientDate
             };
             var cards = parserConstructor.Parse((IHtmlDocument)document, api.TitleSelector, api.LinkSelector, api.InfoSelector, api.DateSelector);

@@ -75,8 +75,8 @@ namespace News_aggregator.Pages
             var selectData = new List<FirebaseDataModel>();
             foreach (var item in data) 
             {
-                if (mask.Length > item.apiSettings.NameResourse.Length) { continue; }
-                if (mask == item.apiSettings.NameResourse.ToLower().Substring(0, mask.Length))
+                if (mask.Length > item.ApiSettings.NameResourse.Length) { continue; }
+                if (mask == item.ApiSettings.NameResourse.ToLower().Substring(0, mask.Length))
                 {
                     selectData.Add(item);
                 }

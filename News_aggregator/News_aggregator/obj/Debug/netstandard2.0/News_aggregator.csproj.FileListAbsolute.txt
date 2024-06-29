@@ -56,3 +56,4 @@ F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregat
 F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator\obj\Debug\netstandard2.0\Pages\EnterPage.xaml.g.cs
 F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator\obj\Debug\netstandard2.0\Pages\InfoApiPage.xaml.g.cs
 F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator\obj\Debug\netstandard2.0\AppShell.xaml.g.cs
+F:\Рабочий стол\XamarinForm\Gazebo-apps\News_aggregator\News_aggregator\obj\Debug\netstandard2.0\News_aggregator.sourcelink.json

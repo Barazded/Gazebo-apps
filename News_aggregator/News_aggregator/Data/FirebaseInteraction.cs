@@ -1,7 +1,6 @@
 ﻿using Firebase.Database;
 using Firebase.Database.Query;
 using News_aggregator.Models;
-using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
@@ -36,8 +35,8 @@ namespace News_aggregator.Data
             {
                 FirebaseDataModel firebaseDataModel = new FirebaseDataModel()
                 {
-                    id = el.Key,
-                    apiSettings = el.Object
+                    Id = el.Key,
+                    ApiSettings = el.Object
                 };
                 data.Add(firebaseDataModel);
             }
@@ -68,7 +67,7 @@ namespace News_aggregator.Data
             var data = await GetAllDataFromFirebase();
             foreach (FirebaseDataModel el in data)
             {
-                if (el.id == id)
+                if (el.Id == id)
                 {
                     return el;
                 }
