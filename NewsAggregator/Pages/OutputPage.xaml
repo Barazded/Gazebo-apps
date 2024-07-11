@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="NewsAggregator.Pages.OutputPage"
+             BackgroundColor="#151515">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Editor x:Name="output_editor" Text="" TextColor="White" IsReadOnly="true" AutoSize="TextChanges" IsSpellCheckEnabled="false" BackgroundColor="#212121"/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

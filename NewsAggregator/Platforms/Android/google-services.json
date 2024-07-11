@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "1010023917963",
+    "firebase_url": "https://gzebo-news-aggregator-apis-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "gzebo-news-aggregator-apis",
+    "storage_bucket": "gzebo-news-aggregator-apis.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1010023917963:android:5a28fd1a790fcf7c18a78e",
+        "android_client_info": {
+          "package_name": "com.companyname.newsaggregator"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANUbc_k5MWfvG-nU1UFHKpEeLQnd3QU2A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

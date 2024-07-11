@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="NewsAggregator.Pages.EnterPage"
+             Title="EnterPage"
+             BackgroundColor="#151515">
+    <ContentPage.Resources>
+        <x:Double x:Key="frameCornerRadius">10</x:Double>
+        <x:Double x:Key="frameHeight">50</x:Double>
+        <Thickness x:Key="farmeMargin" Left="15" Top="20" Right="15" Bottom="0"/>
+        <Thickness x:Key="entryLableMargin" Left="0" Top="-16" Right="0" Bottom="-30"/>
+    </ContentPage.Resources>
+    <Grid>
+        <Image Source="moon.png" Margin="30,0,30,250"/>
+        <Label Text="News Tracker" FontSize="30" FontAttributes="Bold" TextColor="#EBEBEB"
+        HorizontalOptions="Center" CharacterSpacing="3" Margin="0,50,0,0"/>
+        <StackLayout x:Name="signin_stack" HorizontalOptions="Center" Margin="0,410,0,0" Spacing="30">
+            <Frame CornerRadius="{StaticResource frameCornerRadius}" Margin="{StaticResource farmeMargin}" HeightRequest="{StaticResource frameHeight}" HasShadow="False" BackgroundColor="#676767" Opacity="0.9" BorderColor="#676767" WidthRequest="350">
+                <Entry x:Name="login_enter" FontSize="15" FontAttributes="Bold" FontFamily="Inter" PlaceholderColor="#E7E7E7" 
+                Placeholder="Email" HorizontalTextAlignment="Start" TextColor="#E7E7E7" Margin="{StaticResource entryLableMargin}"/>
+            </Frame>
+            <Frame CornerRadius="{StaticResource frameCornerRadius}" Margin="{StaticResource farmeMargin}" HeightRequest="{StaticResource frameHeight}" HasShadow="False" BackgroundColor="#676767" Opacity="0.9" BorderColor="#676767" WidthRequest="350">
+                <Entry x:Name="password_enter" FontSize="15" FontAttributes="Bold" FontFamily="Inter" PlaceholderColor="#E7E7E7" 
+                Placeholder="Password" IsPassword="True" HorizontalTextAlignment="Start" TextColor="#E7E7E7" Margin="{StaticResource entryLableMargin}"/>
+            </Frame>
+            <Button Text="Sign in" CornerRadius="20" TextTransform="None" FontSize="24" FontAttributes="Bold" FontFamily="Inter"
+            BackgroundColor="#EBEBEB" TextColor="#4C4C4C" Margin="15,0,15,0" Clicked="Ev_EnterButtonClicked"/>
+            <StackLayout Orientation="Horizontal" HorizontalOptions="Center" Margin="0,-15,0,0">
+                <Label Text="Have no account?" FontSize="15" TextColor="#EBEBEB" FontAttributes="Bold"/>
+                <Button Text="Create new" CornerRadius="100" FontSize="15" BackgroundColor="#151515" Clicked="Ev_ChangeStackLayout"
+                TextTransform="None" FontAttributes="Bold" Margin="-7,-13,0,0" TextColor="#0080C9"/>
+            </StackLayout>
+        </StackLayout>
+
+        <StackLayout x:Name="createacc_stack" HorizontalOptions="Center" Margin="0,330,0,0" Spacing="30" IsVisible="false">
+            <Frame CornerRadius="{StaticResource frameCornerRadius}" Margin="{StaticResource farmeMargin}" HeightRequest="{StaticResource frameHeight}" HasShadow="False" BackgroundColor="#676767" Opacity="0.9" BorderColor="#676767" WidthRequest="350">
+                <Entry x:Name="nickname_enter" FontSize="15" FontAttributes="Bold" FontFamily="Inter" PlaceholderColor="#E7E7E7" 
+                Placeholder="Nickname" HorizontalTextAlignment="Start" TextColor="#E7E7E7" Margin="{StaticResource entryLableMargin}"/>
+            </Frame>
+            <Frame CornerRadius="{StaticResource frameCornerRadius}" Margin="{StaticResource farmeMargin}" HeightRequest="{StaticResource frameHeight}" HasShadow="False" BackgroundColor="#676767" Opacity="0.9" BorderColor="#676767" WidthRequest="350">
+                <Entry x:Name="new_login_enter" FontSize="15" FontAttributes="Bold" FontFamily="Inter" PlaceholderColor="#E7E7E7" 
+                Placeholder="Email" HorizontalTextAlignment="Start" TextColor="#E7E7E7" Margin="{StaticResource entryLableMargin}"/>
+            </Frame>
+            <Frame CornerRadius="{StaticResource frameCornerRadius}" Margin="{StaticResource farmeMargin}" HeightRequest="{StaticResource frameHeight}" HasShadow="False" BackgroundColor="#676767" Opacity="0.9" BorderColor="#676767" WidthRequest="350">
+                <Entry x:Name="new_password_enter" FontSize="15" FontAttributes="Bold" FontFamily="Inter" PlaceholderColor="#E7E7E7" 
+                Placeholder="Password" IsPassword="True" HorizontalTextAlignment="Start" TextColor="#E7E7E7" Margin="{StaticResource entryLableMargin}"/>
+            </Frame>
+            <Button Text="Create account" CornerRadius="20" TextTransform="None" FontSize="24" FontAttributes="Bold" FontFamily="Inter" 
+                    BackgroundColor="#EBEBEB" TextColor="#4C4C4C" Margin="15,0,15,0" Clicked="Ev_RegistButtonClicked"/>
+            <StackLayout Orientation="Horizontal" HorizontalOptions="Center" Margin="0,-15,0,0">
+                <Label Text="Do you have an account?" FontSize="15" TextColor="#EBEBEB" FontAttributes="Bold"/>
+                <Button Text="Sign in" CornerRadius="100" FontSize="15" BackgroundColor="#151515" Clicked="Ev_ChangeStackLayout"
+                TextTransform="None" FontAttributes="Bold" Margin="-7,-13,0,0" TextColor="#0080C9"/>
+            </StackLayout>
+        </StackLayout>
+    </Grid>
+</ContentPage>

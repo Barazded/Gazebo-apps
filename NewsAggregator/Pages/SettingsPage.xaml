@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="NewsAggregator.Pages.SettingsPage">
+    <ContentPage.Content>
+        <StackLayout x:Name="sl_listproperties" BackgroundColor="#151515">
+            
+            <Frame BackgroundColor="#424242" CornerRadius="10" Margin="25,30,25,0" HeightRequest="90" BorderColor="#424242" >
+                <Grid>
+                    <StackLayout Orientation="Vertical">
+                        <Label Text="Учётная запись:" FontAttributes="Bold" FontSize="15" HorizontalOptions="Start"
+                        TextColor="#E7E7E7" Margin="0,0,0,0"/>
+                        <Label x:Name="username" Text="Barazded" Margin="0,7,0,0"
+                        FontAttributes="Bold" FontSize="18" HorizontalOptions="Start" TextColor="#000000"/>
+                    </StackLayout>
+                </Grid>
+            </Frame>
+            <StackLayout Margin="0,100,0,0" Spacing="-10">
+                <Button x:Name="profileButt" Clicked="AverageButt_Clicked"
+                TextTransform="None" CornerRadius="10" BackgroundColor="#151515"  ImageSource="profilebutt.png"/>
+                
+                <Button x:Name="ResoursePage" Clicked="ResourseButt_Clicked"
+                TextTransform="None" CornerRadius="10" BackgroundColor="#151515" ImageSource="resoursebutt.png"/>
+                
+                <Button x:Name="ExitButt" Clicked="Ev_ExitButtonClicked" 
+                TextTransform="None" CornerRadius="10" BackgroundColor="#151515" HorizontalOptions="FillAndExpand" ImageSource="exitbutt.png"/>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

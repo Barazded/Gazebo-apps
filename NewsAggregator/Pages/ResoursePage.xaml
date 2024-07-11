@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="NewsAggregator.Pages.ResoursePage"
+             BackgroundColor="#151515">
+    <Shell.TitleView>
+        <Grid>
+            <Label Text="Ресурсы" FontSize="18" FontAttributes="Bold" TextColor="#E7E7E7" VerticalOptions="Center" />
+        </Grid>
+    </Shell.TitleView>
+    <ScrollView Orientation="Vertical">
+        <StackLayout>
+            <StackLayout Margin="5">
+                <Label Text="Выберите стандарт" FontSize="15" TextColor="#E7E7E7" FontAttributes="Bold" HorizontalOptions="CenterAndExpand"/>
+                <Grid Margin="5,5,5,0">
+                    <Frame CornerRadius="10" HasShadow="False"  BackgroundColor="#676767" BorderColor="#676767">
+                        <Picker x:Name="pickerStandarts" FontSize="24" HorizontalOptions="CenterAndExpand"  TextColor="#E7E7E7" FontAttributes="Bold" TitleColor="White"  SelectedIndexChanged="OnChangeSelectItem" Margin="0,-30,0,-30">
+                            <Picker.Items>
+                                <x:String>6</x:String>
+                                <x:String>8</x:String>
+                                <x:String>10</x:String>
+                                <x:String>12</x:String>
+                            </Picker.Items>
+                        </Picker>
+                    </Frame>
+                </Grid>
+            </StackLayout>
+            <CollectionView x:Name="collectionView" Margin="10">
+                <CollectionView.ItemTemplate >
+                    <DataTemplate>
+                        <Grid Padding="0,10,0,0">
+                            <Frame CornerRadius="10" HasShadow="False" BorderColor="#676767" BackgroundColor="#676767" HeightRequest="80">
+                                <StackLayout Orientation="Horizontal">
+                                    <CheckBox Color="#673AB7" IsChecked="{Binding isChecked}" CheckedChanged="Ev_CheckedCheckBox"/>
+                                    <Label Text="{Binding ID}" FontSize="15" TextColor="#E7E7E7" FontAttributes="Bold" Padding="0,10,10,0"/>
+                                    <Label Text="{Binding TextName}" FontSize="15" TextColor="#E7E7E7" FontAttributes="Bold" Padding="0,10,0,0"/>
+                                    <Button Text="Delit" FontSize="15" TextColor="#E7E7E7" FontAttributes="Bold" BackgroundColor="#424242" 
+                                CornerRadius="10" HorizontalOptions="EndAndExpand" Clicked="Ev_DelitButtonClicked" IsVisible="{Binding canDelit}"/>
+                                </StackLayout>
+                            </Frame>
+                        </Grid>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+            <Label Text="" TextColor="#151515"/>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

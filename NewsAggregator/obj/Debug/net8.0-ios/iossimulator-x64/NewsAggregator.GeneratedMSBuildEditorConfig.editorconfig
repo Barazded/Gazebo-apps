@@ -1,0 +1,107 @@
+is_global = true
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = 
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.TargetFramework = net8.0-ios
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = NewsAggregator
+build_property.ProjectDir = C:\Users\Ivan\source\repos\Gazebo-apps\NewsAggregator\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+
+[C:/Users/Ivan/source/repos/Gazebo-apps/NewsAggregator/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = NewsAggregator.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/Users/Ivan/source/repos/Gazebo-apps/NewsAggregator/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = NewsAggregator.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[C:/Users/Ivan/source/repos/Gazebo-apps/NewsAggregator/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = NewsAggregator.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[C:/Users/Ivan/source/repos/Gazebo-apps/NewsAggregator/Pages/CommunityPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = NewsAggregator.Pages.CommunityPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\CommunityPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\CommunityPage.xaml
+
+[C:/Users/Ivan/source/repos/Gazebo-apps/NewsAggregator/Pages/ConstructorPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = NewsAggregator.Pages.ConstructorPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\ConstructorPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\ConstructorPage.xaml
+
+[C:/Users/Ivan/source/repos/Gazebo-apps/NewsAggregator/Pages/EnterPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = NewsAggregator.Pages.EnterPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\EnterPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\EnterPage.xaml
+
+[C:/Users/Ivan/source/repos/Gazebo-apps/NewsAggregator/Pages/GeneralSettingsPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = NewsAggregator.Pages.GeneralSettingsPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\GeneralSettingsPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\GeneralSettingsPage.xaml
+
+[C:/Users/Ivan/source/repos/Gazebo-apps/NewsAggregator/Pages/InfoApiPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = NewsAggregator.Pages.InfoApiPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\InfoApiPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\InfoApiPage.xaml
+
+[C:/Users/Ivan/source/repos/Gazebo-apps/NewsAggregator/Pages/NewsPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = NewsAggregator.Pages.NewsPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\NewsPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\NewsPage.xaml
+
+[C:/Users/Ivan/source/repos/Gazebo-apps/NewsAggregator/Pages/OutputPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = NewsAggregator.Pages.OutputPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\OutputPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\OutputPage.xaml
+
+[C:/Users/Ivan/source/repos/Gazebo-apps/NewsAggregator/Pages/ResoursePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = NewsAggregator.Pages.ResoursePage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\ResoursePage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\ResoursePage.xaml
+
+[C:/Users/Ivan/source/repos/Gazebo-apps/NewsAggregator/Pages/SettingsPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = NewsAggregator.Pages.SettingsPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\SettingsPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\SettingsPage.xaml
+
+[C:/Users/Ivan/source/repos/Gazebo-apps/NewsAggregator/Pages/ViewPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = NewsAggregator.Pages.ViewPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\ViewPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\ViewPage.xaml
+
+[C:/Users/Ivan/source/repos/Gazebo-apps/NewsAggregator/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = NewsAggregator.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/Users/Ivan/source/repos/Gazebo-apps/NewsAggregator/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = NewsAggregator.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml

@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="NewsAggregator.Pages.NewsPage">
+    <ScrollView Orientation="Vertical">
+        <StackLayout Background="#151515">
+            <Label Text="Фильтр:" FontSize="14" TextColor="#E7E7E7" FontAttributes="Bold" Margin="25,10,0,10"/>
+            <Grid Margin="15,0,15,10">
+                <Frame CornerRadius="10" HasShadow="False" BackgroundColor="#676767" HeightRequest="55" BorderColor="#676767">
+                    <Picker x:Name="pickerFilter" SelectedIndex="0" FontSize="14" TextColor="#E7E7E7" FontAttributes="Bold" TitleColor="White" SelectedIndexChanged="FilterChanged" Margin="0,-13,0,-30">
+                        <Picker.Items>
+                            <x:String>всё</x:String>
+                            <x:String>игры</x:String>
+                            <x:String>экономика</x:String>
+                            <x:String>наука и технологии</x:String>
+                        </Picker.Items>
+                    </Picker>
+                </Frame>
+            </Grid>
+            <CollectionView x:Name="collectionResourses">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <StackLayout Margin="0,15,0,0">
+                            <Label Text="{Binding Link}" Opacity="0" FontSize="1"/>
+                            <Grid>
+                                <Image Source="rectangleboxapi" Margin="15,0,15,0" Aspect="Fill" HeightRequest="71"/>
+                                <Label  Text="{Binding Title}" TextColor="#E7E7E7" FontSize="15" FontAttributes="Bold" Padding="25,10,19,0"/>
+                            </Grid>
+                            <Grid>
+                                <Image Source="fillrectangleboxapi.png" Margin="15,0,15,0" Aspect="Fill" HeightRequest="200"/>
+                                <Label Margin="30,10,30,0" Text="{Binding Info}" TextColor="#E7E7E7" FontSize="14" FontAttributes="Bold"/>
+                                <StackLayout Orientation="Vertical" Spacing="10" Margin="0,115,0,0">
+                                    <StackLayout Orientation="Horizontal" Margin="25,0,0,0" Spacing="5">
+                                        <Button Text="{Binding NameResourse}" TextTransform="None" Padding="10,0,10,0" BackgroundColor="#424242" TextColor="#E7E7E7"
+                                        HeightRequest="30" CornerRadius="20" FontSize="15" FontAttributes="Bold"/>
+                                        <Button Text="{Binding Type}" TextTransform="None" Padding="10,0,10,0"  BackgroundColor="#424242" TextColor="#E7E7E7"
+                                        HeightRequest="30" CornerRadius="20" FontSize="15" FontAttributes="Bold"/>
+                                        <Button Text="{Binding Date}" TextTransform="None" Padding="10,0,10,0"  BackgroundColor="#424242" TextColor="#E7E7E7"
+                                        HeightRequest="30" CornerRadius="20" FontSize="15" FontAttributes="Bold"/>
+
+                                    </StackLayout>
+                                    <Button Text="Подробнее" TextTransform="None" TextColor="#E7E7E7" FontAttributes="Bold" FontSize="18"
+                                    BackgroundColor="#424242" Opacity="0.9" CornerRadius="10" Margin="15,0,15,0" Clicked="OnCardClick"/>
+                                </StackLayout>
+                            </Grid>
+                        </StackLayout>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+            <Label Text="" TextColor="#151515"/>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>
